@@ -1,0 +1,665 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8812D0A31AED041A0018B0C7 /* black_button.png in Resources */ = {isa = PBXBuildFile; fileRef = 8812D0A21AED041A0018B0C7 /* black_button.png */; };
+		883E87431AEE482A00248D83 /* ContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 883E87421AEE482A00248D83 /* ContactViewController.swift */; };
+		883E87451AEE491700248D83 /* bar_contact.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 883E87441AEE491700248D83 /* bar_contact.jpg */; };
+		883E874F1AEE57A900248D83 /* absicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 883E87471AEE57A900248D83 /* absicon.png */; };
+		883E87501AEE57A900248D83 /* backicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 883E87481AEE57A900248D83 /* backicon.png */; };
+		883E87511AEE57A900248D83 /* biicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 883E87491AEE57A900248D83 /* biicon.png */; };
+		883E87521AEE57A900248D83 /* calvicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 883E874A1AEE57A900248D83 /* calvicon.png */; };
+		883E87531AEE57A900248D83 /* chesticon.png in Resources */ = {isa = PBXBuildFile; fileRef = 883E874B1AEE57A900248D83 /* chesticon.png */; };
+		883E87541AEE57A900248D83 /* legicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 883E874C1AEE57A900248D83 /* legicon.png */; };
+		883E87551AEE57A900248D83 /* shouicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 883E874D1AEE57A900248D83 /* shouicon.png */; };
+		883E87561AEE57A900248D83 /* triicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 883E874E1AEE57A900248D83 /* triicon.png */; };
+		883E87581AEE77B300248D83 /* ExcercisesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 883E87571AEE77B300248D83 /* ExcercisesViewController.swift */; };
+		883E875A1AEE786300248D83 /* bar_database.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 883E87591AEE786300248D83 /* bar_database.jpg */; };
+		88451D681B02030B002BD6D5 /* OnlineDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88451D671B02030B002BD6D5 /* OnlineDetailsViewController.swift */; };
+		8871416F1B0093EA00712E74 /* OnlineExTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8871416E1B0093EA00712E74 /* OnlineExTableViewController.swift */; };
+		887141731B009DA100712E74 /* bar_diet.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 887141701B009DA100712E74 /* bar_diet.jpg */; };
+		887141741B009DA100712E74 /* bar_tips.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 887141711B009DA100712E74 /* bar_tips.jpg */; };
+		887141751B009DA100712E74 /* bar_workout.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 887141721B009DA100712E74 /* bar_workout.jpg */; };
+		888F64311AED13DD00D1695E /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 888F64301AED13DD00D1695E /* AboutViewController.swift */; };
+		888F64331AED145F00D1695E /* bar_staff.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 888F64321AED145F00D1695E /* bar_staff.jpg */; };
+		88ADFAC61AEFBF24003213B6 /* about0.png in Resources */ = {isa = PBXBuildFile; fileRef = 88ADFAC51AEFBF24003213B6 /* about0.png */; };
+		88B030891AECC544002848AA /* bar_charlysgym.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 88B030881AECC544002848AA /* bar_charlysgym.jpg */; };
+		88B0308B1AECC6E0002848AA /* GuestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88B0308A1AECC6E0002848AA /* GuestViewController.swift */; };
+		88B030921AECD9C5002848AA /* main_diet_img.png in Resources */ = {isa = PBXBuildFile; fileRef = 88B0308C1AECD9C5002848AA /* main_diet_img.png */; };
+		88B030931AECD9C5002848AA /* main_exercises_img.png in Resources */ = {isa = PBXBuildFile; fileRef = 88B0308D1AECD9C5002848AA /* main_exercises_img.png */; };
+		88B030941AECD9C5002848AA /* main_gallery_img.png in Resources */ = {isa = PBXBuildFile; fileRef = 88B0308E1AECD9C5002848AA /* main_gallery_img.png */; };
+		88B030951AECD9C5002848AA /* main_program_img.png in Resources */ = {isa = PBXBuildFile; fileRef = 88B0308F1AECD9C5002848AA /* main_program_img.png */; };
+		88B030961AECD9C5002848AA /* main_tips_img.png in Resources */ = {isa = PBXBuildFile; fileRef = 88B030901AECD9C5002848AA /* main_tips_img.png */; };
+		88B030971AECD9C5002848AA /* main_workout_img.png in Resources */ = {isa = PBXBuildFile; fileRef = 88B030911AECD9C5002848AA /* main_workout_img.png */; };
+		88B0B2931AF2056100352895 /* exercises in Resources */ = {isa = PBXBuildFile; fileRef = 88B0B2921AF2056100352895 /* exercises */; };
+		88B0B2971AF2211500352895 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 88B0B2961AF2211500352895 /* logo.png */; };
+		88B50B211AF0B94E00DBECDB /* ExercisesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88B50B201AF0B94E00DBECDB /* ExercisesTableViewController.swift */; };
+		88BD61411AF78FE000BCCE08 /* ExercisesDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88BD61401AF78FE000BCCE08 /* ExercisesDetailsViewController.swift */; };
+		88BD61431AF7B21700BCCE08 /* bar_database2.png in Resources */ = {isa = PBXBuildFile; fileRef = 88BD61421AF7B21700BCCE08 /* bar_database2.png */; };
+		88DD1A9D1AFDF7B50038DC05 /* ProgramViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88DD1A9C1AFDF7B50038DC05 /* ProgramViewController.swift */; };
+		88DD1A9F1AFDF8140038DC05 /* bar_program.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 88DD1A9E1AFDF8140038DC05 /* bar_program.jpg */; };
+		88DD1AA31AFDF9790038DC05 /* calendar.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 88DD1AA21AFDF9790038DC05 /* calendar.jpg */; };
+		88DD1AA51AFDFB6C0038DC05 /* GalleryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88DD1AA41AFDFB6C0038DC05 /* GalleryViewController.swift */; };
+		88DD1AA71AFDFB9B0038DC05 /* bar_gallery.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 88DD1AA61AFDFB9B0038DC05 /* bar_gallery.jpg */; };
+		88DD1AB21AFE01540038DC05 /* gallery0.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 88DD1AAC1AFE01540038DC05 /* gallery0.JPG */; };
+		88DD1AB31AFE01540038DC05 /* gallery1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 88DD1AAD1AFE01540038DC05 /* gallery1.jpg */; };
+		88DD1AB41AFE01540038DC05 /* gallery2.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 88DD1AAE1AFE01540038DC05 /* gallery2.JPG */; };
+		88DD1AB51AFE01540038DC05 /* gallery3.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 88DD1AAF1AFE01540038DC05 /* gallery3.JPG */; };
+		88DD1AB61AFE01540038DC05 /* gallery4.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 88DD1AB01AFE01540038DC05 /* gallery4.JPG */; };
+		88DD1AB71AFE01540038DC05 /* gallery5.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 88DD1AB11AFE01540038DC05 /* gallery5.JPG */; };
+		88EDF40B1AEBBA24000F586C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EDF40A1AEBBA24000F586C /* AppDelegate.swift */; };
+		88EDF40E1AEBBA24000F586C /* Charley_s_Gym.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 88EDF40C1AEBBA24000F586C /* Charley_s_Gym.xcdatamodeld */; };
+		88EDF4101AEBBA24000F586C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EDF40F1AEBBA24000F586C /* ViewController.swift */; };
+		88EDF4131AEBBA24000F586C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88EDF4111AEBBA24000F586C /* Main.storyboard */; };
+		88EDF4151AEBBA24000F586C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88EDF4141AEBBA24000F586C /* Images.xcassets */; };
+		88EDF4181AEBBA24000F586C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 88EDF4161AEBBA24000F586C /* LaunchScreen.xib */; };
+		88EDF4241AEBBA24000F586C /* Charley_s_GymTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EDF4231AEBBA24000F586C /* Charley_s_GymTests.swift */; };
+		88EDF4301AEBBF9A000F586C /* bg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 88EDF42F1AEBBF9A000F586C /* bg.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		88EDF41E1AEBBA24000F586C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 88EDF3FD1AEBBA24000F586C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 88EDF4041AEBBA24000F586C;
+			remoteInfo = "Charley's Gym";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8812D0A21AED041A0018B0C7 /* black_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = black_button.png; sourceTree = "<group>"; };
+		883E87421AEE482A00248D83 /* ContactViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ContactViewController.swift; path = ../ContactViewController.swift; sourceTree = "<group>"; };
+		883E87441AEE491700248D83 /* bar_contact.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bar_contact.jpg; sourceTree = "<group>"; };
+		883E87471AEE57A900248D83 /* absicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = absicon.png; sourceTree = "<group>"; };
+		883E87481AEE57A900248D83 /* backicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backicon.png; sourceTree = "<group>"; };
+		883E87491AEE57A900248D83 /* biicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = biicon.png; sourceTree = "<group>"; };
+		883E874A1AEE57A900248D83 /* calvicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = calvicon.png; sourceTree = "<group>"; };
+		883E874B1AEE57A900248D83 /* chesticon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chesticon.png; sourceTree = "<group>"; };
+		883E874C1AEE57A900248D83 /* legicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = legicon.png; sourceTree = "<group>"; };
+		883E874D1AEE57A900248D83 /* shouicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shouicon.png; sourceTree = "<group>"; };
+		883E874E1AEE57A900248D83 /* triicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = triicon.png; sourceTree = "<group>"; };
+		883E87571AEE77B300248D83 /* ExcercisesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExcercisesViewController.swift; sourceTree = "<group>"; };
+		883E87591AEE786300248D83 /* bar_database.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bar_database.jpg; sourceTree = "<group>"; };
+		88451D671B02030B002BD6D5 /* OnlineDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnlineDetailsViewController.swift; sourceTree = "<group>"; };
+		8871416E1B0093EA00712E74 /* OnlineExTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnlineExTableViewController.swift; sourceTree = "<group>"; };
+		887141701B009DA100712E74 /* bar_diet.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bar_diet.jpg; sourceTree = "<group>"; };
+		887141711B009DA100712E74 /* bar_tips.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bar_tips.jpg; sourceTree = "<group>"; };
+		887141721B009DA100712E74 /* bar_workout.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bar_workout.jpg; sourceTree = "<group>"; };
+		888F64301AED13DD00D1695E /* AboutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		888F64321AED145F00D1695E /* bar_staff.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bar_staff.jpg; sourceTree = "<group>"; };
+		88ADFAC51AEFBF24003213B6 /* about0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = about0.png; sourceTree = "<group>"; };
+		88B030881AECC544002848AA /* bar_charlysgym.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bar_charlysgym.jpg; sourceTree = "<group>"; };
+		88B0308A1AECC6E0002848AA /* GuestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GuestViewController.swift; sourceTree = "<group>"; };
+		88B0308C1AECD9C5002848AA /* main_diet_img.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = main_diet_img.png; sourceTree = "<group>"; };
+		88B0308D1AECD9C5002848AA /* main_exercises_img.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = main_exercises_img.png; sourceTree = "<group>"; };
+		88B0308E1AECD9C5002848AA /* main_gallery_img.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = main_gallery_img.png; sourceTree = "<group>"; };
+		88B0308F1AECD9C5002848AA /* main_program_img.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = main_program_img.png; sourceTree = "<group>"; };
+		88B030901AECD9C5002848AA /* main_tips_img.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = main_tips_img.png; sourceTree = "<group>"; };
+		88B030911AECD9C5002848AA /* main_workout_img.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = main_workout_img.png; sourceTree = "<group>"; };
+		88B0B2921AF2056100352895 /* exercises */ = {isa = PBXFileReference; lastKnownFileType = folder; name = exercises; path = "Charley's Gym/exercises"; sourceTree = "<group>"; };
+		88B0B2961AF2211500352895 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		88B50B201AF0B94E00DBECDB /* ExercisesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExercisesTableViewController.swift; sourceTree = "<group>"; };
+		88BD61401AF78FE000BCCE08 /* ExercisesDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExercisesDetailsViewController.swift; sourceTree = "<group>"; };
+		88BD61421AF7B21700BCCE08 /* bar_database2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bar_database2.png; sourceTree = "<group>"; };
+		88DD1A9C1AFDF7B50038DC05 /* ProgramViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgramViewController.swift; sourceTree = "<group>"; };
+		88DD1A9E1AFDF8140038DC05 /* bar_program.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bar_program.jpg; sourceTree = "<group>"; };
+		88DD1AA21AFDF9790038DC05 /* calendar.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = calendar.jpg; sourceTree = "<group>"; };
+		88DD1AA41AFDFB6C0038DC05 /* GalleryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GalleryViewController.swift; sourceTree = "<group>"; };
+		88DD1AA61AFDFB9B0038DC05 /* bar_gallery.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bar_gallery.jpg; sourceTree = "<group>"; };
+		88DD1AAC1AFE01540038DC05 /* gallery0.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = gallery0.JPG; sourceTree = "<group>"; };
+		88DD1AAD1AFE01540038DC05 /* gallery1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = gallery1.jpg; sourceTree = "<group>"; };
+		88DD1AAE1AFE01540038DC05 /* gallery2.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = gallery2.JPG; sourceTree = "<group>"; };
+		88DD1AAF1AFE01540038DC05 /* gallery3.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = gallery3.JPG; sourceTree = "<group>"; };
+		88DD1AB01AFE01540038DC05 /* gallery4.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = gallery4.JPG; sourceTree = "<group>"; };
+		88DD1AB11AFE01540038DC05 /* gallery5.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = gallery5.JPG; sourceTree = "<group>"; };
+		88EDF4051AEBBA24000F586C /* Charley's Gym.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Charley's Gym.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		88EDF4091AEBBA24000F586C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		88EDF40A1AEBBA24000F586C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		88EDF40D1AEBBA24000F586C /* Charley_s_Gym.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Charley_s_Gym.xcdatamodel; sourceTree = "<group>"; };
+		88EDF40F1AEBBA24000F586C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		88EDF4121AEBBA24000F586C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		88EDF4141AEBBA24000F586C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		88EDF4171AEBBA24000F586C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		88EDF41D1AEBBA24000F586C /* Charley's GymTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Charley's GymTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		88EDF4221AEBBA24000F586C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		88EDF4231AEBBA24000F586C /* Charley_s_GymTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Charley_s_GymTests.swift; sourceTree = "<group>"; };
+		88EDF42F1AEBBF9A000F586C /* bg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bg.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		88EDF4021AEBBA24000F586C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88EDF41A1AEBBA24000F586C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		883E87461AEE575800248D83 /* ExercisesButtons */ = {
+			isa = PBXGroup;
+			children = (
+				883E87471AEE57A900248D83 /* absicon.png */,
+				883E87481AEE57A900248D83 /* backicon.png */,
+				883E87491AEE57A900248D83 /* biicon.png */,
+				883E874A1AEE57A900248D83 /* calvicon.png */,
+				883E874B1AEE57A900248D83 /* chesticon.png */,
+				883E874C1AEE57A900248D83 /* legicon.png */,
+				883E874D1AEE57A900248D83 /* shouicon.png */,
+				883E874E1AEE57A900248D83 /* triicon.png */,
+			);
+			name = ExercisesButtons;
+			sourceTree = "<group>";
+		};
+		88B030871AECC521002848AA /* NavBar */ = {
+			isa = PBXGroup;
+			children = (
+				88DD1AA61AFDFB9B0038DC05 /* bar_gallery.jpg */,
+				88DD1A9E1AFDF8140038DC05 /* bar_program.jpg */,
+				887141701B009DA100712E74 /* bar_diet.jpg */,
+				887141711B009DA100712E74 /* bar_tips.jpg */,
+				887141721B009DA100712E74 /* bar_workout.jpg */,
+				883E87591AEE786300248D83 /* bar_database.jpg */,
+				88BD61421AF7B21700BCCE08 /* bar_database2.png */,
+				883E87441AEE491700248D83 /* bar_contact.jpg */,
+				888F64321AED145F00D1695E /* bar_staff.jpg */,
+				88B030881AECC544002848AA /* bar_charlysgym.jpg */,
+			);
+			name = NavBar;
+			sourceTree = "<group>";
+		};
+		88B030981AECD9DE002848AA /* MainButtons */ = {
+			isa = PBXGroup;
+			children = (
+				8812D0A21AED041A0018B0C7 /* black_button.png */,
+				88B0308C1AECD9C5002848AA /* main_diet_img.png */,
+				88B0308D1AECD9C5002848AA /* main_exercises_img.png */,
+				88B0308E1AECD9C5002848AA /* main_gallery_img.png */,
+				88B0308F1AECD9C5002848AA /* main_program_img.png */,
+				88B030901AECD9C5002848AA /* main_tips_img.png */,
+				88B030911AECD9C5002848AA /* main_workout_img.png */,
+			);
+			name = MainButtons;
+			sourceTree = "<group>";
+		};
+		88DD1AB81AFE015C0038DC05 /* Gallery */ = {
+			isa = PBXGroup;
+			children = (
+				88DD1AAC1AFE01540038DC05 /* gallery0.JPG */,
+				88DD1AAD1AFE01540038DC05 /* gallery1.jpg */,
+				88DD1AAE1AFE01540038DC05 /* gallery2.JPG */,
+				88DD1AAF1AFE01540038DC05 /* gallery3.JPG */,
+				88DD1AB01AFE01540038DC05 /* gallery4.JPG */,
+				88DD1AB11AFE01540038DC05 /* gallery5.JPG */,
+			);
+			name = Gallery;
+			sourceTree = "<group>";
+		};
+		88EDF3FC1AEBBA24000F586C = {
+			isa = PBXGroup;
+			children = (
+				88DD1AA41AFDFB6C0038DC05 /* GalleryViewController.swift */,
+				88EDF42E1AEBBF42000F586C /* images */,
+				88EDF4071AEBBA24000F586C /* Charley's Gym */,
+				88EDF4201AEBBA24000F586C /* Charley's GymTests */,
+				88EDF4061AEBBA24000F586C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		88EDF4061AEBBA24000F586C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				88EDF4051AEBBA24000F586C /* Charley's Gym.app */,
+				88EDF41D1AEBBA24000F586C /* Charley's GymTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		88EDF4071AEBBA24000F586C /* Charley's Gym */ = {
+			isa = PBXGroup;
+			children = (
+				883E87421AEE482A00248D83 /* ContactViewController.swift */,
+				88EDF40A1AEBBA24000F586C /* AppDelegate.swift */,
+				88EDF40F1AEBBA24000F586C /* ViewController.swift */,
+				88EDF4111AEBBA24000F586C /* Main.storyboard */,
+				88451D671B02030B002BD6D5 /* OnlineDetailsViewController.swift */,
+				8871416E1B0093EA00712E74 /* OnlineExTableViewController.swift */,
+				88DD1A9C1AFDF7B50038DC05 /* ProgramViewController.swift */,
+				88BD61401AF78FE000BCCE08 /* ExercisesDetailsViewController.swift */,
+				88B50B201AF0B94E00DBECDB /* ExercisesTableViewController.swift */,
+				883E87571AEE77B300248D83 /* ExcercisesViewController.swift */,
+				888F64301AED13DD00D1695E /* AboutViewController.swift */,
+				88B0308A1AECC6E0002848AA /* GuestViewController.swift */,
+				88EDF4141AEBBA24000F586C /* Images.xcassets */,
+				88EDF4161AEBBA24000F586C /* LaunchScreen.xib */,
+				88EDF40C1AEBBA24000F586C /* Charley_s_Gym.xcdatamodeld */,
+				88EDF4081AEBBA24000F586C /* Supporting Files */,
+			);
+			path = "Charley's Gym";
+			sourceTree = "<group>";
+		};
+		88EDF4081AEBBA24000F586C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				88EDF4091AEBBA24000F586C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		88EDF4201AEBBA24000F586C /* Charley's GymTests */ = {
+			isa = PBXGroup;
+			children = (
+				88EDF4231AEBBA24000F586C /* Charley_s_GymTests.swift */,
+				88EDF4211AEBBA24000F586C /* Supporting Files */,
+			);
+			path = "Charley's GymTests";
+			sourceTree = "<group>";
+		};
+		88EDF4211AEBBA24000F586C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				88EDF4221AEBBA24000F586C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		88EDF42E1AEBBF42000F586C /* images */ = {
+			isa = PBXGroup;
+			children = (
+				88DD1AB81AFE015C0038DC05 /* Gallery */,
+				88DD1AA21AFDF9790038DC05 /* calendar.jpg */,
+				883E87461AEE575800248D83 /* ExercisesButtons */,
+				88B030981AECD9DE002848AA /* MainButtons */,
+				88B030871AECC521002848AA /* NavBar */,
+				88EDF42F1AEBBF9A000F586C /* bg.jpg */,
+				88B0B2961AF2211500352895 /* logo.png */,
+				88ADFAC51AEFBF24003213B6 /* about0.png */,
+				88B0B2921AF2056100352895 /* exercises */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		88EDF4041AEBBA24000F586C /* Charley's Gym */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 88EDF4271AEBBA24000F586C /* Build configuration list for PBXNativeTarget "Charley's Gym" */;
+			buildPhases = (
+				88EDF4011AEBBA24000F586C /* Sources */,
+				88EDF4021AEBBA24000F586C /* Frameworks */,
+				88EDF4031AEBBA24000F586C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Charley's Gym";
+			productName = "Charley's Gym";
+			productReference = 88EDF4051AEBBA24000F586C /* Charley's Gym.app */;
+			productType = "com.apple.product-type.application";
+		};
+		88EDF41C1AEBBA24000F586C /* Charley's GymTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 88EDF42A1AEBBA24000F586C /* Build configuration list for PBXNativeTarget "Charley's GymTests" */;
+			buildPhases = (
+				88EDF4191AEBBA24000F586C /* Sources */,
+				88EDF41A1AEBBA24000F586C /* Frameworks */,
+				88EDF41B1AEBBA24000F586C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				88EDF41F1AEBBA24000F586C /* PBXTargetDependency */,
+			);
+			name = "Charley's GymTests";
+			productName = "Charley's GymTests";
+			productReference = 88EDF41D1AEBBA24000F586C /* Charley's GymTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		88EDF3FD1AEBBA24000F586C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = iSync;
+				TargetAttributes = {
+					88EDF4041AEBBA24000F586C = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					88EDF41C1AEBBA24000F586C = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 88EDF4041AEBBA24000F586C;
+					};
+				};
+			};
+			buildConfigurationList = 88EDF4001AEBBA24000F586C /* Build configuration list for PBXProject "Charley's Gym" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 88EDF3FC1AEBBA24000F586C;
+			productRefGroup = 88EDF4061AEBBA24000F586C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				88EDF4041AEBBA24000F586C /* Charley's Gym */,
+				88EDF41C1AEBBA24000F586C /* Charley's GymTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		88EDF4031AEBBA24000F586C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88DD1AA71AFDFB9B0038DC05 /* bar_gallery.jpg in Resources */,
+				88B0B2971AF2211500352895 /* logo.png in Resources */,
+				887141731B009DA100712E74 /* bar_diet.jpg in Resources */,
+				883E875A1AEE786300248D83 /* bar_database.jpg in Resources */,
+				88B030971AECD9C5002848AA /* main_workout_img.png in Resources */,
+				88DD1AB71AFE01540038DC05 /* gallery5.JPG in Resources */,
+				88B030921AECD9C5002848AA /* main_diet_img.png in Resources */,
+				883E87501AEE57A900248D83 /* backicon.png in Resources */,
+				88EDF4131AEBBA24000F586C /* Main.storyboard in Resources */,
+				8812D0A31AED041A0018B0C7 /* black_button.png in Resources */,
+				883E87451AEE491700248D83 /* bar_contact.jpg in Resources */,
+				88B030931AECD9C5002848AA /* main_exercises_img.png in Resources */,
+				88DD1AB41AFE01540038DC05 /* gallery2.JPG in Resources */,
+				887141741B009DA100712E74 /* bar_tips.jpg in Resources */,
+				883E87551AEE57A900248D83 /* shouicon.png in Resources */,
+				88DD1A9F1AFDF8140038DC05 /* bar_program.jpg in Resources */,
+				88BD61431AF7B21700BCCE08 /* bar_database2.png in Resources */,
+				88DD1AB51AFE01540038DC05 /* gallery3.JPG in Resources */,
+				88B0B2931AF2056100352895 /* exercises in Resources */,
+				88EDF4181AEBBA24000F586C /* LaunchScreen.xib in Resources */,
+				883E87531AEE57A900248D83 /* chesticon.png in Resources */,
+				88B030951AECD9C5002848AA /* main_program_img.png in Resources */,
+				88DD1AB21AFE01540038DC05 /* gallery0.JPG in Resources */,
+				883E87511AEE57A900248D83 /* biicon.png in Resources */,
+				883E87541AEE57A900248D83 /* legicon.png in Resources */,
+				88DD1AA31AFDF9790038DC05 /* calendar.jpg in Resources */,
+				88EDF4301AEBBF9A000F586C /* bg.jpg in Resources */,
+				888F64331AED145F00D1695E /* bar_staff.jpg in Resources */,
+				88B030891AECC544002848AA /* bar_charlysgym.jpg in Resources */,
+				88EDF4151AEBBA24000F586C /* Images.xcassets in Resources */,
+				88ADFAC61AEFBF24003213B6 /* about0.png in Resources */,
+				887141751B009DA100712E74 /* bar_workout.jpg in Resources */,
+				883E87561AEE57A900248D83 /* triicon.png in Resources */,
+				88DD1AB61AFE01540038DC05 /* gallery4.JPG in Resources */,
+				88B030961AECD9C5002848AA /* main_tips_img.png in Resources */,
+				88DD1AB31AFE01540038DC05 /* gallery1.jpg in Resources */,
+				883E874F1AEE57A900248D83 /* absicon.png in Resources */,
+				88B030941AECD9C5002848AA /* main_gallery_img.png in Resources */,
+				883E87521AEE57A900248D83 /* calvicon.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88EDF41B1AEBBA24000F586C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		88EDF4011AEBBA24000F586C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88DD1AA51AFDFB6C0038DC05 /* GalleryViewController.swift in Sources */,
+				88EDF4101AEBBA24000F586C /* ViewController.swift in Sources */,
+				88EDF40E1AEBBA24000F586C /* Charley_s_Gym.xcdatamodeld in Sources */,
+				88EDF40B1AEBBA24000F586C /* AppDelegate.swift in Sources */,
+				88BD61411AF78FE000BCCE08 /* ExercisesDetailsViewController.swift in Sources */,
+				88B50B211AF0B94E00DBECDB /* ExercisesTableViewController.swift in Sources */,
+				888F64311AED13DD00D1695E /* AboutViewController.swift in Sources */,
+				883E87581AEE77B300248D83 /* ExcercisesViewController.swift in Sources */,
+				88DD1A9D1AFDF7B50038DC05 /* ProgramViewController.swift in Sources */,
+				88B0308B1AECC6E0002848AA /* GuestViewController.swift in Sources */,
+				88451D681B02030B002BD6D5 /* OnlineDetailsViewController.swift in Sources */,
+				883E87431AEE482A00248D83 /* ContactViewController.swift in Sources */,
+				8871416F1B0093EA00712E74 /* OnlineExTableViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88EDF4191AEBBA24000F586C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88EDF4241AEBBA24000F586C /* Charley_s_GymTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		88EDF41F1AEBBA24000F586C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 88EDF4041AEBBA24000F586C /* Charley's Gym */;
+			targetProxy = 88EDF41E1AEBBA24000F586C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		88EDF4111AEBBA24000F586C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				88EDF4121AEBBA24000F586C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		88EDF4161AEBBA24000F586C /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				88EDF4171AEBBA24000F586C /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		88EDF4251AEBBA24000F586C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		88EDF4261AEBBA24000F586C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		88EDF4281AEBBA24000F586C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Charley's Gym/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		88EDF4291AEBBA24000F586C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Charley's Gym/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		88EDF42B1AEBBA24000F586C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Charley's GymTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Charley's Gym.app/Charley's Gym";
+			};
+			name = Debug;
+		};
+		88EDF42C1AEBBA24000F586C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Charley's GymTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Charley's Gym.app/Charley's Gym";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		88EDF4001AEBBA24000F586C /* Build configuration list for PBXProject "Charley's Gym" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88EDF4251AEBBA24000F586C /* Debug */,
+				88EDF4261AEBBA24000F586C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		88EDF4271AEBBA24000F586C /* Build configuration list for PBXNativeTarget "Charley's Gym" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88EDF4281AEBBA24000F586C /* Debug */,
+				88EDF4291AEBBA24000F586C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		88EDF42A1AEBBA24000F586C /* Build configuration list for PBXNativeTarget "Charley's GymTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88EDF42B1AEBBA24000F586C /* Debug */,
+				88EDF42C1AEBBA24000F586C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		88EDF40C1AEBBA24000F586C /* Charley_s_Gym.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				88EDF40D1AEBBA24000F586C /* Charley_s_Gym.xcdatamodel */,
+			);
+			currentVersion = 88EDF40D1AEBBA24000F586C /* Charley_s_Gym.xcdatamodel */;
+			path = Charley_s_Gym.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 88EDF3FD1AEBBA24000F586C /* Project object */;
+}

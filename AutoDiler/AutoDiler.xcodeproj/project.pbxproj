@@ -1,0 +1,2107 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A80260E1187F279E0026F2F9 /* ASIAuthenticationDialog.m in Sources */ = {isa = PBXBuildFile; fileRef = A80260C8187F279E0026F2F9 /* ASIAuthenticationDialog.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		A80260E2187F279E0026F2F9 /* ASIDataCompressor.m in Sources */ = {isa = PBXBuildFile; fileRef = A80260CB187F279E0026F2F9 /* ASIDataCompressor.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		A80260E3187F279E0026F2F9 /* ASIDataDecompressor.m in Sources */ = {isa = PBXBuildFile; fileRef = A80260CD187F279E0026F2F9 /* ASIDataDecompressor.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		A80260E4187F279E0026F2F9 /* ASIDownloadCache.m in Sources */ = {isa = PBXBuildFile; fileRef = A80260CF187F279E0026F2F9 /* ASIDownloadCache.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		A80260E5187F279E0026F2F9 /* ASIFormDataRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = A80260D1187F279E0026F2F9 /* ASIFormDataRequest.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		A80260E6187F279E0026F2F9 /* ASIHTTPRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = A80260D3187F279E0026F2F9 /* ASIHTTPRequest.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		A80260E7187F279E0026F2F9 /* ASIInputStream.m in Sources */ = {isa = PBXBuildFile; fileRef = A80260D7187F279E0026F2F9 /* ASIInputStream.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		A80260E8187F279E0026F2F9 /* ASINetworkQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = A80260D9187F279E0026F2F9 /* ASINetworkQueue.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		A80260E9187F279E0026F2F9 /* ASIWebPageRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = A80260DD187F279E0026F2F9 /* ASIWebPageRequest.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		A80260EA187F279E0026F2F9 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = A80260E0187F279E0026F2F9 /* Reachability.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		A80260EC187F27BF0026F2F9 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A80260EB187F27BF0026F2F9 /* CFNetwork.framework */; };
+		A80260EE187F28080026F2F9 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A80260ED187F28080026F2F9 /* SystemConfiguration.framework */; };
+		A80260F0187F281A0026F2F9 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A80260EF187F281A0026F2F9 /* MobileCoreServices.framework */; };
+		A80260F2187F283C0026F2F9 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A80260F1187F283C0026F2F9 /* libz.dylib */; };
+		A80888E61877C41900A37286 /* combobox_back_200.png in Resources */ = {isa = PBXBuildFile; fileRef = A80888E41877C41900A37286 /* combobox_back_200.png */; };
+		A80888E91877C89A00A37286 /* combobox_back_110.png in Resources */ = {isa = PBXBuildFile; fileRef = A80888E81877C89A00A37286 /* combobox_back_110.png */; };
+		A80888EB1877CA3100A37286 /* combobox_back_300.png in Resources */ = {isa = PBXBuildFile; fileRef = A80888EA1877CA3100A37286 /* combobox_back_300.png */; };
+		A812FBFB18AEB86C00B489DE /* detail_back2_body.png in Resources */ = {isa = PBXBuildFile; fileRef = A812FBF918AEB86C00B489DE /* detail_back2_body.png */; };
+		A812FBFC18AEB86C00B489DE /* detail_back2_header.png in Resources */ = {isa = PBXBuildFile; fileRef = A812FBFA18AEB86C00B489DE /* detail_back2_header.png */; };
+		A83CC23518A41A290097A5B3 /* splash_768_1024.png in Resources */ = {isa = PBXBuildFile; fileRef = A83CC23318A41A290097A5B3 /* splash_768_1024.png */; };
+		A83CC23618A41A290097A5B3 /* splash_1536_2048.png in Resources */ = {isa = PBXBuildFile; fileRef = A83CC23418A41A290097A5B3 /* splash_1536_2048.png */; };
+		A87B2AB6187F2C230055BB07 /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A87B2AB4187F29600055BB07 /* libxml2.dylib */; };
+		A87EE398187E0DD800A4EB01 /* sms_oglasi__kalendar.png in Resources */ = {isa = PBXBuildFile; fileRef = A87EE38D187E0DD700A4EB01 /* sms_oglasi__kalendar.png */; };
+		A87EE399187E0DD800A4EB01 /* sms_oglasi__telefon.png in Resources */ = {isa = PBXBuildFile; fileRef = A87EE38E187E0DD700A4EB01 /* sms_oglasi__telefon.png */; };
+		A87EE39A187E0DD800A4EB01 /* sms_oglasi_auto_djelovi.png in Resources */ = {isa = PBXBuildFile; fileRef = A87EE38F187E0DD700A4EB01 /* sms_oglasi_auto_djelovi.png */; };
+		A87EE39B187E0DD800A4EB01 /* sms_oglasi_autobusi.png in Resources */ = {isa = PBXBuildFile; fileRef = A87EE390187E0DD800A4EB01 /* sms_oglasi_autobusi.png */; };
+		A87EE39C187E0DD800A4EB01 /* sms_oglasi_automobili.png in Resources */ = {isa = PBXBuildFile; fileRef = A87EE391187E0DD800A4EB01 /* sms_oglasi_automobili.png */; };
+		A87EE39D187E0DD800A4EB01 /* sms_oglasi_bicikla.png in Resources */ = {isa = PBXBuildFile; fileRef = A87EE392187E0DD800A4EB01 /* sms_oglasi_bicikla.png */; };
+		A87EE39E187E0DD800A4EB01 /* sms_oglasi_gradjevinske_masine.png in Resources */ = {isa = PBXBuildFile; fileRef = A87EE393187E0DD800A4EB01 /* sms_oglasi_gradjevinske_masine.png */; };
+		A87EE39F187E0DD800A4EB01 /* sms_oglasi_kamioni.png in Resources */ = {isa = PBXBuildFile; fileRef = A87EE394187E0DD800A4EB01 /* sms_oglasi_kamioni.png */; };
+		A87EE3A0187E0DD800A4EB01 /* sms_oglasi_kombi.png in Resources */ = {isa = PBXBuildFile; fileRef = A87EE395187E0DD800A4EB01 /* sms_oglasi_kombi.png */; };
+		A87EE3A1187E0DD800A4EB01 /* sms_oglasi_motori.png in Resources */ = {isa = PBXBuildFile; fileRef = A87EE396187E0DD800A4EB01 /* sms_oglasi_motori.png */; };
+		A87EE3A2187E0DD800A4EB01 /* sms_oglasi_plovila.png in Resources */ = {isa = PBXBuildFile; fileRef = A87EE397187E0DD800A4EB01 /* sms_oglasi_plovila.png */; };
+		A87EE3A7187E14FF00A4EB01 /* ADNewsPageVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A87EE3A5187E14FF00A4EB01 /* ADNewsPageVC.m */; };
+		A87EE3A8187E14FF00A4EB01 /* ADNewsPageVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = A87EE3A6187E14FF00A4EB01 /* ADNewsPageVC.xib */; };
+		A87EE3AB187E181700A4EB01 /* ADNewsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A87EE3AA187E181700A4EB01 /* ADNewsCell.m */; };
+		A87EE3AD187E182D00A4EB01 /* ADNewsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A87EE3AC187E182D00A4EB01 /* ADNewsCell.xib */; };
+		A87EE3B2187E248A00A4EB01 /* ADNewsDetailPageVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A87EE3B0187E248A00A4EB01 /* ADNewsDetailPageVC.m */; };
+		A87EE3B3187E248A00A4EB01 /* ADNewsDetailPageVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = A87EE3B1187E248A00A4EB01 /* ADNewsDetailPageVC.xib */; };
+		A897C5C11892A51F0016ED53 /* ADAddBoatView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A897C5C01892A51F0016ED53 /* ADAddBoatView.xib */; };
+		A897C5C31892A5380016ED53 /* ADAddBicycleView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A897C5C21892A5380016ED53 /* ADAddBicycleView.xib */; };
+		A897C5C51892A54C0016ED53 /* ADAddConstMachineView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A897C5C41892A54C0016ED53 /* ADAddConstMachineView.xib */; };
+		A897C5C81892A5640016ED53 /* ADAddBoatView.m in Sources */ = {isa = PBXBuildFile; fileRef = A897C5C71892A5640016ED53 /* ADAddBoatView.m */; };
+		A897C5CB1892A5810016ED53 /* ADAddBicycleView.m in Sources */ = {isa = PBXBuildFile; fileRef = A897C5CA1892A5810016ED53 /* ADAddBicycleView.m */; };
+		A897C5CE1892A5980016ED53 /* ADAddConstMachineView.m in Sources */ = {isa = PBXBuildFile; fileRef = A897C5CD1892A5980016ED53 /* ADAddConstMachineView.m */; };
+		A89AE8091875D6A5002AB7E7 /* 01.main_menu_pretraga_off.png in Resources */ = {isa = PBXBuildFile; fileRef = A89AE7E71875D6A5002AB7E7 /* 01.main_menu_pretraga_off.png */; };
+		A89AE80A1875D6A5002AB7E7 /* 01.main_menu_pretraga_over.png in Resources */ = {isa = PBXBuildFile; fileRef = A89AE7E81875D6A5002AB7E7 /* 01.main_menu_pretraga_over.png */; };
+		A89AE80B1875D6A5002AB7E7 /* 02.main_menu_dodaj_oglas_off.png in Resources */ = {isa = PBXBuildFile; fileRef = A89AE7E91875D6A5002AB7E7 /* 02.main_menu_dodaj_oglas_off.png */; };
+		A89AE80C1875D6A5002AB7E7 /* 02.main_menu_dodaj_oglas_over.png.png in Resources */ = {isa = PBXBuildFile; fileRef = A89AE7EA1875D6A5002AB7E7 /* 02.main_menu_dodaj_oglas_over.png.png */; };
+		A89AE80D1875D6A5002AB7E7 /* 03.main_menu_svi_oglasi_off.png in Resources */ = {isa = PBXBuildFile; fileRef = A89AE7EB1875D6A5002AB7E7 /* 03.main_menu_svi_oglasi_off.png */; };
+		A89AE80E1875D6A5002AB7E7 /* 03.main_menu_svi_oglasi_over.png in Resources */ = {isa = PBXBuildFile; fileRef = A89AE7EC1875D6A5002AB7E7 /* 03.main_menu_svi_oglasi_over.png */; };
+		A89AE80F1875D6A5002AB7E7 /* 04.main_menu_automobili_off.png in Resources */ = {isa = PBXBuildFile; fileRef = A89AE7ED1875D6A5002AB7E7 /* 04.main_menu_automobili_off.png */; };
+		A89AE8101875D6A5002AB7E7 /* 04.main_menu_automobili_over.png in Resources */ = {isa = PBXBuildFile; fileRef = A89AE7EE1875D6A5002AB7E7 /* 04.main_menu_automobili_over.png */; };
+		A89AE8111875D6A5002AB7E7 /* 05.main_menu_motori_off.png in Resources */ = {isa = PBXBuildFile; fileRef = A89AE7EF1875D6A5002AB7E7 /* 05.main_menu_motori_off.png */; };
+		A89AE8121875D6A5002AB7E7 /* 05.main_menu_motori_over.png in Resources */ = {isa = PBXBuildFile; fileRef = A89AE7F01875D6A5002AB7E7 /* 05.main_menu_motori_over.png */; };
+		A89AE8131875D6A5002AB7E7 /* 06.main_menu_kamioni_off.png in Resources */ = {isa = PBXBuildFile; fileRef = A89AE7F11875D6A5002AB7E7 /* 06.main_menu_kamioni_off.png */; };
+		A89AE8141875D6A5002AB7E7 /* 06.main_menu_kamioni_over.png in Resources */ = {isa = PBXBuildFile; fileRef = A89AE7F21875D6A5002AB7E7 /* 06.main_menu_kamioni_over.png */; };
+		A89AE8151875D6A5002AB7E7 /* 07.main_menu_kombi_off.png in Resources */ = {isa = PBXBuildFile; fileRef = A89AE7F31875D6A5002AB7E7 /* 07.main_menu_kombi_off.png */; };
+		A89AE8161875D6A5002AB7E7 /* 07.main_menu_kombi_over.png in Resources */ = {isa = PBXBuildFile; fileRef = A89AE7F41875D6A5002AB7E7 /* 07.main_menu_kombi_over.png */; };
+		A89AE8171875D6A5002AB7E7 /* 08.main_menu_autobus_off.png in Resources */ = {isa = PBXBuildFile; fileRef = A89AE7F51875D6A5002AB7E7 /* 08.main_menu_autobus_off.png */; };
+		A89AE8181875D6A5002AB7E7 /* 08.main_menu_autobus_over.png in Resources */ = {isa = PBXBuildFile; fileRef = A89AE7F61875D6A5002AB7E7 /* 08.main_menu_autobus_over.png */; };
+		A89AE8191875D6A5002AB7E7 /* 09.main_menu_auto_djelovi_off.png in Resources */ = {isa = PBXBuildFile; fileRef = A89AE7F71875D6A5002AB7E7 /* 09.main_menu_auto_djelovi_off.png */; };
+		A89AE81A1875D6A5002AB7E7 /* 09.main_menu_auto_djelovi_over.png in Resources */ = {isa = PBXBuildFile; fileRef = A89AE7F81875D6A5002AB7E7 /* 09.main_menu_auto_djelovi_over.png */; };
+		A89AE81B1875D6A5002AB7E7 /* 10.main_menu_auto_plovila_off.png in Resources */ = {isa = PBXBuildFile; fileRef = A89AE7F91875D6A5002AB7E7 /* 10.main_menu_auto_plovila_off.png */; };
+		A89AE81C1875D6A5002AB7E7 /* 10.main_menu_auto_plovila_over.png in Resources */ = {isa = PBXBuildFile; fileRef = A89AE7FA1875D6A5002AB7E7 /* 10.main_menu_auto_plovila_over.png */; };
+		A89AE81D1875D6A5002AB7E7 /* 11.main_menu_auto_bicikla_offr.png in Resources */ = {isa = PBXBuildFile; fileRef = A89AE7FB1875D6A5002AB7E7 /* 11.main_menu_auto_bicikla_offr.png */; };
+		A89AE81E1875D6A5002AB7E7 /* 11.main_menu_auto_bicikla_over.png in Resources */ = {isa = PBXBuildFile; fileRef = A89AE7FC1875D6A5002AB7E7 /* 11.main_menu_auto_bicikla_over.png */; };
+		A89AE81F1875D6A5002AB7E7 /* 12.main_menu_gradjevinske_masine_off.png in Resources */ = {isa = PBXBuildFile; fileRef = A89AE7FD1875D6A5002AB7E7 /* 12.main_menu_gradjevinske_masine_off.png */; };
+		A89AE8201875D6A5002AB7E7 /* 12.main_menu_gradjevinske_masine_over.png in Resources */ = {isa = PBXBuildFile; fileRef = A89AE7FE1875D6A5002AB7E7 /* 12.main_menu_gradjevinske_masine_over.png */; };
+		A89AE8211875D6A5002AB7E7 /* 13.main_menu_auto_plac_off.png in Resources */ = {isa = PBXBuildFile; fileRef = A89AE7FF1875D6A5002AB7E7 /* 13.main_menu_auto_plac_off.png */; };
+		A89AE8221875D6A5002AB7E7 /* 13.main_menu_auto_plac_over.png in Resources */ = {isa = PBXBuildFile; fileRef = A89AE8001875D6A5002AB7E7 /* 13.main_menu_auto_plac_over.png */; };
+		A89AE8231875D6A5002AB7E7 /* 14.main_menu_adresar_off.png in Resources */ = {isa = PBXBuildFile; fileRef = A89AE8011875D6A5002AB7E7 /* 14.main_menu_adresar_off.png */; };
+		A89AE8241875D6A5002AB7E7 /* 14.main_menu_adresar_over.png in Resources */ = {isa = PBXBuildFile; fileRef = A89AE8021875D6A5002AB7E7 /* 14.main_menu_adresar_over.png */; };
+		A89AE8251875D6A5002AB7E7 /* 15.main_menu_sms_off.png in Resources */ = {isa = PBXBuildFile; fileRef = A89AE8031875D6A5002AB7E7 /* 15.main_menu_sms_off.png */; };
+		A89AE8261875D6A5002AB7E7 /* 15.main_menu_sms_over.png in Resources */ = {isa = PBXBuildFile; fileRef = A89AE8041875D6A5002AB7E7 /* 15.main_menu_sms_over.png */; };
+		A89AE8271875D6A5002AB7E7 /* 16.main_menu_news_off.png in Resources */ = {isa = PBXBuildFile; fileRef = A89AE8051875D6A5002AB7E7 /* 16.main_menu_news_off.png */; };
+		A89AE8281875D6A5002AB7E7 /* 16.main_menu_news_over.png in Resources */ = {isa = PBXBuildFile; fileRef = A89AE8061875D6A5002AB7E7 /* 16.main_menu_news_over.png */; };
+		A89AE8291875D6A5002AB7E7 /* 17.main_menu_omiljeni_oglasi_off.png in Resources */ = {isa = PBXBuildFile; fileRef = A89AE8071875D6A5002AB7E7 /* 17.main_menu_omiljeni_oglasi_off.png */; };
+		A89AE82A1875D6A5002AB7E7 /* 17.main_menu_omiljeni_oglasi_over.png in Resources */ = {isa = PBXBuildFile; fileRef = A89AE8081875D6A5002AB7E7 /* 17.main_menu_omiljeni_oglasi_over.png */; };
+		A8A2DD2E1879D8DA00D3EA0A /* ADCell1.m in Sources */ = {isa = PBXBuildFile; fileRef = A8A2DD2C1879D8DA00D3EA0A /* ADCell1.m */; };
+		A8A2DD2F1879D8DA00D3EA0A /* ADCell1.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8A2DD2D1879D8DA00D3EA0A /* ADCell1.xib */; };
+		A8A2DD3C187A059D00D3EA0A /* oglas_dodaj_u_omiljene_off.png in Resources */ = {isa = PBXBuildFile; fileRef = A8A2DD36187A059D00D3EA0A /* oglas_dodaj_u_omiljene_off.png */; };
+		A8A2DD3D187A059D00D3EA0A /* oglas_dodaj_u_omiljene_over.png in Resources */ = {isa = PBXBuildFile; fileRef = A8A2DD37187A059D00D3EA0A /* oglas_dodaj_u_omiljene_over.png */; };
+		A8A2DD3E187A059D00D3EA0A /* oglas_pozovi_prodavca_off.png in Resources */ = {isa = PBXBuildFile; fileRef = A8A2DD38187A059D00D3EA0A /* oglas_pozovi_prodavca_off.png */; };
+		A8A2DD3F187A059D00D3EA0A /* oglas_pozovi_prodavca_over.png in Resources */ = {isa = PBXBuildFile; fileRef = A8A2DD39187A059D00D3EA0A /* oglas_pozovi_prodavca_over.png */; };
+		A8A2DD40187A059D00D3EA0A /* oglas_prijavi_oglas_off.png in Resources */ = {isa = PBXBuildFile; fileRef = A8A2DD3A187A059D00D3EA0A /* oglas_prijavi_oglas_off.png */; };
+		A8A2DD41187A059D00D3EA0A /* oglas_prijavi_oglas_over.png in Resources */ = {isa = PBXBuildFile; fileRef = A8A2DD3B187A059D00D3EA0A /* oglas_prijavi_oglas_over.png */; };
+		A8AA3C6D18984522005A0230 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8AA3C6C18984522005A0230 /* MessageUI.framework */; };
+		A8C482DD1875C12000D663B4 /* splash_320_480.png in Resources */ = {isa = PBXBuildFile; fileRef = A8C482DA1875C12000D663B4 /* splash_320_480.png */; };
+		A8C482DE1875C12000D663B4 /* splash_640_960.png in Resources */ = {isa = PBXBuildFile; fileRef = A8C482DB1875C12000D663B4 /* splash_640_960.png */; };
+		A8C482DF1875C12000D663B4 /* splash_640_1136.png in Resources */ = {isa = PBXBuildFile; fileRef = A8C482DC1875C12000D663B4 /* splash_640_1136.png */; };
+		A8C482E21875C8D600D663B4 /* logo_background.png in Resources */ = {isa = PBXBuildFile; fileRef = A8C482E01875C8D600D663B4 /* logo_background.png */; };
+		A8C482E31875C8D600D663B4 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = A8C482E11875C8D600D663B4 /* logo.png */; };
+		A8C55D4318A3D99300F73AEA /* popup_back.png in Resources */ = {isa = PBXBuildFile; fileRef = A8C55D4218A3D99300F73AEA /* popup_back.png */; };
+		A8C572E118A6BECB005EE538 /* detail_back9.png in Resources */ = {isa = PBXBuildFile; fileRef = A8C572E018A6BECB005EE538 /* detail_back9.png */; };
+		A8C572E618A6C343005EE538 /* ADBoatDetailView.m in Sources */ = {isa = PBXBuildFile; fileRef = A8C572E418A6C343005EE538 /* ADBoatDetailView.m */; };
+		A8C572E718A6C343005EE538 /* ADBoatDetailView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8C572E518A6C343005EE538 /* ADBoatDetailView.xib */; };
+		A8C593B31876B7A9003335F1 /* galerija_slika_desno_off.png in Resources */ = {isa = PBXBuildFile; fileRef = A8C593A91876B7A9003335F1 /* galerija_slika_desno_off.png */; };
+		A8C593B41876B7A9003335F1 /* galerija_slika_desno_over.png in Resources */ = {isa = PBXBuildFile; fileRef = A8C593AA1876B7A9003335F1 /* galerija_slika_desno_over.png */; };
+		A8C593B51876B7A9003335F1 /* galerija_slika_lijevo_off.png in Resources */ = {isa = PBXBuildFile; fileRef = A8C593AB1876B7A9003335F1 /* galerija_slika_lijevo_off.png */; };
+		A8C593B61876B7A9003335F1 /* galerija_slika_lijevo_over.png in Resources */ = {isa = PBXBuildFile; fileRef = A8C593AC1876B7A9003335F1 /* galerija_slika_lijevo_over.png */; };
+		A8C593B71876B7A9003335F1 /* indikator_stranice_off.png in Resources */ = {isa = PBXBuildFile; fileRef = A8C593AD1876B7A9003335F1 /* indikator_stranice_off.png */; };
+		A8C593B81876B7A9003335F1 /* indikator_stranice_on.png in Resources */ = {isa = PBXBuildFile; fileRef = A8C593AE1876B7A9003335F1 /* indikator_stranice_on.png */; };
+		A8C593B91876B7A9003335F1 /* navigacija_desno_off.png in Resources */ = {isa = PBXBuildFile; fileRef = A8C593AF1876B7A9003335F1 /* navigacija_desno_off.png */; };
+		A8C593BA1876B7A9003335F1 /* navigacija_desno_over.png in Resources */ = {isa = PBXBuildFile; fileRef = A8C593B01876B7A9003335F1 /* navigacija_desno_over.png */; };
+		A8C593BB1876B7A9003335F1 /* navigacija_lijevo_off.png in Resources */ = {isa = PBXBuildFile; fileRef = A8C593B11876B7A9003335F1 /* navigacija_lijevo_off.png */; };
+		A8C593BC1876B7A9003335F1 /* navigacija_lijevo_over.png in Resources */ = {isa = PBXBuildFile; fileRef = A8C593B21876B7A9003335F1 /* navigacija_lijevo_over.png */; };
+		A8C593BE1876B83E003335F1 /* placen_oglas.png in Resources */ = {isa = PBXBuildFile; fileRef = A8C593BD1876B83E003335F1 /* placen_oglas.png */; };
+		A8C593C01876CC52003335F1 /* pocetni_ekran_sat_najnoviji_oglasi.png in Resources */ = {isa = PBXBuildFile; fileRef = A8C593BF1876CC52003335F1 /* pocetni_ekran_sat_najnoviji_oglasi.png */; };
+		A8C593C618771E28003335F1 /* SMPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = A8C593C518771E28003335F1 /* SMPageControl.m */; };
+		A8C593D018772ABD003335F1 /* ADSearchPageVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A8C593CE18772ABD003335F1 /* ADSearchPageVC.m */; };
+		A8C593D118772ABD003335F1 /* ADSearchPageVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8C593CF18772ABD003335F1 /* ADSearchPageVC.xib */; };
+		A8C593D418773B28003335F1 /* dugme_nazad_i_sortiraj_off.png in Resources */ = {isa = PBXBuildFile; fileRef = A8C593D218773B28003335F1 /* dugme_nazad_i_sortiraj_off.png */; };
+		A8C593D518773B28003335F1 /* dugme_nazad_i_sortiraj_over.png in Resources */ = {isa = PBXBuildFile; fileRef = A8C593D318773B28003335F1 /* dugme_nazad_i_sortiraj_over.png */; };
+		A8C593DE187740E2003335F1 /* ADFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = A8C593DD187740E2003335F1 /* ADFooterView.m */; };
+		A8C593E0187740FB003335F1 /* ADFooterView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8C593DF187740FB003335F1 /* ADFooterView.xib */; };
+		A8C593E21877429F003335F1 /* bottom_menu_background.png in Resources */ = {isa = PBXBuildFile; fileRef = A8C593E11877429F003335F1 /* bottom_menu_background.png */; };
+		A8C593EF187745CD003335F1 /* bottom_menu_01_pocetni_ekran_off.png in Resources */ = {isa = PBXBuildFile; fileRef = A8C593E3187745CC003335F1 /* bottom_menu_01_pocetni_ekran_off.png */; };
+		A8C593F0187745CD003335F1 /* bottom_menu_01_pocetni_ekran_over.png in Resources */ = {isa = PBXBuildFile; fileRef = A8C593E4187745CC003335F1 /* bottom_menu_01_pocetni_ekran_over.png */; };
+		A8C593F1187745CD003335F1 /* bottom_menu_02_dodaj_oglas_off.png in Resources */ = {isa = PBXBuildFile; fileRef = A8C593E5187745CC003335F1 /* bottom_menu_02_dodaj_oglas_off.png */; };
+		A8C593F2187745CD003335F1 /* bottom_menu_02_dodaj_oglas_over.png in Resources */ = {isa = PBXBuildFile; fileRef = A8C593E6187745CC003335F1 /* bottom_menu_02_dodaj_oglas_over.png */; };
+		A8C593F3187745CD003335F1 /* bottom_menu_03_novo_u_24h_off.png in Resources */ = {isa = PBXBuildFile; fileRef = A8C593E7187745CC003335F1 /* bottom_menu_03_novo_u_24h_off.png */; };
+		A8C593F4187745CD003335F1 /* bottom_menu_03_novo_u_24h_over.png in Resources */ = {isa = PBXBuildFile; fileRef = A8C593E8187745CC003335F1 /* bottom_menu_03_novo_u_24h_over.png */; };
+		A8C593F5187745CD003335F1 /* bottom_menu_04_pala_cijenai_off.png in Resources */ = {isa = PBXBuildFile; fileRef = A8C593E9187745CD003335F1 /* bottom_menu_04_pala_cijenai_off.png */; };
+		A8C593F6187745CD003335F1 /* bottom_menu_04_pala_cijenai_over.png in Resources */ = {isa = PBXBuildFile; fileRef = A8C593EA187745CD003335F1 /* bottom_menu_04_pala_cijenai_over.png */; };
+		A8C593F7187745CD003335F1 /* bottom_menu_05_omiljeni_oglasi_off.png in Resources */ = {isa = PBXBuildFile; fileRef = A8C593EB187745CD003335F1 /* bottom_menu_05_omiljeni_oglasi_off.png */; };
+		A8C593F8187745CD003335F1 /* bottom_menu_05_omiljeni_oglasi_over.png in Resources */ = {isa = PBXBuildFile; fileRef = A8C593EC187745CD003335F1 /* bottom_menu_05_omiljeni_oglasi_over.png */; };
+		A8C593F9187745CD003335F1 /* bottom_menu_06_podijeli_off.png in Resources */ = {isa = PBXBuildFile; fileRef = A8C593ED187745CD003335F1 /* bottom_menu_06_podijeli_off.png */; };
+		A8C593FA187745CD003335F1 /* bottom_menu_06_podijeli_over.png in Resources */ = {isa = PBXBuildFile; fileRef = A8C593EE187745CD003335F1 /* bottom_menu_06_podijeli_over.png */; };
+		A8C593FD18775B41003335F1 /* search_button_off.png in Resources */ = {isa = PBXBuildFile; fileRef = A8C593FB18775B41003335F1 /* search_button_off.png */; };
+		A8C593FE18775B41003335F1 /* search_button_over.png in Resources */ = {isa = PBXBuildFile; fileRef = A8C593FC18775B41003335F1 /* search_button_over.png */; };
+		A8C5940018775C77003335F1 /* pocetni_ekran_linija_najnoviji_oglasi.png in Resources */ = {isa = PBXBuildFile; fileRef = A8C593FF18775C77003335F1 /* pocetni_ekran_linija_najnoviji_oglasi.png */; };
+		A8C72A2A1897683300442E8F /* ADUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = A8C72A291897683300442E8F /* ADUtils.m */; };
+		A8C773D51884EC8E00551619 /* AsyncImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = A8C773D41884EC8E00551619 /* AsyncImageView.m */; };
+		A8C773D71884ED1300551619 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8C773D61884ED1300551619 /* QuartzCore.framework */; };
+		A8C773DA1884F35700551619 /* StrokeLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = A8C773D91884F35700551619 /* StrokeLabel.m */; };
+		A8C7FC10189288CF000D4E6E /* ADAddAutoPartView.m in Sources */ = {isa = PBXBuildFile; fileRef = A8C7FC0F189288CF000D4E6E /* ADAddAutoPartView.m */; };
+		A8C7FC12189288E8000D4E6E /* ADAddAutoPartView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8C7FC11189288E8000D4E6E /* ADAddAutoPartView.xib */; };
+		A8C84C6A18AC669700AA416F /* ADImagePageVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A8C84C6818AC669700AA416F /* ADImagePageVC.m */; };
+		A8C84C6B18AC669700AA416F /* ADImagePageVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8C84C6918AC669700AA416F /* ADImagePageVC.xib */; };
+		A8CA348618900A660062CDA6 /* ADAddCarView.m in Sources */ = {isa = PBXBuildFile; fileRef = A8CA348518900A660062CDA6 /* ADAddCarView.m */; };
+		A8CA348A18900B090062CDA6 /* ADAddCarView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8CA348918900B090062CDA6 /* ADAddCarView.xib */; };
+		A8CAACBB18A4CC3F00E72F42 /* ADTruckDetailView.m in Sources */ = {isa = PBXBuildFile; fileRef = A8CAACB918A4CC3F00E72F42 /* ADTruckDetailView.m */; };
+		A8CAACBC18A4CC3F00E72F42 /* ADTruckDetailView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8CAACBA18A4CC3F00E72F42 /* ADTruckDetailView.xib */; };
+		A8CB3A5D187C457A00B51A24 /* ADSearchResultPageVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A8CB3A5B187C457A00B51A24 /* ADSearchResultPageVC.m */; };
+		A8CB3A5E187C457A00B51A24 /* ADSearchResultPageVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8CB3A5C187C457A00B51A24 /* ADSearchResultPageVC.xib */; };
+		A8CB3A62187C484800B51A24 /* ADDetailInfoPageVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A8CB3A60187C484800B51A24 /* ADDetailInfoPageVC.m */; };
+		A8CB3A63187C484800B51A24 /* ADDetailInfoPageVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8CB3A61187C484800B51A24 /* ADDetailInfoPageVC.xib */; };
+		A8CB3A67187C595700B51A24 /* detail_back1.png in Resources */ = {isa = PBXBuildFile; fileRef = A8CB3A64187C595700B51A24 /* detail_back1.png */; };
+		A8CB3A68187C595700B51A24 /* detail_back2.png in Resources */ = {isa = PBXBuildFile; fileRef = A8CB3A65187C595700B51A24 /* detail_back2.png */; };
+		A8CB3A69187C595700B51A24 /* detail_back4.png in Resources */ = {isa = PBXBuildFile; fileRef = A8CB3A66187C595700B51A24 /* detail_back4.png */; };
+		A8CC219A18AE8AAF0083ED9B /* enter_on.png in Resources */ = {isa = PBXBuildFile; fileRef = A8CC219818AE8AAF0083ED9B /* enter_on.png */; };
+		A8CC219B18AE8AAF0083ED9B /* enter.png in Resources */ = {isa = PBXBuildFile; fileRef = A8CC219918AE8AAF0083ED9B /* enter.png */; };
+		A8CDF39C187C88F1002223A7 /* dodaj_oglas_dodaj_slike_off.png in Resources */ = {isa = PBXBuildFile; fileRef = A8CDF398187C88F1002223A7 /* dodaj_oglas_dodaj_slike_off.png */; };
+		A8CDF39D187C88F1002223A7 /* dodaj_oglas_dodaj_slike_over.png in Resources */ = {isa = PBXBuildFile; fileRef = A8CDF399187C88F1002223A7 /* dodaj_oglas_dodaj_slike_over.png */; };
+		A8CDF39E187C88F1002223A7 /* dodaj_oglas_posalji_off.png in Resources */ = {isa = PBXBuildFile; fileRef = A8CDF39A187C88F1002223A7 /* dodaj_oglas_posalji_off.png */; };
+		A8CDF39F187C88F1002223A7 /* dodaj_oglas_posalji_over.png in Resources */ = {isa = PBXBuildFile; fileRef = A8CDF39B187C88F1002223A7 /* dodaj_oglas_posalji_over.png */; };
+		A8CDF3A1187C9CEB002223A7 /* dodaj_oglas__obavezno polje.png in Resources */ = {isa = PBXBuildFile; fileRef = A8CDF3A0187C9CEB002223A7 /* dodaj_oglas__obavezno polje.png */; };
+		A8CDF3A4187CB62D002223A7 /* oglas_ukloni_iz_omiljenih_off.png in Resources */ = {isa = PBXBuildFile; fileRef = A8CDF3A2187CB62D002223A7 /* oglas_ukloni_iz_omiljenih_off.png */; };
+		A8CDF3A5187CB62D002223A7 /* oglas_ukloni_iz_omiljenih_over.png in Resources */ = {isa = PBXBuildFile; fileRef = A8CDF3A3187CB62D002223A7 /* oglas_ukloni_iz_omiljenih_over.png */; };
+		A8CDF3A9187CB718002223A7 /* ADAddPageVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A8CDF3A7187CB718002223A7 /* ADAddPageVC.m */; };
+		A8CDF3AA187CB718002223A7 /* ADAddPageVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8CDF3A8187CB718002223A7 /* ADAddPageVC.xib */; };
+		A8CDF3AF187CE912002223A7 /* ADCarDealersPageVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A8CDF3AD187CE912002223A7 /* ADCarDealersPageVC.m */; };
+		A8CDF3B0187CE912002223A7 /* ADCarDealersPageVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8CDF3AE187CE912002223A7 /* ADCarDealersPageVC.xib */; };
+		A8CF3D2F187DB71C00BB6ABB /* ADDealerCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A8CF3D2E187DB71C00BB6ABB /* ADDealerCell.m */; };
+		A8CF3D31187DB7AF00BB6ABB /* ADDealerCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8CF3D30187DB7AF00BB6ABB /* ADDealerCell.xib */; };
+		A8CF3D33187DB93E00BB6ABB /* auto_plac__nema_sliku.png in Resources */ = {isa = PBXBuildFile; fileRef = A8CF3D32187DB93E00BB6ABB /* auto_plac__nema_sliku.png */; };
+		A8CF3D35187DC41900BB6ABB /* dealer_cell_back.png in Resources */ = {isa = PBXBuildFile; fileRef = A8CF3D34187DC41900BB6ABB /* dealer_cell_back.png */; };
+		A8CF3D40187DDA6900BB6ABB /* adresar_02.adresa.png in Resources */ = {isa = PBXBuildFile; fileRef = A8CF3D3C187DDA6900BB6ABB /* adresar_02.adresa.png */; };
+		A8CF3D41187DDA6900BB6ABB /* adresar_03.telefon.png in Resources */ = {isa = PBXBuildFile; fileRef = A8CF3D3D187DDA6900BB6ABB /* adresar_03.telefon.png */; };
+		A8CF3D42187DDA6900BB6ABB /* adresar_04.email.png in Resources */ = {isa = PBXBuildFile; fileRef = A8CF3D3E187DDA6900BB6ABB /* adresar_04.email.png */; };
+		A8CF3D43187DDA6900BB6ABB /* adresar_05.opis.png in Resources */ = {isa = PBXBuildFile; fileRef = A8CF3D3F187DDA6900BB6ABB /* adresar_05.opis.png */; };
+		A8CF3D45187DDEEF00BB6ABB /* auto_plac__broj_oglasa.png in Resources */ = {isa = PBXBuildFile; fileRef = A8CF3D44187DDEEF00BB6ABB /* auto_plac__broj_oglasa.png */; };
+		A8CF3D49187DE1F200BB6ABB /* ADCarDealerPageVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A8CF3D47187DE1F200BB6ABB /* ADCarDealerPageVC.m */; };
+		A8CF3D4A187DE1F200BB6ABB /* ADCarDealerPageVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8CF3D48187DE1F200BB6ABB /* ADCarDealerPageVC.xib */; };
+		A8CF3D4F187DEA6B00BB6ABB /* ADAddressBookPageVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A8CF3D4D187DEA6B00BB6ABB /* ADAddressBookPageVC.m */; };
+		A8CF3D50187DEA6B00BB6ABB /* ADAddressBookPageVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8CF3D4E187DEA6B00BB6ABB /* ADAddressBookPageVC.xib */; };
+		A8CF3D53187DEFB500BB6ABB /* ADAddressCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A8CF3D52187DEFB500BB6ABB /* ADAddressCell.m */; };
+		A8CF3D55187DEFE100BB6ABB /* ADAddressCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8CF3D54187DEFE100BB6ABB /* ADAddressCell.xib */; };
+		A8CF3D57187DF52000BB6ABB /* adresar_01.djelatnost.png in Resources */ = {isa = PBXBuildFile; fileRef = A8CF3D56187DF52000BB6ABB /* adresar_01.djelatnost.png */; };
+		A8CF3D5C187DF70A00BB6ABB /* ADFavoritePageVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A8CF3D5A187DF70A00BB6ABB /* ADFavoritePageVC.m */; };
+		A8CF3D5D187DF70A00BB6ABB /* ADFavoritePageVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8CF3D5B187DF70A00BB6ABB /* ADFavoritePageVC.xib */; };
+		A8CF3D62187DFC7900BB6ABB /* ADAddressPageVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A8CF3D60187DFC7900BB6ABB /* ADAddressPageVC.m */; };
+		A8CF3D63187DFC7900BB6ABB /* ADAddressPageVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8CF3D61187DFC7900BB6ABB /* ADAddressPageVC.xib */; };
+		A8CF3D65187DFE8600BB6ABB /* adresar_06.google_mapa.png in Resources */ = {isa = PBXBuildFile; fileRef = A8CF3D64187DFE8600BB6ABB /* adresar_06.google_mapa.png */; };
+		A8CF3D67187DFFC600BB6ABB /* adresar_07.slike.png in Resources */ = {isa = PBXBuildFile; fileRef = A8CF3D66187DFFC600BB6ABB /* adresar_07.slike.png */; };
+		A8CF3D6C187E098E00BB6ABB /* ADSmsAdsPageVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A8CF3D6A187E098E00BB6ABB /* ADSmsAdsPageVC.m */; };
+		A8CF3D6D187E098E00BB6ABB /* ADSmsAdsPageVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8CF3D6B187E098E00BB6ABB /* ADSmsAdsPageVC.xib */; };
+		A8CF3D70187E0C4200BB6ABB /* ADSmsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A8CF3D6F187E0C4200BB6ABB /* ADSmsCell.m */; };
+		A8CF3D72187E0C6600BB6ABB /* ADSmsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8CF3D71187E0C6600BB6ABB /* ADSmsCell.xib */; };
+		A8D0157C18920D9100CD793E /* ADAddVanView.m in Sources */ = {isa = PBXBuildFile; fileRef = A8D0157B18920D9100CD793E /* ADAddVanView.m */; };
+		A8D0157E18920DA200CD793E /* ADAddVanView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8D0157D18920DA200CD793E /* ADAddVanView.xib */; };
+		A8D0158218922EB100CD793E /* ADAddBusView.m in Sources */ = {isa = PBXBuildFile; fileRef = A8D0158118922EB100CD793E /* ADAddBusView.m */; };
+		A8D0158418922EC100CD793E /* ADAddBusView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8D0158318922EC100CD793E /* ADAddBusView.xib */; };
+		A8D1E04E1890DEDD0040C7B7 /* ADAddMotocycleView.m in Sources */ = {isa = PBXBuildFile; fileRef = A8D1E04D1890DEDD0040C7B7 /* ADAddMotocycleView.m */; };
+		A8D1E0501890DEF90040C7B7 /* ADAddMotocycleView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8D1E04F1890DEF90040C7B7 /* ADAddMotocycleView.xib */; };
+		A8D4C52F188376C9009E843C /* textview_back_300.png in Resources */ = {isa = PBXBuildFile; fileRef = A8D4C52E188376C9009E843C /* textview_back_300.png */; };
+		A8D4C53318837F60009E843C /* ADSearchTrucksView.m in Sources */ = {isa = PBXBuildFile; fileRef = A8D4C53218837F60009E843C /* ADSearchTrucksView.m */; };
+		A8D4C53518837F84009E843C /* ADSearchTrucksView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8D4C53418837F84009E843C /* ADSearchTrucksView.xib */; };
+		A8D4C53918838676009E843C /* ADSearchVansView.m in Sources */ = {isa = PBXBuildFile; fileRef = A8D4C53818838676009E843C /* ADSearchVansView.m */; };
+		A8D4C53B1883868B009E843C /* ADSearchVansView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8D4C53A1883868B009E843C /* ADSearchVansView.xib */; };
+		A8D4C53F18838CA6009E843C /* ADSearchBusesView.m in Sources */ = {isa = PBXBuildFile; fileRef = A8D4C53E18838CA6009E843C /* ADSearchBusesView.m */; };
+		A8D4C54118838CDD009E843C /* ADSearchBusesView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8D4C54018838CDD009E843C /* ADSearchBusesView.xib */; };
+		A8D4C54518838E66009E843C /* ADSearchAutoPartsView.m in Sources */ = {isa = PBXBuildFile; fileRef = A8D4C54418838E66009E843C /* ADSearchAutoPartsView.m */; };
+		A8D4C54718838EA9009E843C /* ADSearchAutoPartsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8D4C54618838EA9009E843C /* ADSearchAutoPartsView.xib */; };
+		A8D4C54B1883930C009E843C /* ADSearchBoatsView.m in Sources */ = {isa = PBXBuildFile; fileRef = A8D4C54A1883930C009E843C /* ADSearchBoatsView.m */; };
+		A8D4C54D1883935E009E843C /* ADSearchBoatsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8D4C54C1883935E009E843C /* ADSearchBoatsView.xib */; };
+		A8D4C551188394B1009E843C /* ADSearchBicyclesView.m in Sources */ = {isa = PBXBuildFile; fileRef = A8D4C550188394B1009E843C /* ADSearchBicyclesView.m */; };
+		A8D4C55318839517009E843C /* ADSearchBicyclesView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8D4C55218839517009E843C /* ADSearchBicyclesView.xib */; };
+		A8D4C55718839868009E843C /* ADSearchConstructionMachineryView.m in Sources */ = {isa = PBXBuildFile; fileRef = A8D4C55618839868009E843C /* ADSearchConstructionMachineryView.m */; };
+		A8D4C559188398B6009E843C /* ADSearchConstructionMachineryView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8D4C558188398B6009E843C /* ADSearchConstructionMachineryView.xib */; };
+		A8D542C818A492DB00C1EE22 /* ADMobileDetailView.m in Sources */ = {isa = PBXBuildFile; fileRef = A8D542C618A492DB00C1EE22 /* ADMobileDetailView.m */; };
+		A8D542C918A492DB00C1EE22 /* ADMobileDetailView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8D542C718A492DB00C1EE22 /* ADMobileDetailView.xib */; };
+		A8D56D7E1880EEF600DD6F5D /* checkbox_checked.png in Resources */ = {isa = PBXBuildFile; fileRef = A8D56D7C1880EEF600DD6F5D /* checkbox_checked.png */; };
+		A8D56D7F1880EEF600DD6F5D /* checkbox_empty.png in Resources */ = {isa = PBXBuildFile; fileRef = A8D56D7D1880EEF600DD6F5D /* checkbox_empty.png */; };
+		A8D75466188CCF0800BF1792 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = A8D75465188CCF0800BF1792 /* MBProgressHUD.m */; };
+		A8DCD9591891537D0043DA7C /* ADAddTruckView.m in Sources */ = {isa = PBXBuildFile; fileRef = A8DCD9581891537D0043DA7C /* ADAddTruckView.m */; };
+		A8DCD95B189153960043DA7C /* ADAddTruckView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8DCD95A189153960043DA7C /* ADAddTruckView.xib */; };
+		A8E082FE18784854001BC3E9 /* ADSearchMotorcyclesView.m in Sources */ = {isa = PBXBuildFile; fileRef = A8E082FD18784854001BC3E9 /* ADSearchMotorcyclesView.m */; };
+		A8E083001878486F001BC3E9 /* ADSearchMotorcyclesView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8E082FF1878486F001BC3E9 /* ADSearchMotorcyclesView.xib */; };
+		A8E083051878537F001BC3E9 /* ADSearchCarsView.m in Sources */ = {isa = PBXBuildFile; fileRef = A8E083031878537F001BC3E9 /* ADSearchCarsView.m */; };
+		A8E083061878537F001BC3E9 /* ADSearchCarsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8E083041878537F001BC3E9 /* ADSearchCarsView.xib */; };
+		A8E0830A18785637001BC3E9 /* text_back_110.png in Resources */ = {isa = PBXBuildFile; fileRef = A8E0830718785637001BC3E9 /* text_back_110.png */; };
+		A8E0830B18785637001BC3E9 /* text_back_200.png in Resources */ = {isa = PBXBuildFile; fileRef = A8E0830818785637001BC3E9 /* text_back_200.png */; };
+		A8E0830C18785637001BC3E9 /* text_back_300.png in Resources */ = {isa = PBXBuildFile; fileRef = A8E0830918785637001BC3E9 /* text_back_300.png */; };
+		A8E08310187876A4001BC3E9 /* PopupListView.m in Sources */ = {isa = PBXBuildFile; fileRef = A8E0830F187876A4001BC3E9 /* PopupListView.m */; };
+		A8E0831A18788814001BC3E9 /* popup_list_off.png in Resources */ = {isa = PBXBuildFile; fileRef = A8E0831818788814001BC3E9 /* popup_list_off.png */; };
+		A8E0831B18788814001BC3E9 /* popup_list_over.png in Resources */ = {isa = PBXBuildFile; fileRef = A8E0831918788814001BC3E9 /* popup_list_over.png */; };
+		A8E25F44189912040096F7B2 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8E25F43189912040096F7B2 /* Social.framework */; };
+		A8E25F46189914930096F7B2 /* database.db in Resources */ = {isa = PBXBuildFile; fileRef = A8E25F45189914930096F7B2 /* database.db */; };
+		A8E25F49189940D70096F7B2 /* ADDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = A8E25F48189940D70096F7B2 /* ADDatabase.m */; };
+		A8E25F4F1899527C0096F7B2 /* oglas_prijavljen_oglas.png in Resources */ = {isa = PBXBuildFile; fileRef = A8E25F4E1899527C0096F7B2 /* oglas_prijavljen_oglas.png */; };
+		A8E25F511899878F0096F7B2 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A8E25F501899878F0096F7B2 /* libsqlite3.dylib */; };
+		A8E2698718A5046D005CCEA8 /* ADVanDetailView.m in Sources */ = {isa = PBXBuildFile; fileRef = A8E2698518A5046D005CCEA8 /* ADVanDetailView.m */; };
+		A8E2698818A5046D005CCEA8 /* ADVanDetailView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8E2698618A5046D005CCEA8 /* ADVanDetailView.xib */; };
+		A8E2698D18A508B1005CCEA8 /* ADBusDetailView.m in Sources */ = {isa = PBXBuildFile; fileRef = A8E2698B18A508B1005CCEA8 /* ADBusDetailView.m */; };
+		A8E2698E18A508B1005CCEA8 /* ADBusDetailView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8E2698C18A508B1005CCEA8 /* ADBusDetailView.xib */; };
+		A8E2699318A50CE9005CCEA8 /* ADAutoPartDetailView.m in Sources */ = {isa = PBXBuildFile; fileRef = A8E2699118A50CE9005CCEA8 /* ADAutoPartDetailView.m */; };
+		A8E2699418A50CE9005CCEA8 /* ADAutoPartDetailView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8E2699218A50CE9005CCEA8 /* ADAutoPartDetailView.xib */; };
+		A8E2699A18A51085005CCEA8 /* ADBicycleDetailView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8E2699818A51085005CCEA8 /* ADBicycleDetailView.xib */; };
+		A8E2699D18A51947005CCEA8 /* ADBicycleDetailView.m in Sources */ = {isa = PBXBuildFile; fileRef = A8E2699C18A51947005CCEA8 /* ADBicycleDetailView.m */; };
+		A8E269A318A51DAF005CCEA8 /* ADConstMachineDetailView.m in Sources */ = {isa = PBXBuildFile; fileRef = A8E269A118A51DAF005CCEA8 /* ADConstMachineDetailView.m */; };
+		A8E269A418A51DAF005CCEA8 /* ADConstMachineDetailView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8E269A218A51DAF005CCEA8 /* ADConstMachineDetailView.xib */; };
+		A8E269A918A521E7005CCEA8 /* detail_back5.png in Resources */ = {isa = PBXBuildFile; fileRef = A8E269A518A521E7005CCEA8 /* detail_back5.png */; };
+		A8E269AA18A521E7005CCEA8 /* detail_back7.png in Resources */ = {isa = PBXBuildFile; fileRef = A8E269A618A521E7005CCEA8 /* detail_back7.png */; };
+		A8E269AB18A521E7005CCEA8 /* detail_back13.png in Resources */ = {isa = PBXBuildFile; fileRef = A8E269A718A521E7005CCEA8 /* detail_back13.png */; };
+		A8E269AC18A521E7005CCEA8 /* detail_back14.png in Resources */ = {isa = PBXBuildFile; fileRef = A8E269A818A521E7005CCEA8 /* detail_back14.png */; };
+		A8F7A4B71875869600B6B557 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8F7A4B61875869600B6B557 /* Foundation.framework */; };
+		A8F7A4B91875869600B6B557 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8F7A4B81875869600B6B557 /* CoreGraphics.framework */; };
+		A8F7A4BB1875869600B6B557 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8F7A4BA1875869600B6B557 /* UIKit.framework */; };
+		A8F7A4C11875869600B6B557 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A8F7A4BF1875869600B6B557 /* InfoPlist.strings */; };
+		A8F7A4C31875869600B6B557 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A8F7A4C21875869600B6B557 /* main.m */; };
+		A8F7A4C71875869600B6B557 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A8F7A4C61875869600B6B557 /* AppDelegate.m */; };
+		A8F7A4C91875869600B6B557 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8F7A4C81875869600B6B557 /* Images.xcassets */; };
+		A8F7A4D01875869700B6B557 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8F7A4CF1875869700B6B557 /* XCTest.framework */; };
+		A8F7A4D11875869700B6B557 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8F7A4B61875869600B6B557 /* Foundation.framework */; };
+		A8F7A4D21875869700B6B557 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8F7A4BA1875869600B6B557 /* UIKit.framework */; };
+		A8F7A4DA1875869700B6B557 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A8F7A4D81875869700B6B557 /* InfoPlist.strings */; };
+		A8F7A4DC1875869700B6B557 /* AutoDilerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A8F7A4DB1875869700B6B557 /* AutoDilerTests.m */; };
+		A8F7A4EB1875887200B6B557 /* ADModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A8F7A4EA1875887200B6B557 /* ADModel.m */; };
+		A8F7A4EE187588B000B6B557 /* ADConst.m in Sources */ = {isa = PBXBuildFile; fileRef = A8F7A4ED187588B000B6B557 /* ADConst.m */; };
+		A8F7A4F11875895700B6B557 /* ADView.m in Sources */ = {isa = PBXBuildFile; fileRef = A8F7A4F01875895700B6B557 /* ADView.m */; };
+		A8F7A4F918759DF000B6B557 /* ADMainPageVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A8F7A4F718759DF000B6B557 /* ADMainPageVC.m */; };
+		A8F7A4FA18759DF000B6B557 /* ADMainPageVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8F7A4F818759DF000B6B557 /* ADMainPageVC.xib */; };
+		A8F7A5061875BBC900B6B557 /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = A8F7A4FE1875BBC900B6B557 /* Icon-72.png */; };
+		A8F7A5071875BBC900B6B557 /* Icon-72@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A8F7A4FF1875BBC900B6B557 /* Icon-72@2x.png */; };
+		A8F7A5081875BBC900B6B557 /* Icon-Small-50.png in Resources */ = {isa = PBXBuildFile; fileRef = A8F7A5001875BBC900B6B557 /* Icon-Small-50.png */; };
+		A8F7A5091875BBC900B6B557 /* Icon-Small-50@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A8F7A5011875BBC900B6B557 /* Icon-Small-50@2x.png */; };
+		A8F7A50A1875BBC900B6B557 /* Icon-Small.png in Resources */ = {isa = PBXBuildFile; fileRef = A8F7A5021875BBC900B6B557 /* Icon-Small.png */; };
+		A8F7A50B1875BBC900B6B557 /* Icon-Small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A8F7A5031875BBC900B6B557 /* Icon-Small@2x.png */; };
+		A8F7A50C1875BBC900B6B557 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = A8F7A5041875BBC900B6B557 /* Icon.png */; };
+		A8F7A50D1875BBC900B6B557 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A8F7A5051875BBC900B6B557 /* Icon@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A8F7A4D31875869700B6B557 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A8F7A4AB1875869600B6B557 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A8F7A4B21875869600B6B557;
+			remoteInfo = AutoDiler;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A80260C7187F279E0026F2F9 /* ASIAuthenticationDialog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIAuthenticationDialog.h; sourceTree = "<group>"; };
+		A80260C8187F279E0026F2F9 /* ASIAuthenticationDialog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIAuthenticationDialog.m; sourceTree = "<group>"; };
+		A80260C9187F279E0026F2F9 /* ASICacheDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASICacheDelegate.h; sourceTree = "<group>"; };
+		A80260CA187F279E0026F2F9 /* ASIDataCompressor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIDataCompressor.h; sourceTree = "<group>"; };
+		A80260CB187F279E0026F2F9 /* ASIDataCompressor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIDataCompressor.m; sourceTree = "<group>"; };
+		A80260CC187F279E0026F2F9 /* ASIDataDecompressor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIDataDecompressor.h; sourceTree = "<group>"; };
+		A80260CD187F279E0026F2F9 /* ASIDataDecompressor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIDataDecompressor.m; sourceTree = "<group>"; };
+		A80260CE187F279E0026F2F9 /* ASIDownloadCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIDownloadCache.h; sourceTree = "<group>"; };
+		A80260CF187F279E0026F2F9 /* ASIDownloadCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIDownloadCache.m; sourceTree = "<group>"; };
+		A80260D0187F279E0026F2F9 /* ASIFormDataRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIFormDataRequest.h; sourceTree = "<group>"; };
+		A80260D1187F279E0026F2F9 /* ASIFormDataRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIFormDataRequest.m; sourceTree = "<group>"; };
+		A80260D2187F279E0026F2F9 /* ASIHTTPRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIHTTPRequest.h; sourceTree = "<group>"; };
+		A80260D3187F279E0026F2F9 /* ASIHTTPRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIHTTPRequest.m; sourceTree = "<group>"; };
+		A80260D4187F279E0026F2F9 /* ASIHTTPRequestConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIHTTPRequestConfig.h; sourceTree = "<group>"; };
+		A80260D5187F279E0026F2F9 /* ASIHTTPRequestDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIHTTPRequestDelegate.h; sourceTree = "<group>"; };
+		A80260D6187F279E0026F2F9 /* ASIInputStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIInputStream.h; sourceTree = "<group>"; };
+		A80260D7187F279E0026F2F9 /* ASIInputStream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIInputStream.m; sourceTree = "<group>"; };
+		A80260D8187F279E0026F2F9 /* ASINetworkQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASINetworkQueue.h; sourceTree = "<group>"; };
+		A80260D9187F279E0026F2F9 /* ASINetworkQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASINetworkQueue.m; sourceTree = "<group>"; };
+		A80260DA187F279E0026F2F9 /* ASIProgressDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIProgressDelegate.h; sourceTree = "<group>"; };
+		A80260DC187F279E0026F2F9 /* ASIWebPageRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIWebPageRequest.h; sourceTree = "<group>"; };
+		A80260DD187F279E0026F2F9 /* ASIWebPageRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIWebPageRequest.m; sourceTree = "<group>"; };
+		A80260DF187F279E0026F2F9 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		A80260E0187F279E0026F2F9 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		A80260EB187F27BF0026F2F9 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		A80260ED187F28080026F2F9 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		A80260EF187F281A0026F2F9 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		A80260F1187F283C0026F2F9 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		A80888E41877C41900A37286 /* combobox_back_200.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = combobox_back_200.png; path = AutoDiler/Resources/images/combobox_back_200.png; sourceTree = "<group>"; };
+		A80888E81877C89A00A37286 /* combobox_back_110.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = combobox_back_110.png; path = AutoDiler/Resources/images/combobox_back_110.png; sourceTree = "<group>"; };
+		A80888EA1877CA3100A37286 /* combobox_back_300.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = combobox_back_300.png; path = AutoDiler/Resources/images/combobox_back_300.png; sourceTree = "<group>"; };
+		A812FBF918AEB86C00B489DE /* detail_back2_body.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = detail_back2_body.png; path = AutoDiler/Resources/images/detail_back2_body.png; sourceTree = "<group>"; };
+		A812FBFA18AEB86C00B489DE /* detail_back2_header.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = detail_back2_header.png; path = AutoDiler/Resources/images/detail_back2_header.png; sourceTree = "<group>"; };
+		A83CC23318A41A290097A5B3 /* splash_768_1024.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = splash_768_1024.png; path = AutoDiler/Resources/images/splash_768_1024.png; sourceTree = "<group>"; };
+		A83CC23418A41A290097A5B3 /* splash_1536_2048.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = splash_1536_2048.png; path = AutoDiler/Resources/images/splash_1536_2048.png; sourceTree = "<group>"; };
+		A87B2AB4187F29600055BB07 /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
+		A87EE38D187E0DD700A4EB01 /* sms_oglasi__kalendar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = sms_oglasi__kalendar.png; path = AutoDiler/Resources/images/sms_oglasi__kalendar.png; sourceTree = "<group>"; };
+		A87EE38E187E0DD700A4EB01 /* sms_oglasi__telefon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = sms_oglasi__telefon.png; path = AutoDiler/Resources/images/sms_oglasi__telefon.png; sourceTree = "<group>"; };
+		A87EE38F187E0DD700A4EB01 /* sms_oglasi_auto_djelovi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = sms_oglasi_auto_djelovi.png; path = AutoDiler/Resources/images/sms_oglasi_auto_djelovi.png; sourceTree = "<group>"; };
+		A87EE390187E0DD800A4EB01 /* sms_oglasi_autobusi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = sms_oglasi_autobusi.png; path = AutoDiler/Resources/images/sms_oglasi_autobusi.png; sourceTree = "<group>"; };
+		A87EE391187E0DD800A4EB01 /* sms_oglasi_automobili.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = sms_oglasi_automobili.png; path = AutoDiler/Resources/images/sms_oglasi_automobili.png; sourceTree = "<group>"; };
+		A87EE392187E0DD800A4EB01 /* sms_oglasi_bicikla.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = sms_oglasi_bicikla.png; path = AutoDiler/Resources/images/sms_oglasi_bicikla.png; sourceTree = "<group>"; };
+		A87EE393187E0DD800A4EB01 /* sms_oglasi_gradjevinske_masine.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = sms_oglasi_gradjevinske_masine.png; path = AutoDiler/Resources/images/sms_oglasi_gradjevinske_masine.png; sourceTree = "<group>"; };
+		A87EE394187E0DD800A4EB01 /* sms_oglasi_kamioni.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = sms_oglasi_kamioni.png; path = AutoDiler/Resources/images/sms_oglasi_kamioni.png; sourceTree = "<group>"; };
+		A87EE395187E0DD800A4EB01 /* sms_oglasi_kombi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = sms_oglasi_kombi.png; path = AutoDiler/Resources/images/sms_oglasi_kombi.png; sourceTree = "<group>"; };
+		A87EE396187E0DD800A4EB01 /* sms_oglasi_motori.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = sms_oglasi_motori.png; path = AutoDiler/Resources/images/sms_oglasi_motori.png; sourceTree = "<group>"; };
+		A87EE397187E0DD800A4EB01 /* sms_oglasi_plovila.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = sms_oglasi_plovila.png; path = AutoDiler/Resources/images/sms_oglasi_plovila.png; sourceTree = "<group>"; };
+		A87EE3A4187E14FF00A4EB01 /* ADNewsPageVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ADNewsPageVC.h; path = AutoDiler/Classes/NewsPage/ADNewsPageVC.h; sourceTree = "<group>"; };
+		A87EE3A5187E14FF00A4EB01 /* ADNewsPageVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ADNewsPageVC.m; path = AutoDiler/Classes/NewsPage/ADNewsPageVC.m; sourceTree = "<group>"; };
+		A87EE3A6187E14FF00A4EB01 /* ADNewsPageVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ADNewsPageVC.xib; path = AutoDiler/Classes/NewsPage/ADNewsPageVC.xib; sourceTree = "<group>"; };
+		A87EE3A9187E181700A4EB01 /* ADNewsCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ADNewsCell.h; path = AutoDiler/Classes/CustomTableCells/ADNewsCell.h; sourceTree = "<group>"; };
+		A87EE3AA187E181700A4EB01 /* ADNewsCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ADNewsCell.m; path = AutoDiler/Classes/CustomTableCells/ADNewsCell.m; sourceTree = "<group>"; };
+		A87EE3AC187E182D00A4EB01 /* ADNewsCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ADNewsCell.xib; path = AutoDiler/Classes/CustomTableCells/ADNewsCell.xib; sourceTree = "<group>"; };
+		A87EE3AF187E248A00A4EB01 /* ADNewsDetailPageVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ADNewsDetailPageVC.h; path = AutoDiler/Classes/NewsDetailPage/ADNewsDetailPageVC.h; sourceTree = "<group>"; };
+		A87EE3B0187E248A00A4EB01 /* ADNewsDetailPageVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ADNewsDetailPageVC.m; path = AutoDiler/Classes/NewsDetailPage/ADNewsDetailPageVC.m; sourceTree = "<group>"; };
+		A87EE3B1187E248A00A4EB01 /* ADNewsDetailPageVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ADNewsDetailPageVC.xib; path = AutoDiler/Classes/NewsDetailPage/ADNewsDetailPageVC.xib; sourceTree = "<group>"; };
+		A897C5C01892A51F0016ED53 /* ADAddBoatView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ADAddBoatView.xib; path = AutoDiler/Classes/AddAdPage/AddBoatView/ADAddBoatView.xib; sourceTree = "<group>"; };
+		A897C5C21892A5380016ED53 /* ADAddBicycleView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ADAddBicycleView.xib; path = AutoDiler/Classes/AddAdPage/AddBicycleView/ADAddBicycleView.xib; sourceTree = "<group>"; };
+		A897C5C41892A54C0016ED53 /* ADAddConstMachineView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ADAddConstMachineView.xib; path = AutoDiler/Classes/AddAdPage/AddConstMachineView/ADAddConstMachineView.xib; sourceTree = "<group>"; };
+		A897C5C61892A5640016ED53 /* ADAddBoatView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ADAddBoatView.h; path = AutoDiler/Classes/AddAdPage/AddBoatView/ADAddBoatView.h; sourceTree = "<group>"; };
+		A897C5C71892A5640016ED53 /* ADAddBoatView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ADAddBoatView.m; path = AutoDiler/Classes/AddAdPage/AddBoatView/ADAddBoatView.m; sourceTree = "<group>"; };
+		A897C5C91892A5810016ED53 /* ADAddBicycleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ADAddBicycleView.h; path = AutoDiler/Classes/AddAdPage/AddBicycleView/ADAddBicycleView.h; sourceTree = "<group>"; };
+		A897C5CA1892A5810016ED53 /* ADAddBicycleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ADAddBicycleView.m; path = AutoDiler/Classes/AddAdPage/AddBicycleView/ADAddBicycleView.m; sourceTree = "<group>"; };
+		A897C5CC1892A5980016ED53 /* ADAddConstMachineView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ADAddConstMachineView.h; path = AutoDiler/Classes/AddAdPage/AddConstMachineView/ADAddConstMachineView.h; sourceTree = "<group>"; };
+		A897C5CD1892A5980016ED53 /* ADAddConstMachineView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ADAddConstMachineView.m; path = AutoDiler/Classes/AddAdPage/AddConstMachineView/ADAddConstMachineView.m; sourceTree = "<group>"; };
+		A89AE7E71875D6A5002AB7E7 /* 01.main_menu_pretraga_off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 01.main_menu_pretraga_off.png; path = AutoDiler/Resources/images/01.main_menu_pretraga_off.png; sourceTree = "<group>"; };
+		A89AE7E81875D6A5002AB7E7 /* 01.main_menu_pretraga_over.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 01.main_menu_pretraga_over.png; path = AutoDiler/Resources/images/01.main_menu_pretraga_over.png; sourceTree = "<group>"; };
+		A89AE7E91875D6A5002AB7E7 /* 02.main_menu_dodaj_oglas_off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 02.main_menu_dodaj_oglas_off.png; path = AutoDiler/Resources/images/02.main_menu_dodaj_oglas_off.png; sourceTree = "<group>"; };
+		A89AE7EA1875D6A5002AB7E7 /* 02.main_menu_dodaj_oglas_over.png.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 02.main_menu_dodaj_oglas_over.png.png; path = AutoDiler/Resources/images/02.main_menu_dodaj_oglas_over.png.png; sourceTree = "<group>"; };
+		A89AE7EB1875D6A5002AB7E7 /* 03.main_menu_svi_oglasi_off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 03.main_menu_svi_oglasi_off.png; path = AutoDiler/Resources/images/03.main_menu_svi_oglasi_off.png; sourceTree = "<group>"; };
+		A89AE7EC1875D6A5002AB7E7 /* 03.main_menu_svi_oglasi_over.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 03.main_menu_svi_oglasi_over.png; path = AutoDiler/Resources/images/03.main_menu_svi_oglasi_over.png; sourceTree = "<group>"; };
+		A89AE7ED1875D6A5002AB7E7 /* 04.main_menu_automobili_off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 04.main_menu_automobili_off.png; path = AutoDiler/Resources/images/04.main_menu_automobili_off.png; sourceTree = "<group>"; };
+		A89AE7EE1875D6A5002AB7E7 /* 04.main_menu_automobili_over.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 04.main_menu_automobili_over.png; path = AutoDiler/Resources/images/04.main_menu_automobili_over.png; sourceTree = "<group>"; };
+		A89AE7EF1875D6A5002AB7E7 /* 05.main_menu_motori_off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 05.main_menu_motori_off.png; path = AutoDiler/Resources/images/05.main_menu_motori_off.png; sourceTree = "<group>"; };
+		A89AE7F01875D6A5002AB7E7 /* 05.main_menu_motori_over.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 05.main_menu_motori_over.png; path = AutoDiler/Resources/images/05.main_menu_motori_over.png; sourceTree = "<group>"; };
+		A89AE7F11875D6A5002AB7E7 /* 06.main_menu_kamioni_off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 06.main_menu_kamioni_off.png; path = AutoDiler/Resources/images/06.main_menu_kamioni_off.png; sourceTree = "<group>"; };
+		A89AE7F21875D6A5002AB7E7 /* 06.main_menu_kamioni_over.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 06.main_menu_kamioni_over.png; path = AutoDiler/Resources/images/06.main_menu_kamioni_over.png; sourceTree = "<group>"; };
+		A89AE7F31875D6A5002AB7E7 /* 07.main_menu_kombi_off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 07.main_menu_kombi_off.png; path = AutoDiler/Resources/images/07.main_menu_kombi_off.png; sourceTree = "<group>"; };
+		A89AE7F41875D6A5002AB7E7 /* 07.main_menu_kombi_over.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 07.main_menu_kombi_over.png; path = AutoDiler/Resources/images/07.main_menu_kombi_over.png; sourceTree = "<group>"; };
+		A89AE7F51875D6A5002AB7E7 /* 08.main_menu_autobus_off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 08.main_menu_autobus_off.png; path = AutoDiler/Resources/images/08.main_menu_autobus_off.png; sourceTree = "<group>"; };
+		A89AE7F61875D6A5002AB7E7 /* 08.main_menu_autobus_over.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 08.main_menu_autobus_over.png; path = AutoDiler/Resources/images/08.main_menu_autobus_over.png; sourceTree = "<group>"; };
+		A89AE7F71875D6A5002AB7E7 /* 09.main_menu_auto_djelovi_off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 09.main_menu_auto_djelovi_off.png; path = AutoDiler/Resources/images/09.main_menu_auto_djelovi_off.png; sourceTree = "<group>"; };
+		A89AE7F81875D6A5002AB7E7 /* 09.main_menu_auto_djelovi_over.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 09.main_menu_auto_djelovi_over.png; path = AutoDiler/Resources/images/09.main_menu_auto_djelovi_over.png; sourceTree = "<group>"; };
+		A89AE7F91875D6A5002AB7E7 /* 10.main_menu_auto_plovila_off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 10.main_menu_auto_plovila_off.png; path = AutoDiler/Resources/images/10.main_menu_auto_plovila_off.png; sourceTree = "<group>"; };
+		A89AE7FA1875D6A5002AB7E7 /* 10.main_menu_auto_plovila_over.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 10.main_menu_auto_plovila_over.png; path = AutoDiler/Resources/images/10.main_menu_auto_plovila_over.png; sourceTree = "<group>"; };
+		A89AE7FB1875D6A5002AB7E7 /* 11.main_menu_auto_bicikla_offr.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 11.main_menu_auto_bicikla_offr.png; path = AutoDiler/Resources/images/11.main_menu_auto_bicikla_offr.png; sourceTree = "<group>"; };
+		A89AE7FC1875D6A5002AB7E7 /* 11.main_menu_auto_bicikla_over.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 11.main_menu_auto_bicikla_over.png; path = AutoDiler/Resources/images/11.main_menu_auto_bicikla_over.png; sourceTree = "<group>"; };
+		A89AE7FD1875D6A5002AB7E7 /* 12.main_menu_gradjevinske_masine_off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 12.main_menu_gradjevinske_masine_off.png; path = AutoDiler/Resources/images/12.main_menu_gradjevinske_masine_off.png; sourceTree = "<group>"; };
+		A89AE7FE1875D6A5002AB7E7 /* 12.main_menu_gradjevinske_masine_over.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 12.main_menu_gradjevinske_masine_over.png; path = AutoDiler/Resources/images/12.main_menu_gradjevinske_masine_over.png; sourceTree = "<group>"; };
+		A89AE7FF1875D6A5002AB7E7 /* 13.main_menu_auto_plac_off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 13.main_menu_auto_plac_off.png; path = AutoDiler/Resources/images/13.main_menu_auto_plac_off.png; sourceTree = "<group>"; };
+		A89AE8001875D6A5002AB7E7 /* 13.main_menu_auto_plac_over.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 13.main_menu_auto_plac_over.png; path = AutoDiler/Resources/images/13.main_menu_auto_plac_over.png; sourceTree = "<group>"; };
+		A89AE8011875D6A5002AB7E7 /* 14.main_menu_adresar_off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 14.main_menu_adresar_off.png; path = AutoDiler/Resources/images/14.main_menu_adresar_off.png; sourceTree = "<group>"; };
+		A89AE8021875D6A5002AB7E7 /* 14.main_menu_adresar_over.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 14.main_menu_adresar_over.png; path = AutoDiler/Resources/images/14.main_menu_adresar_over.png; sourceTree = "<group>"; };
+		A89AE8031875D6A5002AB7E7 /* 15.main_menu_sms_off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 15.main_menu_sms_off.png; path = AutoDiler/Resources/images/15.main_menu_sms_off.png; sourceTree = "<group>"; };
+		A89AE8041875D6A5002AB7E7 /* 15.main_menu_sms_over.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 15.main_menu_sms_over.png; path = AutoDiler/Resources/images/15.main_menu_sms_over.png; sourceTree = "<group>"; };
+		A89AE8051875D6A5002AB7E7 /* 16.main_menu_news_off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 16.main_menu_news_off.png; path = AutoDiler/Resources/images/16.main_menu_news_off.png; sourceTree = "<group>"; };
+		A89AE8061875D6A5002AB7E7 /* 16.main_menu_news_over.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 16.main_menu_news_over.png; path = AutoDiler/Resources/images/16.main_menu_news_over.png; sourceTree = "<group>"; };
+		A89AE8071875D6A5002AB7E7 /* 17.main_menu_omiljeni_oglasi_off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 17.main_menu_omiljeni_oglasi_off.png; path = AutoDiler/Resources/images/17.main_menu_omiljeni_oglasi_off.png; sourceTree = "<group>"; };
+		A89AE8081875D6A5002AB7E7 /* 17.main_menu_omiljeni_oglasi_over.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 17.main_menu_omiljeni_oglasi_over.png; path = AutoDiler/Resources/images/17.main_menu_omiljeni_oglasi_over.png; sourceTree = "<group>"; };
+		A8A2DD2B1879D8DA00D3EA0A /* ADCell1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ADCell1.h; path = AutoDiler/Classes/CustomTableCells/ADCell1.h; sourceTree = "<group>"; };
+		A8A2DD2C1879D8DA00D3EA0A /* ADCell1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ADCell1.m; path = AutoDiler/Classes/CustomTableCells/ADCell1.m; sourceTree = "<group>"; };
+		A8A2DD2D1879D8DA00D3EA0A /* ADCell1.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ADCell1.xib; path = AutoDiler/Classes/CustomTableCells/ADCell1.xib; sourceTree = "<group>"; };
+		A8A2DD36187A059D00D3EA0A /* oglas_dodaj_u_omiljene_off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = oglas_dodaj_u_omiljene_off.png; path = AutoDiler/Resources/images/oglas_dodaj_u_omiljene_off.png; sourceTree = "<group>"; };
+		A8A2DD37187A059D00D3EA0A /* oglas_dodaj_u_omiljene_over.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = oglas_dodaj_u_omiljene_over.png; path = AutoDiler/Resources/images/oglas_dodaj_u_omiljene_over.png; sourceTree = "<group>"; };
+		A8A2DD38187A059D00D3EA0A /* oglas_pozovi_prodavca_off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = oglas_pozovi_prodavca_off.png; path = AutoDiler/Resources/images/oglas_pozovi_prodavca_off.png; sourceTree = "<group>"; };
+		A8A2DD39187A059D00D3EA0A /* oglas_pozovi_prodavca_over.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = oglas_pozovi_prodavca_over.png; path = AutoDiler/Resources/images/oglas_pozovi_prodavca_over.png; sourceTree = "<group>"; };
+		A8A2DD3A187A059D00D3EA0A /* oglas_prijavi_oglas_off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = oglas_prijavi_oglas_off.png; path = AutoDiler/Resources/images/oglas_prijavi_oglas_off.png; sourceTree = "<group>"; };
+		A8A2DD3B187A059D00D3EA0A /* oglas_prijavi_oglas_over.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = oglas_prijavi_oglas_over.png; path = AutoDiler/Resources/images/oglas_prijavi_oglas_over.png; sourceTree = "<group>"; };
+		A8AA3C6C18984522005A0230 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		A8C482DA1875C12000D663B4 /* splash_320_480.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = splash_320_480.png; path = AutoDiler/Resources/images/splash_320_480.png; sourceTree = "<group>"; };
+		A8C482DB1875C12000D663B4 /* splash_640_960.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = splash_640_960.png; path = AutoDiler/Resources/images/splash_640_960.png; sourceTree = "<group>"; };
+		A8C482DC1875C12000D663B4 /* splash_640_1136.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = splash_640_1136.png; path = AutoDiler/Resources/images/splash_640_1136.png; sourceTree = "<group>"; };
+		A8C482E01875C8D600D663B4 /* logo_background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo_background.png; path = AutoDiler/Resources/images/logo_background.png; sourceTree = "<group>"; };
+		A8C482E11875C8D600D663B4 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo.png; path = AutoDiler/Resources/images/logo.png; sourceTree = "<group>"; };
+		A8C55D4218A3D99300F73AEA /* popup_back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = popup_back.png; path = AutoDiler/Resources/images/popup_back.png; sourceTree = "<group>"; };
+		A8C572E018A6BECB005EE538 /* detail_back9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = detail_back9.png; path = AutoDiler/Resources/images/detail_back9.png; sourceTree = "<group>"; };
+		A8C572E318A6C343005EE538 /* ADBoatDetailView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ADBoatDetailView.h; path = AutoDiler/Classes/DetailInfoPage/ADBoatDetailView/ADBoatDetailView.h; sourceTree = "<group>"; };
+		A8C572E418A6C343005EE538 /* ADBoatDetailView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ADBoatDetailView.m; path = AutoDiler/Classes/DetailInfoPage/ADBoatDetailView/ADBoatDetailView.m; sourceTree = "<group>"; };
+		A8C572E518A6C343005EE538 /* ADBoatDetailView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ADBoatDetailView.xib; path = AutoDiler/Classes/DetailInfoPage/ADBoatDetailView/ADBoatDetailView.xib; sourceTree = "<group>"; };
+		A8C593A91876B7A9003335F1 /* galerija_slika_desno_off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = galerija_slika_desno_off.png; path = AutoDiler/Resources/images/galerija_slika_desno_off.png; sourceTree = "<group>"; };
+		A8C593AA1876B7A9003335F1 /* galerija_slika_desno_over.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = galerija_slika_desno_over.png; path = AutoDiler/Resources/images/galerija_slika_desno_over.png; sourceTree = "<group>"; };
+		A8C593AB1876B7A9003335F1 /* galerija_slika_lijevo_off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = galerija_slika_lijevo_off.png; path = AutoDiler/Resources/images/galerija_slika_lijevo_off.png; sourceTree = "<group>"; };
+		A8C593AC1876B7A9003335F1 /* galerija_slika_lijevo_over.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = galerija_slika_lijevo_over.png; path = AutoDiler/Resources/images/galerija_slika_lijevo_over.png; sourceTree = "<group>"; };
+		A8C593AD1876B7A9003335F1 /* indikator_stranice_off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = indikator_stranice_off.png; path = AutoDiler/Resources/images/indikator_stranice_off.png; sourceTree = "<group>"; };
+		A8C593AE1876B7A9003335F1 /* indikator_stranice_on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = indikator_stranice_on.png; path = AutoDiler/Resources/images/indikator_stranice_on.png; sourceTree = "<group>"; };
+		A8C593AF1876B7A9003335F1 /* navigacija_desno_off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = navigacija_desno_off.png; path = AutoDiler/Resources/images/navigacija_desno_off.png; sourceTree = "<group>"; };
+		A8C593B01876B7A9003335F1 /* navigacija_desno_over.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = navigacija_desno_over.png; path = AutoDiler/Resources/images/navigacija_desno_over.png; sourceTree = "<group>"; };
+		A8C593B11876B7A9003335F1 /* navigacija_lijevo_off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = navigacija_lijevo_off.png; path = AutoDiler/Resources/images/navigacija_lijevo_off.png; sourceTree = "<group>"; };
+		A8C593B21876B7A9003335F1 /* navigacija_lijevo_over.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = navigacija_lijevo_over.png; path = AutoDiler/Resources/images/navigacija_lijevo_over.png; sourceTree = "<group>"; };
+		A8C593BD1876B83E003335F1 /* placen_oglas.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = placen_oglas.png; path = AutoDiler/Resources/images/placen_oglas.png; sourceTree = "<group>"; };
+		A8C593BF1876CC52003335F1 /* pocetni_ekran_sat_najnoviji_oglasi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pocetni_ekran_sat_najnoviji_oglasi.png; path = AutoDiler/Resources/images/pocetni_ekran_sat_najnoviji_oglasi.png; sourceTree = "<group>"; };
+		A8C593C418771E28003335F1 /* SMPageControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SMPageControl.h; path = AutoDiler/Classes/MainPage/SMPageControl/SMPageControl.h; sourceTree = "<group>"; };
+		A8C593C518771E28003335F1 /* SMPageControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SMPageControl.m; path = AutoDiler/Classes/MainPage/SMPageControl/SMPageControl.m; sourceTree = "<group>"; };
+		A8C593CD18772ABD003335F1 /* ADSearchPageVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ADSearchPageVC.h; path = AutoDiler/Classes/SearchPage/ADSearchPageVC.h; sourceTree = "<group>"; };
+		A8C593CE18772ABD003335F1 /* ADSearchPageVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ADSearchPageVC.m; path = AutoDiler/Classes/SearchPage/ADSearchPageVC.m; sourceTree = "<group>"; };
+		A8C593CF18772ABD003335F1 /* ADSearchPageVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ADSearchPageVC.xib; path = AutoDiler/Classes/SearchPage/ADSearchPageVC.xib; sourceTree = "<group>"; };
+		A8C593D218773B28003335F1 /* dugme_nazad_i_sortiraj_off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = dugme_nazad_i_sortiraj_off.png; path = AutoDiler/Resources/images/dugme_nazad_i_sortiraj_off.png; sourceTree = "<group>"; };
+		A8C593D318773B28003335F1 /* dugme_nazad_i_sortiraj_over.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = dugme_nazad_i_sortiraj_over.png; path = AutoDiler/Resources/images/dugme_nazad_i_sortiraj_over.png; sourceTree = "<group>"; };
+		A8C593DC187740E2003335F1 /* ADFooterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ADFooterView.h; path = AutoDiler/Classes/FooterView/ADFooterView.h; sourceTree = "<group>"; };
+		A8C593DD187740E2003335F1 /* ADFooterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ADFooterView.m; path = AutoDiler/Classes/FooterView/ADFooterView.m; sourceTree = "<group>"; };
+		A8C593DF187740FB003335F1 /* ADFooterView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ADFooterView.xib; path = AutoDiler/Classes/FooterView/ADFooterView.xib; sourceTree = "<group>"; };
+		A8C593E11877429F003335F1 /* bottom_menu_background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bottom_menu_background.png; path = AutoDiler/Resources/images/bottom_menu_background.png; sourceTree = "<group>"; };
+		A8C593E3187745CC003335F1 /* bottom_menu_01_pocetni_ekran_off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bottom_menu_01_pocetni_ekran_off.png; path = AutoDiler/Resources/images/bottom_menu_01_pocetni_ekran_off.png; sourceTree = "<group>"; };
+		A8C593E4187745CC003335F1 /* bottom_menu_01_pocetni_ekran_over.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bottom_menu_01_pocetni_ekran_over.png; path = AutoDiler/Resources/images/bottom_menu_01_pocetni_ekran_over.png; sourceTree = "<group>"; };
+		A8C593E5187745CC003335F1 /* bottom_menu_02_dodaj_oglas_off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bottom_menu_02_dodaj_oglas_off.png; path = AutoDiler/Resources/images/bottom_menu_02_dodaj_oglas_off.png; sourceTree = "<group>"; };
+		A8C593E6187745CC003335F1 /* bottom_menu_02_dodaj_oglas_over.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bottom_menu_02_dodaj_oglas_over.png; path = AutoDiler/Resources/images/bottom_menu_02_dodaj_oglas_over.png; sourceTree = "<group>"; };
+		A8C593E7187745CC003335F1 /* bottom_menu_03_novo_u_24h_off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bottom_menu_03_novo_u_24h_off.png; path = AutoDiler/Resources/images/bottom_menu_03_novo_u_24h_off.png; sourceTree = "<group>"; };
+		A8C593E8187745CC003335F1 /* bottom_menu_03_novo_u_24h_over.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bottom_menu_03_novo_u_24h_over.png; path = AutoDiler/Resources/images/bottom_menu_03_novo_u_24h_over.png; sourceTree = "<group>"; };
+		A8C593E9187745CD003335F1 /* bottom_menu_04_pala_cijenai_off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bottom_menu_04_pala_cijenai_off.png; path = AutoDiler/Resources/images/bottom_menu_04_pala_cijenai_off.png; sourceTree = "<group>"; };
+		A8C593EA187745CD003335F1 /* bottom_menu_04_pala_cijenai_over.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bottom_menu_04_pala_cijenai_over.png; path = AutoDiler/Resources/images/bottom_menu_04_pala_cijenai_over.png; sourceTree = "<group>"; };
+		A8C593EB187745CD003335F1 /* bottom_menu_05_omiljeni_oglasi_off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bottom_menu_05_omiljeni_oglasi_off.png; path = AutoDiler/Resources/images/bottom_menu_05_omiljeni_oglasi_off.png; sourceTree = "<group>"; };
+		A8C593EC187745CD003335F1 /* bottom_menu_05_omiljeni_oglasi_over.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bottom_menu_05_omiljeni_oglasi_over.png; path = AutoDiler/Resources/images/bottom_menu_05_omiljeni_oglasi_over.png; sourceTree = "<group>"; };
+		A8C593ED187745CD003335F1 /* bottom_menu_06_podijeli_off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bottom_menu_06_podijeli_off.png; path = AutoDiler/Resources/images/bottom_menu_06_podijeli_off.png; sourceTree = "<group>"; };
+		A8C593EE187745CD003335F1 /* bottom_menu_06_podijeli_over.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bottom_menu_06_podijeli_over.png; path = AutoDiler/Resources/images/bottom_menu_06_podijeli_over.png; sourceTree = "<group>"; };
+		A8C593FB18775B41003335F1 /* search_button_off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = search_button_off.png; path = AutoDiler/Resources/images/search_button_off.png; sourceTree = "<group>"; };
+		A8C593FC18775B41003335F1 /* search_button_over.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = search_button_over.png; path = AutoDiler/Resources/images/search_button_over.png; sourceTree = "<group>"; };
+		A8C593FF18775C77003335F1 /* pocetni_ekran_linija_najnoviji_oglasi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pocetni_ekran_linija_najnoviji_oglasi.png; path = AutoDiler/Resources/images/pocetni_ekran_linija_najnoviji_oglasi.png; sourceTree = "<group>"; };
+		A8C72A281897683300442E8F /* ADUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ADUtils.h; path = AutoDiler/Classes/Utils/ADUtils.h; sourceTree = "<group>"; };
+		A8C72A291897683300442E8F /* ADUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ADUtils.m; path = AutoDiler/Classes/Utils/ADUtils.m; sourceTree = "<group>"; };
+		A8C773D31884EC8E00551619 /* AsyncImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AsyncImageView.h; sourceTree = "<group>"; };
+		A8C773D41884EC8E00551619 /* AsyncImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AsyncImageView.m; sourceTree = "<group>"; };
+		A8C773D61884ED1300551619 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		A8C773D81884F35700551619 /* StrokeLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = StrokeLabel.h; path = AutoDiler/Classes/CustomTableCells/StrokeLabel.h; sourceTree = "<group>"; };
+		A8C773D91884F35700551619 /* StrokeLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = StrokeLabel.m; path = AutoDiler/Classes/CustomTableCells/StrokeLabel.m; sourceTree = "<group>"; };
+		A8C7FC0E189288CF000D4E6E /* ADAddAutoPartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ADAddAutoPartView.h; path = AutoDiler/Classes/AddAdPage/AddAutoPartView/ADAddAutoPartView.h; sourceTree = "<group>"; };
+		A8C7FC0F189288CF000D4E6E /* ADAddAutoPartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ADAddAutoPartView.m; path = AutoDiler/Classes/AddAdPage/AddAutoPartView/ADAddAutoPartView.m; sourceTree = "<group>"; };
+		A8C7FC11189288E8000D4E6E /* ADAddAutoPartView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ADAddAutoPartView.xib; path = AutoDiler/Classes/AddAdPage/AddAutoPartView/ADAddAutoPartView.xib; sourceTree = "<group>"; };
+		A8C84C6718AC669700AA416F /* ADImagePageVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADImagePageVC.h; sourceTree = "<group>"; };
+		A8C84C6818AC669700AA416F /* ADImagePageVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADImagePageVC.m; sourceTree = "<group>"; };
+		A8C84C6918AC669700AA416F /* ADImagePageVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ADImagePageVC.xib; sourceTree = "<group>"; };
+		A8CA348418900A660062CDA6 /* ADAddCarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ADAddCarView.h; path = AutoDiler/Classes/AddAdPage/AddCarView/ADAddCarView.h; sourceTree = "<group>"; };
+		A8CA348518900A660062CDA6 /* ADAddCarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ADAddCarView.m; path = AutoDiler/Classes/AddAdPage/AddCarView/ADAddCarView.m; sourceTree = "<group>"; };
+		A8CA348918900B090062CDA6 /* ADAddCarView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ADAddCarView.xib; path = AutoDiler/Classes/AddAdPage/AddCarView/ADAddCarView.xib; sourceTree = "<group>"; };
+		A8CAACB818A4CC3F00E72F42 /* ADTruckDetailView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ADTruckDetailView.h; path = AutoDiler/Classes/DetailInfoPage/ADTruckDetailView/ADTruckDetailView.h; sourceTree = "<group>"; };
+		A8CAACB918A4CC3F00E72F42 /* ADTruckDetailView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ADTruckDetailView.m; path = AutoDiler/Classes/DetailInfoPage/ADTruckDetailView/ADTruckDetailView.m; sourceTree = "<group>"; };
+		A8CAACBA18A4CC3F00E72F42 /* ADTruckDetailView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ADTruckDetailView.xib; path = AutoDiler/Classes/DetailInfoPage/ADTruckDetailView/ADTruckDetailView.xib; sourceTree = "<group>"; };
+		A8CB3A5A187C457A00B51A24 /* ADSearchResultPageVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ADSearchResultPageVC.h; path = AutoDiler/Classes/SearchResultPage/ADSearchResultPageVC.h; sourceTree = "<group>"; };
+		A8CB3A5B187C457A00B51A24 /* ADSearchResultPageVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ADSearchResultPageVC.m; path = AutoDiler/Classes/SearchResultPage/ADSearchResultPageVC.m; sourceTree = "<group>"; };
+		A8CB3A5C187C457A00B51A24 /* ADSearchResultPageVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ADSearchResultPageVC.xib; path = AutoDiler/Classes/SearchResultPage/ADSearchResultPageVC.xib; sourceTree = "<group>"; };
+		A8CB3A5F187C484800B51A24 /* ADDetailInfoPageVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ADDetailInfoPageVC.h; path = AutoDiler/Classes/DetailInfoPage/ADDetailInfoPageVC.h; sourceTree = "<group>"; };
+		A8CB3A60187C484800B51A24 /* ADDetailInfoPageVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ADDetailInfoPageVC.m; path = AutoDiler/Classes/DetailInfoPage/ADDetailInfoPageVC.m; sourceTree = "<group>"; };
+		A8CB3A61187C484800B51A24 /* ADDetailInfoPageVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ADDetailInfoPageVC.xib; path = AutoDiler/Classes/DetailInfoPage/ADDetailInfoPageVC.xib; sourceTree = "<group>"; };
+		A8CB3A64187C595700B51A24 /* detail_back1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = detail_back1.png; path = AutoDiler/Resources/images/detail_back1.png; sourceTree = "<group>"; };
+		A8CB3A65187C595700B51A24 /* detail_back2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = detail_back2.png; path = AutoDiler/Resources/images/detail_back2.png; sourceTree = "<group>"; };
+		A8CB3A66187C595700B51A24 /* detail_back4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = detail_back4.png; path = AutoDiler/Resources/images/detail_back4.png; sourceTree = "<group>"; };
+		A8CC219818AE8AAF0083ED9B /* enter_on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = enter_on.png; path = AutoDiler/Resources/images/enter_on.png; sourceTree = "<group>"; };
+		A8CC219918AE8AAF0083ED9B /* enter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = enter.png; path = AutoDiler/Resources/images/enter.png; sourceTree = "<group>"; };
+		A8CDF398187C88F1002223A7 /* dodaj_oglas_dodaj_slike_off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = dodaj_oglas_dodaj_slike_off.png; path = AutoDiler/Resources/images/dodaj_oglas_dodaj_slike_off.png; sourceTree = "<group>"; };
+		A8CDF399187C88F1002223A7 /* dodaj_oglas_dodaj_slike_over.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = dodaj_oglas_dodaj_slike_over.png; path = AutoDiler/Resources/images/dodaj_oglas_dodaj_slike_over.png; sourceTree = "<group>"; };
+		A8CDF39A187C88F1002223A7 /* dodaj_oglas_posalji_off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = dodaj_oglas_posalji_off.png; path = AutoDiler/Resources/images/dodaj_oglas_posalji_off.png; sourceTree = "<group>"; };
+		A8CDF39B187C88F1002223A7 /* dodaj_oglas_posalji_over.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = dodaj_oglas_posalji_over.png; path = AutoDiler/Resources/images/dodaj_oglas_posalji_over.png; sourceTree = "<group>"; };
+		A8CDF3A0187C9CEB002223A7 /* dodaj_oglas__obavezno polje.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "dodaj_oglas__obavezno polje.png"; path = "AutoDiler/Resources/images/dodaj_oglas__obavezno polje.png"; sourceTree = "<group>"; };
+		A8CDF3A2187CB62D002223A7 /* oglas_ukloni_iz_omiljenih_off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = oglas_ukloni_iz_omiljenih_off.png; path = AutoDiler/Resources/images/oglas_ukloni_iz_omiljenih_off.png; sourceTree = "<group>"; };
+		A8CDF3A3187CB62D002223A7 /* oglas_ukloni_iz_omiljenih_over.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = oglas_ukloni_iz_omiljenih_over.png; path = AutoDiler/Resources/images/oglas_ukloni_iz_omiljenih_over.png; sourceTree = "<group>"; };
+		A8CDF3A6187CB718002223A7 /* ADAddPageVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ADAddPageVC.h; path = AutoDiler/Classes/AddAdPage/ADAddPageVC.h; sourceTree = "<group>"; };
+		A8CDF3A7187CB718002223A7 /* ADAddPageVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ADAddPageVC.m; path = AutoDiler/Classes/AddAdPage/ADAddPageVC.m; sourceTree = "<group>"; };
+		A8CDF3A8187CB718002223A7 /* ADAddPageVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ADAddPageVC.xib; path = AutoDiler/Classes/AddAdPage/ADAddPageVC.xib; sourceTree = "<group>"; };
+		A8CDF3AC187CE912002223A7 /* ADCarDealersPageVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ADCarDealersPageVC.h; path = AutoDiler/Classes/CarDelearsPage/ADCarDealersPageVC.h; sourceTree = "<group>"; };
+		A8CDF3AD187CE912002223A7 /* ADCarDealersPageVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ADCarDealersPageVC.m; path = AutoDiler/Classes/CarDelearsPage/ADCarDealersPageVC.m; sourceTree = "<group>"; };
+		A8CDF3AE187CE912002223A7 /* ADCarDealersPageVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ADCarDealersPageVC.xib; path = AutoDiler/Classes/CarDelearsPage/ADCarDealersPageVC.xib; sourceTree = "<group>"; };
+		A8CF3D2D187DB71C00BB6ABB /* ADDealerCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ADDealerCell.h; path = AutoDiler/Classes/CustomTableCells/ADDealerCell.h; sourceTree = "<group>"; };
+		A8CF3D2E187DB71C00BB6ABB /* ADDealerCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ADDealerCell.m; path = AutoDiler/Classes/CustomTableCells/ADDealerCell.m; sourceTree = "<group>"; };
+		A8CF3D30187DB7AF00BB6ABB /* ADDealerCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ADDealerCell.xib; path = AutoDiler/Classes/CustomTableCells/ADDealerCell.xib; sourceTree = "<group>"; };
+		A8CF3D32187DB93E00BB6ABB /* auto_plac__nema_sliku.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = auto_plac__nema_sliku.png; path = AutoDiler/Resources/images/auto_plac__nema_sliku.png; sourceTree = "<group>"; };
+		A8CF3D34187DC41900BB6ABB /* dealer_cell_back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = dealer_cell_back.png; path = AutoDiler/Resources/images/dealer_cell_back.png; sourceTree = "<group>"; };
+		A8CF3D3C187DDA6900BB6ABB /* adresar_02.adresa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = adresar_02.adresa.png; path = AutoDiler/Resources/images/adresar_02.adresa.png; sourceTree = "<group>"; };
+		A8CF3D3D187DDA6900BB6ABB /* adresar_03.telefon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = adresar_03.telefon.png; path = AutoDiler/Resources/images/adresar_03.telefon.png; sourceTree = "<group>"; };
+		A8CF3D3E187DDA6900BB6ABB /* adresar_04.email.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = adresar_04.email.png; path = AutoDiler/Resources/images/adresar_04.email.png; sourceTree = "<group>"; };
+		A8CF3D3F187DDA6900BB6ABB /* adresar_05.opis.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = adresar_05.opis.png; path = AutoDiler/Resources/images/adresar_05.opis.png; sourceTree = "<group>"; };
+		A8CF3D44187DDEEF00BB6ABB /* auto_plac__broj_oglasa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = auto_plac__broj_oglasa.png; path = AutoDiler/Resources/images/auto_plac__broj_oglasa.png; sourceTree = "<group>"; };
+		A8CF3D46187DE1F200BB6ABB /* ADCarDealerPageVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ADCarDealerPageVC.h; path = AutoDiler/Classes/CarDealerPage/ADCarDealerPageVC.h; sourceTree = "<group>"; };
+		A8CF3D47187DE1F200BB6ABB /* ADCarDealerPageVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ADCarDealerPageVC.m; path = AutoDiler/Classes/CarDealerPage/ADCarDealerPageVC.m; sourceTree = "<group>"; };
+		A8CF3D48187DE1F200BB6ABB /* ADCarDealerPageVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ADCarDealerPageVC.xib; path = AutoDiler/Classes/CarDealerPage/ADCarDealerPageVC.xib; sourceTree = "<group>"; };
+		A8CF3D4C187DEA6B00BB6ABB /* ADAddressBookPageVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ADAddressBookPageVC.h; path = AutoDiler/Classes/AddressBookPage/ADAddressBookPageVC.h; sourceTree = "<group>"; };
+		A8CF3D4D187DEA6B00BB6ABB /* ADAddressBookPageVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ADAddressBookPageVC.m; path = AutoDiler/Classes/AddressBookPage/ADAddressBookPageVC.m; sourceTree = "<group>"; };
+		A8CF3D4E187DEA6B00BB6ABB /* ADAddressBookPageVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ADAddressBookPageVC.xib; path = AutoDiler/Classes/AddressBookPage/ADAddressBookPageVC.xib; sourceTree = "<group>"; };
+		A8CF3D51187DEFB500BB6ABB /* ADAddressCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ADAddressCell.h; path = AutoDiler/Classes/CustomTableCells/ADAddressCell.h; sourceTree = "<group>"; };
+		A8CF3D52187DEFB500BB6ABB /* ADAddressCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ADAddressCell.m; path = AutoDiler/Classes/CustomTableCells/ADAddressCell.m; sourceTree = "<group>"; };
+		A8CF3D54187DEFE100BB6ABB /* ADAddressCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ADAddressCell.xib; path = AutoDiler/Classes/CustomTableCells/ADAddressCell.xib; sourceTree = "<group>"; };
+		A8CF3D56187DF52000BB6ABB /* adresar_01.djelatnost.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = adresar_01.djelatnost.png; path = AutoDiler/Resources/images/adresar_01.djelatnost.png; sourceTree = "<group>"; };
+		A8CF3D59187DF70A00BB6ABB /* ADFavoritePageVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ADFavoritePageVC.h; path = AutoDiler/Classes/FavoritePage/ADFavoritePageVC.h; sourceTree = "<group>"; };
+		A8CF3D5A187DF70A00BB6ABB /* ADFavoritePageVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ADFavoritePageVC.m; path = AutoDiler/Classes/FavoritePage/ADFavoritePageVC.m; sourceTree = "<group>"; };
+		A8CF3D5B187DF70A00BB6ABB /* ADFavoritePageVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ADFavoritePageVC.xib; path = AutoDiler/Classes/FavoritePage/ADFavoritePageVC.xib; sourceTree = "<group>"; };
+		A8CF3D5F187DFC7900BB6ABB /* ADAddressPageVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ADAddressPageVC.h; path = AutoDiler/Classes/AddressPage/ADAddressPageVC.h; sourceTree = "<group>"; };
+		A8CF3D60187DFC7900BB6ABB /* ADAddressPageVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ADAddressPageVC.m; path = AutoDiler/Classes/AddressPage/ADAddressPageVC.m; sourceTree = "<group>"; };
+		A8CF3D61187DFC7900BB6ABB /* ADAddressPageVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ADAddressPageVC.xib; path = AutoDiler/Classes/AddressPage/ADAddressPageVC.xib; sourceTree = "<group>"; };
+		A8CF3D64187DFE8600BB6ABB /* adresar_06.google_mapa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = adresar_06.google_mapa.png; path = AutoDiler/Resources/images/adresar_06.google_mapa.png; sourceTree = "<group>"; };
+		A8CF3D66187DFFC600BB6ABB /* adresar_07.slike.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = adresar_07.slike.png; path = AutoDiler/Resources/images/adresar_07.slike.png; sourceTree = "<group>"; };
+		A8CF3D69187E098E00BB6ABB /* ADSmsAdsPageVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ADSmsAdsPageVC.h; path = AutoDiler/Classes/SmsAdsPage/ADSmsAdsPageVC.h; sourceTree = "<group>"; };
+		A8CF3D6A187E098E00BB6ABB /* ADSmsAdsPageVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ADSmsAdsPageVC.m; path = AutoDiler/Classes/SmsAdsPage/ADSmsAdsPageVC.m; sourceTree = "<group>"; };
+		A8CF3D6B187E098E00BB6ABB /* ADSmsAdsPageVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ADSmsAdsPageVC.xib; path = AutoDiler/Classes/SmsAdsPage/ADSmsAdsPageVC.xib; sourceTree = "<group>"; };
+		A8CF3D6E187E0C4200BB6ABB /* ADSmsCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ADSmsCell.h; path = AutoDiler/Classes/CustomTableCells/ADSmsCell.h; sourceTree = "<group>"; };
+		A8CF3D6F187E0C4200BB6ABB /* ADSmsCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ADSmsCell.m; path = AutoDiler/Classes/CustomTableCells/ADSmsCell.m; sourceTree = "<group>"; };
+		A8CF3D71187E0C6600BB6ABB /* ADSmsCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ADSmsCell.xib; path = AutoDiler/Classes/CustomTableCells/ADSmsCell.xib; sourceTree = "<group>"; };
+		A8D0157A18920D9100CD793E /* ADAddVanView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ADAddVanView.h; path = AutoDiler/Classes/AddAdPage/AddVanView/ADAddVanView.h; sourceTree = "<group>"; };
+		A8D0157B18920D9100CD793E /* ADAddVanView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ADAddVanView.m; path = AutoDiler/Classes/AddAdPage/AddVanView/ADAddVanView.m; sourceTree = "<group>"; };
+		A8D0157D18920DA200CD793E /* ADAddVanView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ADAddVanView.xib; path = AutoDiler/Classes/AddAdPage/AddVanView/ADAddVanView.xib; sourceTree = "<group>"; };
+		A8D0158018922EB100CD793E /* ADAddBusView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ADAddBusView.h; path = AutoDiler/Classes/AddAdPage/AddBusView/ADAddBusView.h; sourceTree = "<group>"; };
+		A8D0158118922EB100CD793E /* ADAddBusView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ADAddBusView.m; path = AutoDiler/Classes/AddAdPage/AddBusView/ADAddBusView.m; sourceTree = "<group>"; };
+		A8D0158318922EC100CD793E /* ADAddBusView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ADAddBusView.xib; path = AutoDiler/Classes/AddAdPage/AddBusView/ADAddBusView.xib; sourceTree = "<group>"; };
+		A8D1E04C1890DEDD0040C7B7 /* ADAddMotocycleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ADAddMotocycleView.h; path = AutoDiler/Classes/AddAdPage/AddMotocycleView/ADAddMotocycleView.h; sourceTree = "<group>"; };
+		A8D1E04D1890DEDD0040C7B7 /* ADAddMotocycleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ADAddMotocycleView.m; path = AutoDiler/Classes/AddAdPage/AddMotocycleView/ADAddMotocycleView.m; sourceTree = "<group>"; };
+		A8D1E04F1890DEF90040C7B7 /* ADAddMotocycleView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ADAddMotocycleView.xib; path = AutoDiler/Classes/AddAdPage/AddMotocycleView/ADAddMotocycleView.xib; sourceTree = "<group>"; };
+		A8D4C52E188376C9009E843C /* textview_back_300.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = textview_back_300.png; path = AutoDiler/Resources/images/textview_back_300.png; sourceTree = "<group>"; };
+		A8D4C53118837F60009E843C /* ADSearchTrucksView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ADSearchTrucksView.h; path = AutoDiler/Classes/SearchPage/SearchTrucksView/ADSearchTrucksView.h; sourceTree = "<group>"; };
+		A8D4C53218837F60009E843C /* ADSearchTrucksView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ADSearchTrucksView.m; path = AutoDiler/Classes/SearchPage/SearchTrucksView/ADSearchTrucksView.m; sourceTree = "<group>"; };
+		A8D4C53418837F84009E843C /* ADSearchTrucksView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ADSearchTrucksView.xib; path = AutoDiler/Classes/SearchPage/SearchTrucksView/ADSearchTrucksView.xib; sourceTree = "<group>"; };
+		A8D4C53718838676009E843C /* ADSearchVansView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ADSearchVansView.h; path = AutoDiler/Classes/SearchPage/SearchVansView/ADSearchVansView.h; sourceTree = "<group>"; };
+		A8D4C53818838676009E843C /* ADSearchVansView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ADSearchVansView.m; path = AutoDiler/Classes/SearchPage/SearchVansView/ADSearchVansView.m; sourceTree = "<group>"; };
+		A8D4C53A1883868B009E843C /* ADSearchVansView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ADSearchVansView.xib; path = AutoDiler/Classes/SearchPage/SearchVansView/ADSearchVansView.xib; sourceTree = "<group>"; };
+		A8D4C53D18838CA6009E843C /* ADSearchBusesView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ADSearchBusesView.h; path = AutoDiler/Classes/SearchPage/SearchBusesView/ADSearchBusesView.h; sourceTree = "<group>"; };
+		A8D4C53E18838CA6009E843C /* ADSearchBusesView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ADSearchBusesView.m; path = AutoDiler/Classes/SearchPage/SearchBusesView/ADSearchBusesView.m; sourceTree = "<group>"; };
+		A8D4C54018838CDD009E843C /* ADSearchBusesView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ADSearchBusesView.xib; path = AutoDiler/Classes/SearchPage/SearchBusesView/ADSearchBusesView.xib; sourceTree = "<group>"; };
+		A8D4C54318838E66009E843C /* ADSearchAutoPartsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ADSearchAutoPartsView.h; path = AutoDiler/Classes/SearchPage/SearchAutoPartsView/ADSearchAutoPartsView.h; sourceTree = "<group>"; };
+		A8D4C54418838E66009E843C /* ADSearchAutoPartsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ADSearchAutoPartsView.m; path = AutoDiler/Classes/SearchPage/SearchAutoPartsView/ADSearchAutoPartsView.m; sourceTree = "<group>"; };
+		A8D4C54618838EA9009E843C /* ADSearchAutoPartsView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ADSearchAutoPartsView.xib; path = AutoDiler/Classes/SearchPage/SearchAutoPartsView/ADSearchAutoPartsView.xib; sourceTree = "<group>"; };
+		A8D4C5491883930C009E843C /* ADSearchBoatsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ADSearchBoatsView.h; path = AutoDiler/Classes/SearchPage/SearchBoatsView/ADSearchBoatsView.h; sourceTree = "<group>"; };
+		A8D4C54A1883930C009E843C /* ADSearchBoatsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ADSearchBoatsView.m; path = AutoDiler/Classes/SearchPage/SearchBoatsView/ADSearchBoatsView.m; sourceTree = "<group>"; };
+		A8D4C54C1883935E009E843C /* ADSearchBoatsView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ADSearchBoatsView.xib; path = AutoDiler/Classes/SearchPage/SearchBoatsView/ADSearchBoatsView.xib; sourceTree = "<group>"; };
+		A8D4C54F188394B1009E843C /* ADSearchBicyclesView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ADSearchBicyclesView.h; path = AutoDiler/Classes/SearchPage/SearchBicyclesView/ADSearchBicyclesView.h; sourceTree = "<group>"; };
+		A8D4C550188394B1009E843C /* ADSearchBicyclesView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ADSearchBicyclesView.m; path = AutoDiler/Classes/SearchPage/SearchBicyclesView/ADSearchBicyclesView.m; sourceTree = "<group>"; };
+		A8D4C55218839517009E843C /* ADSearchBicyclesView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ADSearchBicyclesView.xib; path = AutoDiler/Classes/SearchPage/SearchBicyclesView/ADSearchBicyclesView.xib; sourceTree = "<group>"; };
+		A8D4C55518839868009E843C /* ADSearchConstructionMachineryView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ADSearchConstructionMachineryView.h; path = AutoDiler/Classes/SearchPage/SearchConstructionMachineryView/ADSearchConstructionMachineryView.h; sourceTree = "<group>"; };
+		A8D4C55618839868009E843C /* ADSearchConstructionMachineryView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ADSearchConstructionMachineryView.m; path = AutoDiler/Classes/SearchPage/SearchConstructionMachineryView/ADSearchConstructionMachineryView.m; sourceTree = "<group>"; };
+		A8D4C558188398B6009E843C /* ADSearchConstructionMachineryView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ADSearchConstructionMachineryView.xib; path = AutoDiler/Classes/SearchPage/SearchConstructionMachineryView/ADSearchConstructionMachineryView.xib; sourceTree = "<group>"; };
+		A8D542C518A492DB00C1EE22 /* ADMobileDetailView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ADMobileDetailView.h; path = AutoDiler/Classes/DetailInfoPage/ADMobileDetailView/ADMobileDetailView.h; sourceTree = "<group>"; };
+		A8D542C618A492DB00C1EE22 /* ADMobileDetailView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ADMobileDetailView.m; path = AutoDiler/Classes/DetailInfoPage/ADMobileDetailView/ADMobileDetailView.m; sourceTree = "<group>"; };
+		A8D542C718A492DB00C1EE22 /* ADMobileDetailView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ADMobileDetailView.xib; path = AutoDiler/Classes/DetailInfoPage/ADMobileDetailView/ADMobileDetailView.xib; sourceTree = "<group>"; };
+		A8D56D7C1880EEF600DD6F5D /* checkbox_checked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = checkbox_checked.png; path = AutoDiler/Resources/images/checkbox_checked.png; sourceTree = "<group>"; };
+		A8D56D7D1880EEF600DD6F5D /* checkbox_empty.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = checkbox_empty.png; path = AutoDiler/Resources/images/checkbox_empty.png; sourceTree = "<group>"; };
+		A8D75464188CCF0800BF1792 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		A8D75465188CCF0800BF1792 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		A8DCD9571891537D0043DA7C /* ADAddTruckView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ADAddTruckView.h; path = AutoDiler/Classes/AddAdPage/AddTruckView/ADAddTruckView.h; sourceTree = "<group>"; };
+		A8DCD9581891537D0043DA7C /* ADAddTruckView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ADAddTruckView.m; path = AutoDiler/Classes/AddAdPage/AddTruckView/ADAddTruckView.m; sourceTree = "<group>"; };
+		A8DCD95A189153960043DA7C /* ADAddTruckView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ADAddTruckView.xib; path = AutoDiler/Classes/AddAdPage/AddTruckView/ADAddTruckView.xib; sourceTree = "<group>"; };
+		A8E082FC18784854001BC3E9 /* ADSearchMotorcyclesView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ADSearchMotorcyclesView.h; path = AutoDiler/Classes/SearchPage/SearchMotorcyclesView/ADSearchMotorcyclesView.h; sourceTree = "<group>"; };
+		A8E082FD18784854001BC3E9 /* ADSearchMotorcyclesView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ADSearchMotorcyclesView.m; path = AutoDiler/Classes/SearchPage/SearchMotorcyclesView/ADSearchMotorcyclesView.m; sourceTree = "<group>"; };
+		A8E082FF1878486F001BC3E9 /* ADSearchMotorcyclesView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ADSearchMotorcyclesView.xib; path = AutoDiler/Classes/SearchPage/SearchMotorcyclesView/ADSearchMotorcyclesView.xib; sourceTree = "<group>"; };
+		A8E083021878537F001BC3E9 /* ADSearchCarsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ADSearchCarsView.h; path = AutoDiler/Classes/SearchPage/SearchCarsView/ADSearchCarsView.h; sourceTree = "<group>"; };
+		A8E083031878537F001BC3E9 /* ADSearchCarsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ADSearchCarsView.m; path = AutoDiler/Classes/SearchPage/SearchCarsView/ADSearchCarsView.m; sourceTree = "<group>"; };
+		A8E083041878537F001BC3E9 /* ADSearchCarsView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ADSearchCarsView.xib; path = AutoDiler/Classes/SearchPage/SearchCarsView/ADSearchCarsView.xib; sourceTree = "<group>"; };
+		A8E0830718785637001BC3E9 /* text_back_110.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = text_back_110.png; path = AutoDiler/Resources/images/text_back_110.png; sourceTree = "<group>"; };
+		A8E0830818785637001BC3E9 /* text_back_200.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = text_back_200.png; path = AutoDiler/Resources/images/text_back_200.png; sourceTree = "<group>"; };
+		A8E0830918785637001BC3E9 /* text_back_300.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = text_back_300.png; path = AutoDiler/Resources/images/text_back_300.png; sourceTree = "<group>"; };
+		A8E0830E187876A4001BC3E9 /* PopupListView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PopupListView.h; path = AutoDiler/Classes/PopupListPage/PopupListView.h; sourceTree = "<group>"; };
+		A8E0830F187876A4001BC3E9 /* PopupListView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PopupListView.m; path = AutoDiler/Classes/PopupListPage/PopupListView.m; sourceTree = "<group>"; };
+		A8E0831818788814001BC3E9 /* popup_list_off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = popup_list_off.png; path = AutoDiler/Resources/images/popup_list_off.png; sourceTree = "<group>"; };
+		A8E0831918788814001BC3E9 /* popup_list_over.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = popup_list_over.png; path = AutoDiler/Resources/images/popup_list_over.png; sourceTree = "<group>"; };
+		A8E25F43189912040096F7B2 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		A8E25F45189914930096F7B2 /* database.db */ = {isa = PBXFileReference; lastKnownFileType = file; name = database.db; path = AutoDiler/Resources/database.db; sourceTree = "<group>"; };
+		A8E25F47189940D70096F7B2 /* ADDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ADDatabase.h; path = AutoDiler/Classes/Model/ADDatabase.h; sourceTree = "<group>"; };
+		A8E25F48189940D70096F7B2 /* ADDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ADDatabase.m; path = AutoDiler/Classes/Model/ADDatabase.m; sourceTree = "<group>"; };
+		A8E25F4C18994B8F0096F7B2 /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
+		A8E25F4E1899527C0096F7B2 /* oglas_prijavljen_oglas.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = oglas_prijavljen_oglas.png; path = AutoDiler/Resources/images/oglas_prijavljen_oglas.png; sourceTree = "<group>"; };
+		A8E25F501899878F0096F7B2 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		A8E2698418A5046D005CCEA8 /* ADVanDetailView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ADVanDetailView.h; path = AutoDiler/Classes/DetailInfoPage/ADVanDetailView/ADVanDetailView.h; sourceTree = "<group>"; };
+		A8E2698518A5046D005CCEA8 /* ADVanDetailView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ADVanDetailView.m; path = AutoDiler/Classes/DetailInfoPage/ADVanDetailView/ADVanDetailView.m; sourceTree = "<group>"; };
+		A8E2698618A5046D005CCEA8 /* ADVanDetailView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ADVanDetailView.xib; path = AutoDiler/Classes/DetailInfoPage/ADVanDetailView/ADVanDetailView.xib; sourceTree = "<group>"; };
+		A8E2698A18A508B1005CCEA8 /* ADBusDetailView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ADBusDetailView.h; path = AutoDiler/Classes/DetailInfoPage/ADBusDetailView/ADBusDetailView.h; sourceTree = "<group>"; };
+		A8E2698B18A508B1005CCEA8 /* ADBusDetailView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ADBusDetailView.m; path = AutoDiler/Classes/DetailInfoPage/ADBusDetailView/ADBusDetailView.m; sourceTree = "<group>"; };
+		A8E2698C18A508B1005CCEA8 /* ADBusDetailView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ADBusDetailView.xib; path = AutoDiler/Classes/DetailInfoPage/ADBusDetailView/ADBusDetailView.xib; sourceTree = "<group>"; };
+		A8E2699018A50CE9005CCEA8 /* ADAutoPartDetailView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ADAutoPartDetailView.h; path = AutoDiler/Classes/DetailInfoPage/ADAutoPartDetailView/ADAutoPartDetailView.h; sourceTree = "<group>"; };
+		A8E2699118A50CE9005CCEA8 /* ADAutoPartDetailView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ADAutoPartDetailView.m; path = AutoDiler/Classes/DetailInfoPage/ADAutoPartDetailView/ADAutoPartDetailView.m; sourceTree = "<group>"; };
+		A8E2699218A50CE9005CCEA8 /* ADAutoPartDetailView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ADAutoPartDetailView.xib; path = AutoDiler/Classes/DetailInfoPage/ADAutoPartDetailView/ADAutoPartDetailView.xib; sourceTree = "<group>"; };
+		A8E2699818A51085005CCEA8 /* ADBicycleDetailView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ADBicycleDetailView.xib; path = AutoDiler/Classes/DetailInfoPage/ADBicycleDetailView/ADBicycleDetailView.xib; sourceTree = "<group>"; };
+		A8E2699B18A51947005CCEA8 /* ADBicycleDetailView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ADBicycleDetailView.h; path = AutoDiler/Classes/DetailInfoPage/ADBicycleDetailView/ADBicycleDetailView.h; sourceTree = "<group>"; };
+		A8E2699C18A51947005CCEA8 /* ADBicycleDetailView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ADBicycleDetailView.m; path = AutoDiler/Classes/DetailInfoPage/ADBicycleDetailView/ADBicycleDetailView.m; sourceTree = "<group>"; };
+		A8E269A018A51DAF005CCEA8 /* ADConstMachineDetailView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ADConstMachineDetailView.h; path = AutoDiler/Classes/DetailInfoPage/ADConstMachineDetailView/ADConstMachineDetailView.h; sourceTree = "<group>"; };
+		A8E269A118A51DAF005CCEA8 /* ADConstMachineDetailView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ADConstMachineDetailView.m; path = AutoDiler/Classes/DetailInfoPage/ADConstMachineDetailView/ADConstMachineDetailView.m; sourceTree = "<group>"; };
+		A8E269A218A51DAF005CCEA8 /* ADConstMachineDetailView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ADConstMachineDetailView.xib; path = AutoDiler/Classes/DetailInfoPage/ADConstMachineDetailView/ADConstMachineDetailView.xib; sourceTree = "<group>"; };
+		A8E269A518A521E7005CCEA8 /* detail_back5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = detail_back5.png; path = AutoDiler/Resources/images/detail_back5.png; sourceTree = "<group>"; };
+		A8E269A618A521E7005CCEA8 /* detail_back7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = detail_back7.png; path = AutoDiler/Resources/images/detail_back7.png; sourceTree = "<group>"; };
+		A8E269A718A521E7005CCEA8 /* detail_back13.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = detail_back13.png; path = AutoDiler/Resources/images/detail_back13.png; sourceTree = "<group>"; };
+		A8E269A818A521E7005CCEA8 /* detail_back14.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = detail_back14.png; path = AutoDiler/Resources/images/detail_back14.png; sourceTree = "<group>"; };
+		A8F7A4B31875869600B6B557 /* AutoDiler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AutoDiler.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8F7A4B61875869600B6B557 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A8F7A4B81875869600B6B557 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A8F7A4BA1875869600B6B557 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A8F7A4BE1875869600B6B557 /* AutoDiler-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AutoDiler-Info.plist"; sourceTree = "<group>"; };
+		A8F7A4C01875869600B6B557 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A8F7A4C21875869600B6B557 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A8F7A4C41875869600B6B557 /* AutoDiler-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AutoDiler-Prefix.pch"; sourceTree = "<group>"; };
+		A8F7A4C51875869600B6B557 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = AutoDiler/Classes/Core/AppDelegate.h; sourceTree = "<group>"; };
+		A8F7A4C61875869600B6B557 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = AutoDiler/Classes/Core/AppDelegate.m; sourceTree = "<group>"; };
+		A8F7A4C81875869600B6B557 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A8F7A4CE1875869700B6B557 /* AutoDilerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AutoDilerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8F7A4CF1875869700B6B557 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		A8F7A4D71875869700B6B557 /* AutoDilerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AutoDilerTests-Info.plist"; sourceTree = "<group>"; };
+		A8F7A4D91875869700B6B557 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A8F7A4DB1875869700B6B557 /* AutoDilerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AutoDilerTests.m; sourceTree = "<group>"; };
+		A8F7A4E91875887200B6B557 /* ADModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ADModel.h; path = AutoDiler/Classes/Model/ADModel.h; sourceTree = "<group>"; };
+		A8F7A4EA1875887200B6B557 /* ADModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ADModel.m; path = AutoDiler/Classes/Model/ADModel.m; sourceTree = "<group>"; };
+		A8F7A4EC187588B000B6B557 /* ADConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ADConst.h; path = AutoDiler/Classes/Model/ADConst.h; sourceTree = "<group>"; };
+		A8F7A4ED187588B000B6B557 /* ADConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ADConst.m; path = AutoDiler/Classes/Model/ADConst.m; sourceTree = "<group>"; };
+		A8F7A4EF1875895700B6B557 /* ADView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ADView.h; path = AutoDiler/Classes/Core/ADView.h; sourceTree = "<group>"; };
+		A8F7A4F01875895700B6B557 /* ADView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ADView.m; path = AutoDiler/Classes/Core/ADView.m; sourceTree = "<group>"; };
+		A8F7A4F618759DF000B6B557 /* ADMainPageVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ADMainPageVC.h; path = AutoDiler/Classes/MainPage/ADMainPageVC.h; sourceTree = "<group>"; };
+		A8F7A4F718759DF000B6B557 /* ADMainPageVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ADMainPageVC.m; path = AutoDiler/Classes/MainPage/ADMainPageVC.m; sourceTree = "<group>"; };
+		A8F7A4F818759DF000B6B557 /* ADMainPageVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ADMainPageVC.xib; path = AutoDiler/Classes/MainPage/ADMainPageVC.xib; sourceTree = "<group>"; };
+		A8F7A4FE1875BBC900B6B557 /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-72.png"; path = "AutoDiler/Resources/images/Icon-72.png"; sourceTree = "<group>"; };
+		A8F7A4FF1875BBC900B6B557 /* Icon-72@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-72@2x.png"; path = "AutoDiler/Resources/images/Icon-72@2x.png"; sourceTree = "<group>"; };
+		A8F7A5001875BBC900B6B557 /* Icon-Small-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-Small-50.png"; path = "AutoDiler/Resources/images/Icon-Small-50.png"; sourceTree = "<group>"; };
+		A8F7A5011875BBC900B6B557 /* Icon-Small-50@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-Small-50@2x.png"; path = "AutoDiler/Resources/images/Icon-Small-50@2x.png"; sourceTree = "<group>"; };
+		A8F7A5021875BBC900B6B557 /* Icon-Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-Small.png"; path = "AutoDiler/Resources/images/Icon-Small.png"; sourceTree = "<group>"; };
+		A8F7A5031875BBC900B6B557 /* Icon-Small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-Small@2x.png"; path = "AutoDiler/Resources/images/Icon-Small@2x.png"; sourceTree = "<group>"; };
+		A8F7A5041875BBC900B6B557 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon.png; path = AutoDiler/Resources/images/Icon.png; sourceTree = "<group>"; };
+		A8F7A5051875BBC900B6B557 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon@2x.png"; path = "AutoDiler/Resources/images/Icon@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A8F7A4B01875869600B6B557 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8E25F511899878F0096F7B2 /* libsqlite3.dylib in Frameworks */,
+				A8E25F44189912040096F7B2 /* Social.framework in Frameworks */,
+				A8AA3C6D18984522005A0230 /* MessageUI.framework in Frameworks */,
+				A8C773D71884ED1300551619 /* QuartzCore.framework in Frameworks */,
+				A8F7A4B91875869600B6B557 /* CoreGraphics.framework in Frameworks */,
+				A80260EC187F27BF0026F2F9 /* CFNetwork.framework in Frameworks */,
+				A87B2AB6187F2C230055BB07 /* libxml2.dylib in Frameworks */,
+				A80260F2187F283C0026F2F9 /* libz.dylib in Frameworks */,
+				A80260F0187F281A0026F2F9 /* MobileCoreServices.framework in Frameworks */,
+				A80260EE187F28080026F2F9 /* SystemConfiguration.framework in Frameworks */,
+				A8F7A4BB1875869600B6B557 /* UIKit.framework in Frameworks */,
+				A8F7A4B71875869600B6B557 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8F7A4CB1875869700B6B557 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8F7A4D01875869700B6B557 /* XCTest.framework in Frameworks */,
+				A8F7A4D21875869700B6B557 /* UIKit.framework in Frameworks */,
+				A8F7A4D11875869700B6B557 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A80260C6187F279E0026F2F9 /* ASIHttpRequest */ = {
+			isa = PBXGroup;
+			children = (
+				A80260C7187F279E0026F2F9 /* ASIAuthenticationDialog.h */,
+				A80260C8187F279E0026F2F9 /* ASIAuthenticationDialog.m */,
+				A80260C9187F279E0026F2F9 /* ASICacheDelegate.h */,
+				A80260CA187F279E0026F2F9 /* ASIDataCompressor.h */,
+				A80260CB187F279E0026F2F9 /* ASIDataCompressor.m */,
+				A80260CC187F279E0026F2F9 /* ASIDataDecompressor.h */,
+				A80260CD187F279E0026F2F9 /* ASIDataDecompressor.m */,
+				A80260CE187F279E0026F2F9 /* ASIDownloadCache.h */,
+				A80260CF187F279E0026F2F9 /* ASIDownloadCache.m */,
+				A80260D0187F279E0026F2F9 /* ASIFormDataRequest.h */,
+				A80260D1187F279E0026F2F9 /* ASIFormDataRequest.m */,
+				A80260D2187F279E0026F2F9 /* ASIHTTPRequest.h */,
+				A80260D3187F279E0026F2F9 /* ASIHTTPRequest.m */,
+				A80260D4187F279E0026F2F9 /* ASIHTTPRequestConfig.h */,
+				A80260D5187F279E0026F2F9 /* ASIHTTPRequestDelegate.h */,
+				A80260D6187F279E0026F2F9 /* ASIInputStream.h */,
+				A80260D7187F279E0026F2F9 /* ASIInputStream.m */,
+				A80260D8187F279E0026F2F9 /* ASINetworkQueue.h */,
+				A80260D9187F279E0026F2F9 /* ASINetworkQueue.m */,
+				A80260DA187F279E0026F2F9 /* ASIProgressDelegate.h */,
+				A80260DB187F279E0026F2F9 /* ASIWebPageRequest */,
+			);
+			name = ASIHttpRequest;
+			path = AutoDiler/Classes/ASIHttpRequest;
+			sourceTree = "<group>";
+		};
+		A80260DB187F279E0026F2F9 /* ASIWebPageRequest */ = {
+			isa = PBXGroup;
+			children = (
+				A80260DC187F279E0026F2F9 /* ASIWebPageRequest.h */,
+				A80260DD187F279E0026F2F9 /* ASIWebPageRequest.m */,
+			);
+			path = ASIWebPageRequest;
+			sourceTree = "<group>";
+		};
+		A80260DE187F279E0026F2F9 /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				A80260DF187F279E0026F2F9 /* Reachability.h */,
+				A80260E0187F279E0026F2F9 /* Reachability.m */,
+			);
+			name = Reachability;
+			path = AutoDiler/Classes/Reachability;
+			sourceTree = "<group>";
+		};
+		A87EE3A3187E14CF00A4EB01 /* NewsPage */ = {
+			isa = PBXGroup;
+			children = (
+				A87EE3A4187E14FF00A4EB01 /* ADNewsPageVC.h */,
+				A87EE3A5187E14FF00A4EB01 /* ADNewsPageVC.m */,
+				A87EE3A6187E14FF00A4EB01 /* ADNewsPageVC.xib */,
+			);
+			name = NewsPage;
+			sourceTree = "<group>";
+		};
+		A87EE3AE187E245E00A4EB01 /* NewsDetailPage */ = {
+			isa = PBXGroup;
+			children = (
+				A87EE3AF187E248A00A4EB01 /* ADNewsDetailPageVC.h */,
+				A87EE3B0187E248A00A4EB01 /* ADNewsDetailPageVC.m */,
+				A87EE3B1187E248A00A4EB01 /* ADNewsDetailPageVC.xib */,
+			);
+			name = NewsDetailPage;
+			sourceTree = "<group>";
+		};
+		A897C5BC1892A4BD0016ED53 /* AddBoatView */ = {
+			isa = PBXGroup;
+			children = (
+				A897C5C01892A51F0016ED53 /* ADAddBoatView.xib */,
+				A897C5C61892A5640016ED53 /* ADAddBoatView.h */,
+				A897C5C71892A5640016ED53 /* ADAddBoatView.m */,
+			);
+			name = AddBoatView;
+			sourceTree = "<group>";
+		};
+		A897C5BE1892A4F20016ED53 /* AddBicycleView */ = {
+			isa = PBXGroup;
+			children = (
+				A897C5C21892A5380016ED53 /* ADAddBicycleView.xib */,
+				A897C5C91892A5810016ED53 /* ADAddBicycleView.h */,
+				A897C5CA1892A5810016ED53 /* ADAddBicycleView.m */,
+			);
+			name = AddBicycleView;
+			sourceTree = "<group>";
+		};
+		A897C5BF1892A4FD0016ED53 /* AddConstMachineView */ = {
+			isa = PBXGroup;
+			children = (
+				A897C5C41892A54C0016ED53 /* ADAddConstMachineView.xib */,
+				A897C5CC1892A5980016ED53 /* ADAddConstMachineView.h */,
+				A897C5CD1892A5980016ED53 /* ADAddConstMachineView.m */,
+			);
+			name = AddConstMachineView;
+			sourceTree = "<group>";
+		};
+		A8A2DD241879D5CB00D3EA0A /* SearchResultPage */ = {
+			isa = PBXGroup;
+			children = (
+				A8CB3A5A187C457A00B51A24 /* ADSearchResultPageVC.h */,
+				A8CB3A5B187C457A00B51A24 /* ADSearchResultPageVC.m */,
+				A8CB3A5C187C457A00B51A24 /* ADSearchResultPageVC.xib */,
+			);
+			name = SearchResultPage;
+			sourceTree = "<group>";
+		};
+		A8A2DD2A1879D8A100D3EA0A /* CustomTableCells */ = {
+			isa = PBXGroup;
+			children = (
+				A8A2DD2B1879D8DA00D3EA0A /* ADCell1.h */,
+				A8A2DD2C1879D8DA00D3EA0A /* ADCell1.m */,
+				A8A2DD2D1879D8DA00D3EA0A /* ADCell1.xib */,
+				A8CF3D2D187DB71C00BB6ABB /* ADDealerCell.h */,
+				A8CF3D2E187DB71C00BB6ABB /* ADDealerCell.m */,
+				A8CF3D30187DB7AF00BB6ABB /* ADDealerCell.xib */,
+				A8CF3D51187DEFB500BB6ABB /* ADAddressCell.h */,
+				A8CF3D52187DEFB500BB6ABB /* ADAddressCell.m */,
+				A8CF3D54187DEFE100BB6ABB /* ADAddressCell.xib */,
+				A8CF3D6E187E0C4200BB6ABB /* ADSmsCell.h */,
+				A8CF3D6F187E0C4200BB6ABB /* ADSmsCell.m */,
+				A8CF3D71187E0C6600BB6ABB /* ADSmsCell.xib */,
+				A87EE3A9187E181700A4EB01 /* ADNewsCell.h */,
+				A87EE3AA187E181700A4EB01 /* ADNewsCell.m */,
+				A87EE3AC187E182D00A4EB01 /* ADNewsCell.xib */,
+				A8C773D81884F35700551619 /* StrokeLabel.h */,
+				A8C773D91884F35700551619 /* StrokeLabel.m */,
+			);
+			name = CustomTableCells;
+			sourceTree = "<group>";
+		};
+		A8A2DD301879F83100D3EA0A /* DetailInfoPage */ = {
+			isa = PBXGroup;
+			children = (
+				A8C572E218A6C32E005EE538 /* BoatDetailView */,
+				A8E2699F18A51D66005CCEA8 /* ConstMachineDetailView */,
+				A8E2699518A51070005CCEA8 /* BicycleDetailView */,
+				A8E2698F18A50CCE005CCEA8 /* AutoPartDetailView */,
+				A8E2698918A50895005CCEA8 /* BusDetailView */,
+				A8E2697E18A500E3005CCEA8 /* VanDetailView */,
+				A8CAACB718A4CC2800E72F42 /* TruckDetailView */,
+				A8D542C418A492B300C1EE22 /* MobileDetailView */,
+				A8CB3A5F187C484800B51A24 /* ADDetailInfoPageVC.h */,
+				A8CB3A60187C484800B51A24 /* ADDetailInfoPageVC.m */,
+				A8CB3A61187C484800B51A24 /* ADDetailInfoPageVC.xib */,
+			);
+			name = DetailInfoPage;
+			sourceTree = "<group>";
+		};
+		A8C572E218A6C32E005EE538 /* BoatDetailView */ = {
+			isa = PBXGroup;
+			children = (
+				A8C572E318A6C343005EE538 /* ADBoatDetailView.h */,
+				A8C572E418A6C343005EE538 /* ADBoatDetailView.m */,
+				A8C572E518A6C343005EE538 /* ADBoatDetailView.xib */,
+			);
+			name = BoatDetailView;
+			sourceTree = "<group>";
+		};
+		A8C593C318771E0D003335F1 /* SMPageControl */ = {
+			isa = PBXGroup;
+			children = (
+				A8C593C418771E28003335F1 /* SMPageControl.h */,
+				A8C593C518771E28003335F1 /* SMPageControl.m */,
+			);
+			name = SMPageControl;
+			sourceTree = "<group>";
+		};
+		A8C593C718772A36003335F1 /* SearchPage */ = {
+			isa = PBXGroup;
+			children = (
+				A8D4C5541883984E009E843C /* SearchConstructionMachineryView */,
+				A8D4C54E18839490009E843C /* SearchBicyclesView */,
+				A8D4C548188392E7009E843C /* SearchBoatsView */,
+				A8D4C54218838E4C009E843C /* SearchAutoPartsView */,
+				A8D4C53C18838C22009E843C /* SearchBusesView */,
+				A8D4C53618838657009E843C /* SearchVansView */,
+				A8D4C53018837F15009E843C /* SearchTrucksView */,
+				A8E0830118785366001BC3E9 /* SearchCarsView */,
+				A8E082FB18784823001BC3E9 /* SearchMotorcyclesView */,
+				A8C593CD18772ABD003335F1 /* ADSearchPageVC.h */,
+				A8C593CE18772ABD003335F1 /* ADSearchPageVC.m */,
+				A8C593CF18772ABD003335F1 /* ADSearchPageVC.xib */,
+			);
+			name = SearchPage;
+			sourceTree = "<group>";
+		};
+		A8C593D618774035003335F1 /* FooterView */ = {
+			isa = PBXGroup;
+			children = (
+				A8C593DC187740E2003335F1 /* ADFooterView.h */,
+				A8C593DD187740E2003335F1 /* ADFooterView.m */,
+				A8C593DF187740FB003335F1 /* ADFooterView.xib */,
+			);
+			name = FooterView;
+			sourceTree = "<group>";
+		};
+		A8C72A2B1897683900442E8F /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				A8C72A281897683300442E8F /* ADUtils.h */,
+				A8C72A291897683300442E8F /* ADUtils.m */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		A8C773D21884EC8E00551619 /* AsyncImageView */ = {
+			isa = PBXGroup;
+			children = (
+				A8C773D31884EC8E00551619 /* AsyncImageView.h */,
+				A8C773D41884EC8E00551619 /* AsyncImageView.m */,
+			);
+			name = AsyncImageView;
+			path = AutoDiler/Classes/AsyncImageView;
+			sourceTree = "<group>";
+		};
+		A8C7FC0D18928871000D4E6E /* AddAutoPartView */ = {
+			isa = PBXGroup;
+			children = (
+				A8C7FC0E189288CF000D4E6E /* ADAddAutoPartView.h */,
+				A8C7FC0F189288CF000D4E6E /* ADAddAutoPartView.m */,
+				A8C7FC11189288E8000D4E6E /* ADAddAutoPartView.xib */,
+			);
+			name = AddAutoPartView;
+			sourceTree = "<group>";
+		};
+		A8C84C6618AC668100AA416F /* ImagePageVC */ = {
+			isa = PBXGroup;
+			children = (
+				A8C84C6718AC669700AA416F /* ADImagePageVC.h */,
+				A8C84C6818AC669700AA416F /* ADImagePageVC.m */,
+				A8C84C6918AC669700AA416F /* ADImagePageVC.xib */,
+			);
+			name = ImagePageVC;
+			path = AutoDiler/Classes/ImagePageVC;
+			sourceTree = "<group>";
+		};
+		A8CA348318900A230062CDA6 /* AddCarView */ = {
+			isa = PBXGroup;
+			children = (
+				A8CA348418900A660062CDA6 /* ADAddCarView.h */,
+				A8CA348518900A660062CDA6 /* ADAddCarView.m */,
+				A8CA348918900B090062CDA6 /* ADAddCarView.xib */,
+			);
+			name = AddCarView;
+			sourceTree = "<group>";
+		};
+		A8CAACB718A4CC2800E72F42 /* TruckDetailView */ = {
+			isa = PBXGroup;
+			children = (
+				A8CAACB818A4CC3F00E72F42 /* ADTruckDetailView.h */,
+				A8CAACB918A4CC3F00E72F42 /* ADTruckDetailView.m */,
+				A8CAACBA18A4CC3F00E72F42 /* ADTruckDetailView.xib */,
+			);
+			name = TruckDetailView;
+			sourceTree = "<group>";
+		};
+		A8CDF392187C8196002223A7 /* AddAdPage */ = {
+			isa = PBXGroup;
+			children = (
+				A897C5BF1892A4FD0016ED53 /* AddConstMachineView */,
+				A897C5BE1892A4F20016ED53 /* AddBicycleView */,
+				A897C5BC1892A4BD0016ED53 /* AddBoatView */,
+				A8C7FC0D18928871000D4E6E /* AddAutoPartView */,
+				A8D0157F18922E9800CD793E /* AddBusView */,
+				A8D0157918920D7300CD793E /* AddVanView */,
+				A8DCD9561891535D0043DA7C /* AddTruckView */,
+				A8D1E04B1890DEBC0040C7B7 /* AddMotocycleView */,
+				A8CA348318900A230062CDA6 /* AddCarView */,
+				A8CDF3A6187CB718002223A7 /* ADAddPageVC.h */,
+				A8CDF3A7187CB718002223A7 /* ADAddPageVC.m */,
+				A8CDF3A8187CB718002223A7 /* ADAddPageVC.xib */,
+			);
+			name = AddAdPage;
+			sourceTree = "<group>";
+		};
+		A8CDF3AB187CE8F3002223A7 /* CarDealersPage */ = {
+			isa = PBXGroup;
+			children = (
+				A8CDF3AC187CE912002223A7 /* ADCarDealersPageVC.h */,
+				A8CDF3AD187CE912002223A7 /* ADCarDealersPageVC.m */,
+				A8CDF3AE187CE912002223A7 /* ADCarDealersPageVC.xib */,
+			);
+			name = CarDealersPage;
+			sourceTree = "<group>";
+		};
+		A8CF3D36187DD86E00BB6ABB /* CarDealerPage */ = {
+			isa = PBXGroup;
+			children = (
+				A8CF3D46187DE1F200BB6ABB /* ADCarDealerPageVC.h */,
+				A8CF3D47187DE1F200BB6ABB /* ADCarDealerPageVC.m */,
+				A8CF3D48187DE1F200BB6ABB /* ADCarDealerPageVC.xib */,
+			);
+			name = CarDealerPage;
+			sourceTree = "<group>";
+		};
+		A8CF3D4B187DEA4900BB6ABB /* AddressBookPage */ = {
+			isa = PBXGroup;
+			children = (
+				A8CF3D4C187DEA6B00BB6ABB /* ADAddressBookPageVC.h */,
+				A8CF3D4D187DEA6B00BB6ABB /* ADAddressBookPageVC.m */,
+				A8CF3D4E187DEA6B00BB6ABB /* ADAddressBookPageVC.xib */,
+			);
+			name = AddressBookPage;
+			sourceTree = "<group>";
+		};
+		A8CF3D58187DF6CD00BB6ABB /* FavoritePage */ = {
+			isa = PBXGroup;
+			children = (
+				A8CF3D59187DF70A00BB6ABB /* ADFavoritePageVC.h */,
+				A8CF3D5A187DF70A00BB6ABB /* ADFavoritePageVC.m */,
+				A8CF3D5B187DF70A00BB6ABB /* ADFavoritePageVC.xib */,
+			);
+			name = FavoritePage;
+			sourceTree = "<group>";
+		};
+		A8CF3D5E187DFC5B00BB6ABB /* AddressPage */ = {
+			isa = PBXGroup;
+			children = (
+				A8CF3D5F187DFC7900BB6ABB /* ADAddressPageVC.h */,
+				A8CF3D60187DFC7900BB6ABB /* ADAddressPageVC.m */,
+				A8CF3D61187DFC7900BB6ABB /* ADAddressPageVC.xib */,
+			);
+			name = AddressPage;
+			sourceTree = "<group>";
+		};
+		A8CF3D68187E096100BB6ABB /* SmsAdsPage */ = {
+			isa = PBXGroup;
+			children = (
+				A8CF3D69187E098E00BB6ABB /* ADSmsAdsPageVC.h */,
+				A8CF3D6A187E098E00BB6ABB /* ADSmsAdsPageVC.m */,
+				A8CF3D6B187E098E00BB6ABB /* ADSmsAdsPageVC.xib */,
+			);
+			name = SmsAdsPage;
+			sourceTree = "<group>";
+		};
+		A8D0157918920D7300CD793E /* AddVanView */ = {
+			isa = PBXGroup;
+			children = (
+				A8D0157A18920D9100CD793E /* ADAddVanView.h */,
+				A8D0157B18920D9100CD793E /* ADAddVanView.m */,
+				A8D0157D18920DA200CD793E /* ADAddVanView.xib */,
+			);
+			name = AddVanView;
+			sourceTree = "<group>";
+		};
+		A8D0157F18922E9800CD793E /* AddBusView */ = {
+			isa = PBXGroup;
+			children = (
+				A8D0158018922EB100CD793E /* ADAddBusView.h */,
+				A8D0158118922EB100CD793E /* ADAddBusView.m */,
+				A8D0158318922EC100CD793E /* ADAddBusView.xib */,
+			);
+			name = AddBusView;
+			sourceTree = "<group>";
+		};
+		A8D1E04B1890DEBC0040C7B7 /* AddMotocycleView */ = {
+			isa = PBXGroup;
+			children = (
+				A8D1E04C1890DEDD0040C7B7 /* ADAddMotocycleView.h */,
+				A8D1E04D1890DEDD0040C7B7 /* ADAddMotocycleView.m */,
+				A8D1E04F1890DEF90040C7B7 /* ADAddMotocycleView.xib */,
+			);
+			name = AddMotocycleView;
+			sourceTree = "<group>";
+		};
+		A8D4C53018837F15009E843C /* SearchTrucksView */ = {
+			isa = PBXGroup;
+			children = (
+				A8D4C53118837F60009E843C /* ADSearchTrucksView.h */,
+				A8D4C53218837F60009E843C /* ADSearchTrucksView.m */,
+				A8D4C53418837F84009E843C /* ADSearchTrucksView.xib */,
+			);
+			name = SearchTrucksView;
+			sourceTree = "<group>";
+		};
+		A8D4C53618838657009E843C /* SearchVansView */ = {
+			isa = PBXGroup;
+			children = (
+				A8D4C53718838676009E843C /* ADSearchVansView.h */,
+				A8D4C53818838676009E843C /* ADSearchVansView.m */,
+				A8D4C53A1883868B009E843C /* ADSearchVansView.xib */,
+			);
+			name = SearchVansView;
+			sourceTree = "<group>";
+		};
+		A8D4C53C18838C22009E843C /* SearchBusesView */ = {
+			isa = PBXGroup;
+			children = (
+				A8D4C54018838CDD009E843C /* ADSearchBusesView.xib */,
+				A8D4C53D18838CA6009E843C /* ADSearchBusesView.h */,
+				A8D4C53E18838CA6009E843C /* ADSearchBusesView.m */,
+			);
+			name = SearchBusesView;
+			sourceTree = "<group>";
+		};
+		A8D4C54218838E4C009E843C /* SearchAutoPartsView */ = {
+			isa = PBXGroup;
+			children = (
+				A8D4C54618838EA9009E843C /* ADSearchAutoPartsView.xib */,
+				A8D4C54318838E66009E843C /* ADSearchAutoPartsView.h */,
+				A8D4C54418838E66009E843C /* ADSearchAutoPartsView.m */,
+			);
+			name = SearchAutoPartsView;
+			sourceTree = "<group>";
+		};
+		A8D4C548188392E7009E843C /* SearchBoatsView */ = {
+			isa = PBXGroup;
+			children = (
+				A8D4C54C1883935E009E843C /* ADSearchBoatsView.xib */,
+				A8D4C5491883930C009E843C /* ADSearchBoatsView.h */,
+				A8D4C54A1883930C009E843C /* ADSearchBoatsView.m */,
+			);
+			name = SearchBoatsView;
+			sourceTree = "<group>";
+		};
+		A8D4C54E18839490009E843C /* SearchBicyclesView */ = {
+			isa = PBXGroup;
+			children = (
+				A8D4C55218839517009E843C /* ADSearchBicyclesView.xib */,
+				A8D4C54F188394B1009E843C /* ADSearchBicyclesView.h */,
+				A8D4C550188394B1009E843C /* ADSearchBicyclesView.m */,
+			);
+			name = SearchBicyclesView;
+			sourceTree = "<group>";
+		};
+		A8D4C5541883984E009E843C /* SearchConstructionMachineryView */ = {
+			isa = PBXGroup;
+			children = (
+				A8D4C558188398B6009E843C /* ADSearchConstructionMachineryView.xib */,
+				A8D4C55518839868009E843C /* ADSearchConstructionMachineryView.h */,
+				A8D4C55618839868009E843C /* ADSearchConstructionMachineryView.m */,
+			);
+			name = SearchConstructionMachineryView;
+			sourceTree = "<group>";
+		};
+		A8D542C418A492B300C1EE22 /* MobileDetailView */ = {
+			isa = PBXGroup;
+			children = (
+				A8D542C518A492DB00C1EE22 /* ADMobileDetailView.h */,
+				A8D542C618A492DB00C1EE22 /* ADMobileDetailView.m */,
+				A8D542C718A492DB00C1EE22 /* ADMobileDetailView.xib */,
+			);
+			name = MobileDetailView;
+			sourceTree = "<group>";
+		};
+		A8D75463188CCF0800BF1792 /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				A8D75464188CCF0800BF1792 /* MBProgressHUD.h */,
+				A8D75465188CCF0800BF1792 /* MBProgressHUD.m */,
+			);
+			name = MBProgressHUD;
+			path = AutoDiler/Classes/MBProgressHUD;
+			sourceTree = "<group>";
+		};
+		A8DCD9561891535D0043DA7C /* AddTruckView */ = {
+			isa = PBXGroup;
+			children = (
+				A8DCD9571891537D0043DA7C /* ADAddTruckView.h */,
+				A8DCD9581891537D0043DA7C /* ADAddTruckView.m */,
+				A8DCD95A189153960043DA7C /* ADAddTruckView.xib */,
+			);
+			name = AddTruckView;
+			sourceTree = "<group>";
+		};
+		A8E082FB18784823001BC3E9 /* SearchMotorcyclesView */ = {
+			isa = PBXGroup;
+			children = (
+				A8E082FC18784854001BC3E9 /* ADSearchMotorcyclesView.h */,
+				A8E082FD18784854001BC3E9 /* ADSearchMotorcyclesView.m */,
+				A8E082FF1878486F001BC3E9 /* ADSearchMotorcyclesView.xib */,
+			);
+			name = SearchMotorcyclesView;
+			sourceTree = "<group>";
+		};
+		A8E0830118785366001BC3E9 /* SearchCarsView */ = {
+			isa = PBXGroup;
+			children = (
+				A8E083021878537F001BC3E9 /* ADSearchCarsView.h */,
+				A8E083031878537F001BC3E9 /* ADSearchCarsView.m */,
+				A8E083041878537F001BC3E9 /* ADSearchCarsView.xib */,
+			);
+			name = SearchCarsView;
+			sourceTree = "<group>";
+		};
+		A8E0830D1878728D001BC3E9 /* PopupListPage */ = {
+			isa = PBXGroup;
+			children = (
+				A8E0830E187876A4001BC3E9 /* PopupListView.h */,
+				A8E0830F187876A4001BC3E9 /* PopupListView.m */,
+			);
+			name = PopupListPage;
+			sourceTree = "<group>";
+		};
+		A8E2697E18A500E3005CCEA8 /* VanDetailView */ = {
+			isa = PBXGroup;
+			children = (
+				A8E2698418A5046D005CCEA8 /* ADVanDetailView.h */,
+				A8E2698518A5046D005CCEA8 /* ADVanDetailView.m */,
+				A8E2698618A5046D005CCEA8 /* ADVanDetailView.xib */,
+			);
+			name = VanDetailView;
+			sourceTree = "<group>";
+		};
+		A8E2698918A50895005CCEA8 /* BusDetailView */ = {
+			isa = PBXGroup;
+			children = (
+				A8E2698A18A508B1005CCEA8 /* ADBusDetailView.h */,
+				A8E2698B18A508B1005CCEA8 /* ADBusDetailView.m */,
+				A8E2698C18A508B1005CCEA8 /* ADBusDetailView.xib */,
+			);
+			name = BusDetailView;
+			sourceTree = "<group>";
+		};
+		A8E2698F18A50CCE005CCEA8 /* AutoPartDetailView */ = {
+			isa = PBXGroup;
+			children = (
+				A8E2699018A50CE9005CCEA8 /* ADAutoPartDetailView.h */,
+				A8E2699118A50CE9005CCEA8 /* ADAutoPartDetailView.m */,
+				A8E2699218A50CE9005CCEA8 /* ADAutoPartDetailView.xib */,
+			);
+			name = AutoPartDetailView;
+			sourceTree = "<group>";
+		};
+		A8E2699518A51070005CCEA8 /* BicycleDetailView */ = {
+			isa = PBXGroup;
+			children = (
+				A8E2699B18A51947005CCEA8 /* ADBicycleDetailView.h */,
+				A8E2699C18A51947005CCEA8 /* ADBicycleDetailView.m */,
+				A8E2699818A51085005CCEA8 /* ADBicycleDetailView.xib */,
+			);
+			name = BicycleDetailView;
+			sourceTree = "<group>";
+		};
+		A8E2699F18A51D66005CCEA8 /* ConstMachineDetailView */ = {
+			isa = PBXGroup;
+			children = (
+				A8E269A018A51DAF005CCEA8 /* ADConstMachineDetailView.h */,
+				A8E269A118A51DAF005CCEA8 /* ADConstMachineDetailView.m */,
+				A8E269A218A51DAF005CCEA8 /* ADConstMachineDetailView.xib */,
+			);
+			name = ConstMachineDetailView;
+			sourceTree = "<group>";
+		};
+		A8F7A4AA1875869600B6B557 = {
+			isa = PBXGroup;
+			children = (
+				A8F7A4E51875878E00B6B557 /* Classes */,
+				A8F7A4BC1875869600B6B557 /* AutoDiler */,
+				A8F7A4D51875869700B6B557 /* AutoDilerTests */,
+				A8F7A4B51875869600B6B557 /* Frameworks */,
+				A8F7A4B41875869600B6B557 /* Products */,
+				A8F7A4E8187587B300B6B557 /* Resources */,
+			);
+			sourceTree = "<group>";
+		};
+		A8F7A4B41875869600B6B557 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A8F7A4B31875869600B6B557 /* AutoDiler.app */,
+				A8F7A4CE1875869700B6B557 /* AutoDilerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A8F7A4B51875869600B6B557 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A8E25F501899878F0096F7B2 /* libsqlite3.dylib */,
+				A8E25F4C18994B8F0096F7B2 /* libsqlite3.0.dylib */,
+				A8E25F43189912040096F7B2 /* Social.framework */,
+				A8AA3C6C18984522005A0230 /* MessageUI.framework */,
+				A8C773D61884ED1300551619 /* QuartzCore.framework */,
+				A87B2AB4187F29600055BB07 /* libxml2.dylib */,
+				A80260F1187F283C0026F2F9 /* libz.dylib */,
+				A80260EF187F281A0026F2F9 /* MobileCoreServices.framework */,
+				A80260ED187F28080026F2F9 /* SystemConfiguration.framework */,
+				A80260EB187F27BF0026F2F9 /* CFNetwork.framework */,
+				A8F7A4B61875869600B6B557 /* Foundation.framework */,
+				A8F7A4B81875869600B6B557 /* CoreGraphics.framework */,
+				A8F7A4BA1875869600B6B557 /* UIKit.framework */,
+				A8F7A4CF1875869700B6B557 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A8F7A4BC1875869600B6B557 /* AutoDiler */ = {
+			isa = PBXGroup;
+			children = (
+				A8F7A4C81875869600B6B557 /* Images.xcassets */,
+				A8F7A4BD1875869600B6B557 /* Supporting Files */,
+			);
+			path = AutoDiler;
+			sourceTree = "<group>";
+		};
+		A8F7A4BD1875869600B6B557 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A8F7A4BE1875869600B6B557 /* AutoDiler-Info.plist */,
+				A8F7A4BF1875869600B6B557 /* InfoPlist.strings */,
+				A8F7A4C21875869600B6B557 /* main.m */,
+				A8F7A4C41875869600B6B557 /* AutoDiler-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A8F7A4D51875869700B6B557 /* AutoDilerTests */ = {
+			isa = PBXGroup;
+			children = (
+				A8F7A4DB1875869700B6B557 /* AutoDilerTests.m */,
+				A8F7A4D61875869700B6B557 /* Supporting Files */,
+			);
+			path = AutoDilerTests;
+			sourceTree = "<group>";
+		};
+		A8F7A4D61875869700B6B557 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A8F7A4D71875869700B6B557 /* AutoDilerTests-Info.plist */,
+				A8F7A4D81875869700B6B557 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A8F7A4E51875878E00B6B557 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				A8C84C6618AC668100AA416F /* ImagePageVC */,
+				A8C72A2B1897683900442E8F /* Utils */,
+				A8E0830D1878728D001BC3E9 /* PopupListPage */,
+				A8D75463188CCF0800BF1792 /* MBProgressHUD */,
+				A8C773D21884EC8E00551619 /* AsyncImageView */,
+				A80260C6187F279E0026F2F9 /* ASIHttpRequest */,
+				A80260DE187F279E0026F2F9 /* Reachability */,
+				A87EE3AE187E245E00A4EB01 /* NewsDetailPage */,
+				A87EE3A3187E14CF00A4EB01 /* NewsPage */,
+				A8CF3D68187E096100BB6ABB /* SmsAdsPage */,
+				A8CF3D5E187DFC5B00BB6ABB /* AddressPage */,
+				A8CF3D58187DF6CD00BB6ABB /* FavoritePage */,
+				A8CF3D4B187DEA4900BB6ABB /* AddressBookPage */,
+				A8CF3D36187DD86E00BB6ABB /* CarDealerPage */,
+				A8CDF3AB187CE8F3002223A7 /* CarDealersPage */,
+				A8CDF392187C8196002223A7 /* AddAdPage */,
+				A8A2DD301879F83100D3EA0A /* DetailInfoPage */,
+				A8A2DD241879D5CB00D3EA0A /* SearchResultPage */,
+				A8A2DD2A1879D8A100D3EA0A /* CustomTableCells */,
+				A8C593D618774035003335F1 /* FooterView */,
+				A8C593C718772A36003335F1 /* SearchPage */,
+				A8F7A4F218758EE400B6B557 /* MainPage */,
+				A8F7A4E61875879E00B6B557 /* Core */,
+				A8F7A4E7187587A700B6B557 /* Model */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		A8F7A4E61875879E00B6B557 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				A8F7A4C51875869600B6B557 /* AppDelegate.h */,
+				A8F7A4C61875869600B6B557 /* AppDelegate.m */,
+				A8F7A4EF1875895700B6B557 /* ADView.h */,
+				A8F7A4F01875895700B6B557 /* ADView.m */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		A8F7A4E7187587A700B6B557 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A8F7A4E91875887200B6B557 /* ADModel.h */,
+				A8F7A4EA1875887200B6B557 /* ADModel.m */,
+				A8F7A4EC187588B000B6B557 /* ADConst.h */,
+				A8F7A4ED187588B000B6B557 /* ADConst.m */,
+				A8E25F47189940D70096F7B2 /* ADDatabase.h */,
+				A8E25F48189940D70096F7B2 /* ADDatabase.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		A8F7A4E8187587B300B6B557 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A8E25F45189914930096F7B2 /* database.db */,
+				A8F7A4FB1875ADAB00B6B557 /* images */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		A8F7A4F218758EE400B6B557 /* MainPage */ = {
+			isa = PBXGroup;
+			children = (
+				A8C593C318771E0D003335F1 /* SMPageControl */,
+				A8F7A4F618759DF000B6B557 /* ADMainPageVC.h */,
+				A8F7A4F718759DF000B6B557 /* ADMainPageVC.m */,
+				A8F7A4F818759DF000B6B557 /* ADMainPageVC.xib */,
+			);
+			name = MainPage;
+			sourceTree = "<group>";
+		};
+		A8F7A4FB1875ADAB00B6B557 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				A812FBF918AEB86C00B489DE /* detail_back2_body.png */,
+				A812FBFA18AEB86C00B489DE /* detail_back2_header.png */,
+				A8CC219818AE8AAF0083ED9B /* enter_on.png */,
+				A8CC219918AE8AAF0083ED9B /* enter.png */,
+				A8C572E018A6BECB005EE538 /* detail_back9.png */,
+				A8E269A518A521E7005CCEA8 /* detail_back5.png */,
+				A8E269A618A521E7005CCEA8 /* detail_back7.png */,
+				A8E269A718A521E7005CCEA8 /* detail_back13.png */,
+				A8E269A818A521E7005CCEA8 /* detail_back14.png */,
+				A83CC23318A41A290097A5B3 /* splash_768_1024.png */,
+				A83CC23418A41A290097A5B3 /* splash_1536_2048.png */,
+				A8C55D4218A3D99300F73AEA /* popup_back.png */,
+				A8E25F4E1899527C0096F7B2 /* oglas_prijavljen_oglas.png */,
+				A8D4C52E188376C9009E843C /* textview_back_300.png */,
+				A8D56D7C1880EEF600DD6F5D /* checkbox_checked.png */,
+				A8D56D7D1880EEF600DD6F5D /* checkbox_empty.png */,
+				A87EE38D187E0DD700A4EB01 /* sms_oglasi__kalendar.png */,
+				A87EE38E187E0DD700A4EB01 /* sms_oglasi__telefon.png */,
+				A87EE38F187E0DD700A4EB01 /* sms_oglasi_auto_djelovi.png */,
+				A87EE390187E0DD800A4EB01 /* sms_oglasi_autobusi.png */,
+				A87EE391187E0DD800A4EB01 /* sms_oglasi_automobili.png */,
+				A87EE392187E0DD800A4EB01 /* sms_oglasi_bicikla.png */,
+				A87EE393187E0DD800A4EB01 /* sms_oglasi_gradjevinske_masine.png */,
+				A87EE394187E0DD800A4EB01 /* sms_oglasi_kamioni.png */,
+				A87EE395187E0DD800A4EB01 /* sms_oglasi_kombi.png */,
+				A87EE396187E0DD800A4EB01 /* sms_oglasi_motori.png */,
+				A87EE397187E0DD800A4EB01 /* sms_oglasi_plovila.png */,
+				A8CF3D66187DFFC600BB6ABB /* adresar_07.slike.png */,
+				A8CF3D64187DFE8600BB6ABB /* adresar_06.google_mapa.png */,
+				A8CF3D56187DF52000BB6ABB /* adresar_01.djelatnost.png */,
+				A8CF3D44187DDEEF00BB6ABB /* auto_plac__broj_oglasa.png */,
+				A8CF3D3C187DDA6900BB6ABB /* adresar_02.adresa.png */,
+				A8CF3D3D187DDA6900BB6ABB /* adresar_03.telefon.png */,
+				A8CF3D3E187DDA6900BB6ABB /* adresar_04.email.png */,
+				A8CF3D3F187DDA6900BB6ABB /* adresar_05.opis.png */,
+				A8CF3D34187DC41900BB6ABB /* dealer_cell_back.png */,
+				A8CF3D32187DB93E00BB6ABB /* auto_plac__nema_sliku.png */,
+				A8CDF3A2187CB62D002223A7 /* oglas_ukloni_iz_omiljenih_off.png */,
+				A8CDF3A3187CB62D002223A7 /* oglas_ukloni_iz_omiljenih_over.png */,
+				A8CDF3A0187C9CEB002223A7 /* dodaj_oglas__obavezno polje.png */,
+				A8CDF398187C88F1002223A7 /* dodaj_oglas_dodaj_slike_off.png */,
+				A8CDF399187C88F1002223A7 /* dodaj_oglas_dodaj_slike_over.png */,
+				A8CDF39A187C88F1002223A7 /* dodaj_oglas_posalji_off.png */,
+				A8CDF39B187C88F1002223A7 /* dodaj_oglas_posalji_over.png */,
+				A8CB3A64187C595700B51A24 /* detail_back1.png */,
+				A8CB3A65187C595700B51A24 /* detail_back2.png */,
+				A8CB3A66187C595700B51A24 /* detail_back4.png */,
+				A8A2DD36187A059D00D3EA0A /* oglas_dodaj_u_omiljene_off.png */,
+				A8A2DD37187A059D00D3EA0A /* oglas_dodaj_u_omiljene_over.png */,
+				A8A2DD38187A059D00D3EA0A /* oglas_pozovi_prodavca_off.png */,
+				A8A2DD39187A059D00D3EA0A /* oglas_pozovi_prodavca_over.png */,
+				A8A2DD3A187A059D00D3EA0A /* oglas_prijavi_oglas_off.png */,
+				A8A2DD3B187A059D00D3EA0A /* oglas_prijavi_oglas_over.png */,
+				A8E0831818788814001BC3E9 /* popup_list_off.png */,
+				A8E0831918788814001BC3E9 /* popup_list_over.png */,
+				A8E0830718785637001BC3E9 /* text_back_110.png */,
+				A8E0830818785637001BC3E9 /* text_back_200.png */,
+				A8E0830918785637001BC3E9 /* text_back_300.png */,
+				A80888EA1877CA3100A37286 /* combobox_back_300.png */,
+				A80888E81877C89A00A37286 /* combobox_back_110.png */,
+				A80888E41877C41900A37286 /* combobox_back_200.png */,
+				A8C593FF18775C77003335F1 /* pocetni_ekran_linija_najnoviji_oglasi.png */,
+				A8C593FB18775B41003335F1 /* search_button_off.png */,
+				A8C593FC18775B41003335F1 /* search_button_over.png */,
+				A8C593E3187745CC003335F1 /* bottom_menu_01_pocetni_ekran_off.png */,
+				A8C593E4187745CC003335F1 /* bottom_menu_01_pocetni_ekran_over.png */,
+				A8C593E5187745CC003335F1 /* bottom_menu_02_dodaj_oglas_off.png */,
+				A8C593E6187745CC003335F1 /* bottom_menu_02_dodaj_oglas_over.png */,
+				A8C593E7187745CC003335F1 /* bottom_menu_03_novo_u_24h_off.png */,
+				A8C593E8187745CC003335F1 /* bottom_menu_03_novo_u_24h_over.png */,
+				A8C593E9187745CD003335F1 /* bottom_menu_04_pala_cijenai_off.png */,
+				A8C593EA187745CD003335F1 /* bottom_menu_04_pala_cijenai_over.png */,
+				A8C593EB187745CD003335F1 /* bottom_menu_05_omiljeni_oglasi_off.png */,
+				A8C593EC187745CD003335F1 /* bottom_menu_05_omiljeni_oglasi_over.png */,
+				A8C593ED187745CD003335F1 /* bottom_menu_06_podijeli_off.png */,
+				A8C593EE187745CD003335F1 /* bottom_menu_06_podijeli_over.png */,
+				A8C593E11877429F003335F1 /* bottom_menu_background.png */,
+				A8C593D218773B28003335F1 /* dugme_nazad_i_sortiraj_off.png */,
+				A8C593D318773B28003335F1 /* dugme_nazad_i_sortiraj_over.png */,
+				A8C593BF1876CC52003335F1 /* pocetni_ekran_sat_najnoviji_oglasi.png */,
+				A8C593BD1876B83E003335F1 /* placen_oglas.png */,
+				A8C593A91876B7A9003335F1 /* galerija_slika_desno_off.png */,
+				A8C593AA1876B7A9003335F1 /* galerija_slika_desno_over.png */,
+				A8C593AB1876B7A9003335F1 /* galerija_slika_lijevo_off.png */,
+				A8C593AC1876B7A9003335F1 /* galerija_slika_lijevo_over.png */,
+				A8C593AD1876B7A9003335F1 /* indikator_stranice_off.png */,
+				A8C593AE1876B7A9003335F1 /* indikator_stranice_on.png */,
+				A8C593AF1876B7A9003335F1 /* navigacija_desno_off.png */,
+				A8C593B01876B7A9003335F1 /* navigacija_desno_over.png */,
+				A8C593B11876B7A9003335F1 /* navigacija_lijevo_off.png */,
+				A8C593B21876B7A9003335F1 /* navigacija_lijevo_over.png */,
+				A89AE7E71875D6A5002AB7E7 /* 01.main_menu_pretraga_off.png */,
+				A89AE7E81875D6A5002AB7E7 /* 01.main_menu_pretraga_over.png */,
+				A89AE7E91875D6A5002AB7E7 /* 02.main_menu_dodaj_oglas_off.png */,
+				A89AE7EA1875D6A5002AB7E7 /* 02.main_menu_dodaj_oglas_over.png.png */,
+				A89AE7EB1875D6A5002AB7E7 /* 03.main_menu_svi_oglasi_off.png */,
+				A89AE7EC1875D6A5002AB7E7 /* 03.main_menu_svi_oglasi_over.png */,
+				A89AE7ED1875D6A5002AB7E7 /* 04.main_menu_automobili_off.png */,
+				A89AE7EE1875D6A5002AB7E7 /* 04.main_menu_automobili_over.png */,
+				A89AE7EF1875D6A5002AB7E7 /* 05.main_menu_motori_off.png */,
+				A89AE7F01875D6A5002AB7E7 /* 05.main_menu_motori_over.png */,
+				A89AE7F11875D6A5002AB7E7 /* 06.main_menu_kamioni_off.png */,
+				A89AE7F21875D6A5002AB7E7 /* 06.main_menu_kamioni_over.png */,
+				A89AE7F31875D6A5002AB7E7 /* 07.main_menu_kombi_off.png */,
+				A89AE7F41875D6A5002AB7E7 /* 07.main_menu_kombi_over.png */,
+				A89AE7F51875D6A5002AB7E7 /* 08.main_menu_autobus_off.png */,
+				A89AE7F61875D6A5002AB7E7 /* 08.main_menu_autobus_over.png */,
+				A89AE7F71875D6A5002AB7E7 /* 09.main_menu_auto_djelovi_off.png */,
+				A89AE7F81875D6A5002AB7E7 /* 09.main_menu_auto_djelovi_over.png */,
+				A89AE7F91875D6A5002AB7E7 /* 10.main_menu_auto_plovila_off.png */,
+				A89AE7FA1875D6A5002AB7E7 /* 10.main_menu_auto_plovila_over.png */,
+				A89AE7FB1875D6A5002AB7E7 /* 11.main_menu_auto_bicikla_offr.png */,
+				A89AE7FC1875D6A5002AB7E7 /* 11.main_menu_auto_bicikla_over.png */,
+				A89AE7FD1875D6A5002AB7E7 /* 12.main_menu_gradjevinske_masine_off.png */,
+				A89AE7FE1875D6A5002AB7E7 /* 12.main_menu_gradjevinske_masine_over.png */,
+				A89AE7FF1875D6A5002AB7E7 /* 13.main_menu_auto_plac_off.png */,
+				A89AE8001875D6A5002AB7E7 /* 13.main_menu_auto_plac_over.png */,
+				A89AE8011875D6A5002AB7E7 /* 14.main_menu_adresar_off.png */,
+				A89AE8021875D6A5002AB7E7 /* 14.main_menu_adresar_over.png */,
+				A89AE8031875D6A5002AB7E7 /* 15.main_menu_sms_off.png */,
+				A89AE8041875D6A5002AB7E7 /* 15.main_menu_sms_over.png */,
+				A89AE8051875D6A5002AB7E7 /* 16.main_menu_news_off.png */,
+				A89AE8061875D6A5002AB7E7 /* 16.main_menu_news_over.png */,
+				A89AE8071875D6A5002AB7E7 /* 17.main_menu_omiljeni_oglasi_off.png */,
+				A89AE8081875D6A5002AB7E7 /* 17.main_menu_omiljeni_oglasi_over.png */,
+				A8C482E01875C8D600D663B4 /* logo_background.png */,
+				A8C482E11875C8D600D663B4 /* logo.png */,
+				A8C482DA1875C12000D663B4 /* splash_320_480.png */,
+				A8C482DB1875C12000D663B4 /* splash_640_960.png */,
+				A8C482DC1875C12000D663B4 /* splash_640_1136.png */,
+				A8F7A4FE1875BBC900B6B557 /* Icon-72.png */,
+				A8F7A4FF1875BBC900B6B557 /* Icon-72@2x.png */,
+				A8F7A5001875BBC900B6B557 /* Icon-Small-50.png */,
+				A8F7A5011875BBC900B6B557 /* Icon-Small-50@2x.png */,
+				A8F7A5021875BBC900B6B557 /* Icon-Small.png */,
+				A8F7A5031875BBC900B6B557 /* Icon-Small@2x.png */,
+				A8F7A5041875BBC900B6B557 /* Icon.png */,
+				A8F7A5051875BBC900B6B557 /* Icon@2x.png */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A8F7A4B21875869600B6B557 /* AutoDiler */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A8F7A4DF1875869700B6B557 /* Build configuration list for PBXNativeTarget "AutoDiler" */;
+			buildPhases = (
+				A8F7A4AF1875869600B6B557 /* Sources */,
+				A8F7A4B01875869600B6B557 /* Frameworks */,
+				A8F7A4B11875869600B6B557 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AutoDiler;
+			productName = AutoDiler;
+			productReference = A8F7A4B31875869600B6B557 /* AutoDiler.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A8F7A4CD1875869700B6B557 /* AutoDilerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A8F7A4E21875869700B6B557 /* Build configuration list for PBXNativeTarget "AutoDilerTests" */;
+			buildPhases = (
+				A8F7A4CA1875869700B6B557 /* Sources */,
+				A8F7A4CB1875869700B6B557 /* Frameworks */,
+				A8F7A4CC1875869700B6B557 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A8F7A4D41875869700B6B557 /* PBXTargetDependency */,
+			);
+			name = AutoDilerTests;
+			productName = AutoDilerTests;
+			productReference = A8F7A4CE1875869700B6B557 /* AutoDilerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A8F7A4AB1875869600B6B557 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = MRDzA;
+				TargetAttributes = {
+					A8F7A4CD1875869700B6B557 = {
+						TestTargetID = A8F7A4B21875869600B6B557;
+					};
+				};
+			};
+			buildConfigurationList = A8F7A4AE1875869600B6B557 /* Build configuration list for PBXProject "AutoDiler" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A8F7A4AA1875869600B6B557;
+			productRefGroup = A8F7A4B41875869600B6B557 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A8F7A4B21875869600B6B557 /* AutoDiler */,
+				A8F7A4CD1875869700B6B557 /* AutoDilerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A8F7A4B11875869600B6B557 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A87EE39C187E0DD800A4EB01 /* sms_oglasi_automobili.png in Resources */,
+				A89AE8251875D6A5002AB7E7 /* 15.main_menu_sms_off.png in Resources */,
+				A89AE81D1875D6A5002AB7E7 /* 11.main_menu_auto_bicikla_offr.png in Resources */,
+				A87EE399187E0DD800A4EB01 /* sms_oglasi__telefon.png in Resources */,
+				A87EE398187E0DD800A4EB01 /* sms_oglasi__kalendar.png in Resources */,
+				A8C593F0187745CD003335F1 /* bottom_menu_01_pocetni_ekran_over.png in Resources */,
+				A8F7A50A1875BBC900B6B557 /* Icon-Small.png in Resources */,
+				A83CC23518A41A290097A5B3 /* splash_768_1024.png in Resources */,
+				A8F7A4FA18759DF000B6B557 /* ADMainPageVC.xib in Resources */,
+				A89AE8261875D6A5002AB7E7 /* 15.main_menu_sms_over.png in Resources */,
+				A8E269AB18A521E7005CCEA8 /* detail_back13.png in Resources */,
+				A8A2DD3F187A059D00D3EA0A /* oglas_pozovi_prodavca_over.png in Resources */,
+				A8CB3A63187C484800B51A24 /* ADDetailInfoPageVC.xib in Resources */,
+				A89AE80E1875D6A5002AB7E7 /* 03.main_menu_svi_oglasi_over.png in Resources */,
+				A80888E91877C89A00A37286 /* combobox_back_110.png in Resources */,
+				A87EE39F187E0DD800A4EB01 /* sms_oglasi_kamioni.png in Resources */,
+				A8C482E21875C8D600D663B4 /* logo_background.png in Resources */,
+				A8E25F4F1899527C0096F7B2 /* oglas_prijavljen_oglas.png in Resources */,
+				A8C593FE18775B41003335F1 /* search_button_over.png in Resources */,
+				A8C593D418773B28003335F1 /* dugme_nazad_i_sortiraj_off.png in Resources */,
+				A8E269AA18A521E7005CCEA8 /* detail_back7.png in Resources */,
+				A8CF3D67187DFFC600BB6ABB /* adresar_07.slike.png in Resources */,
+				A8C593FA187745CD003335F1 /* bottom_menu_06_podijeli_over.png in Resources */,
+				A89AE8181875D6A5002AB7E7 /* 08.main_menu_autobus_over.png in Resources */,
+				A897C5C11892A51F0016ED53 /* ADAddBoatView.xib in Resources */,
+				A8C593F7187745CD003335F1 /* bottom_menu_05_omiljeni_oglasi_off.png in Resources */,
+				A8A2DD3E187A059D00D3EA0A /* oglas_pozovi_prodavca_off.png in Resources */,
+				A8C572E118A6BECB005EE538 /* detail_back9.png in Resources */,
+				A8C593C01876CC52003335F1 /* pocetni_ekran_sat_najnoviji_oglasi.png in Resources */,
+				A8CB3A69187C595700B51A24 /* detail_back4.png in Resources */,
+				A8E2699A18A51085005CCEA8 /* ADBicycleDetailView.xib in Resources */,
+				A8C593B61876B7A9003335F1 /* galerija_slika_lijevo_over.png in Resources */,
+				A812FBFB18AEB86C00B489DE /* detail_back2_body.png in Resources */,
+				A87EE39D187E0DD800A4EB01 /* sms_oglasi_bicikla.png in Resources */,
+				A89AE8091875D6A5002AB7E7 /* 01.main_menu_pretraga_off.png in Resources */,
+				A8C593B91876B7A9003335F1 /* navigacija_desno_off.png in Resources */,
+				A8F7A50C1875BBC900B6B557 /* Icon.png in Resources */,
+				A8E083061878537F001BC3E9 /* ADSearchCarsView.xib in Resources */,
+				A8A2DD2F1879D8DA00D3EA0A /* ADCell1.xib in Resources */,
+				A8F7A5061875BBC900B6B557 /* Icon-72.png in Resources */,
+				A89AE81B1875D6A5002AB7E7 /* 10.main_menu_auto_plovila_off.png in Resources */,
+				A89AE8221875D6A5002AB7E7 /* 13.main_menu_auto_plac_over.png in Resources */,
+				A8C5940018775C77003335F1 /* pocetni_ekran_linija_najnoviji_oglasi.png in Resources */,
+				A8F7A50B1875BBC900B6B557 /* Icon-Small@2x.png in Resources */,
+				A8C593F1187745CD003335F1 /* bottom_menu_02_dodaj_oglas_off.png in Resources */,
+				A8CF3D43187DDA6900BB6ABB /* adresar_05.opis.png in Resources */,
+				A89AE8101875D6A5002AB7E7 /* 04.main_menu_automobili_over.png in Resources */,
+				A8CF3D72187E0C6600BB6ABB /* ADSmsCell.xib in Resources */,
+				A8CB3A67187C595700B51A24 /* detail_back1.png in Resources */,
+				A80888EB1877CA3100A37286 /* combobox_back_300.png in Resources */,
+				A8C482DE1875C12000D663B4 /* splash_640_960.png in Resources */,
+				A89AE8271875D6A5002AB7E7 /* 16.main_menu_news_off.png in Resources */,
+				A8CF3D6D187E098E00BB6ABB /* ADSmsAdsPageVC.xib in Resources */,
+				A89AE8141875D6A5002AB7E7 /* 06.main_menu_kamioni_over.png in Resources */,
+				A8DCD95B189153960043DA7C /* ADAddTruckView.xib in Resources */,
+				A8C593FD18775B41003335F1 /* search_button_off.png in Resources */,
+				A8C593B71876B7A9003335F1 /* indikator_stranice_off.png in Resources */,
+				A8E0830B18785637001BC3E9 /* text_back_200.png in Resources */,
+				A8E269AC18A521E7005CCEA8 /* detail_back14.png in Resources */,
+				A8C482DF1875C12000D663B4 /* splash_640_1136.png in Resources */,
+				A8C593F5187745CD003335F1 /* bottom_menu_04_pala_cijenai_off.png in Resources */,
+				A8F7A50D1875BBC900B6B557 /* Icon@2x.png in Resources */,
+				A8CF3D4A187DE1F200BB6ABB /* ADCarDealerPageVC.xib in Resources */,
+				A8F7A5091875BBC900B6B557 /* Icon-Small-50@2x.png in Resources */,
+				A8D4C54118838CDD009E843C /* ADSearchBusesView.xib in Resources */,
+				A89AE8191875D6A5002AB7E7 /* 09.main_menu_auto_djelovi_off.png in Resources */,
+				A89AE8161875D6A5002AB7E7 /* 07.main_menu_kombi_over.png in Resources */,
+				A89AE80B1875D6A5002AB7E7 /* 02.main_menu_dodaj_oglas_off.png in Resources */,
+				A87EE3A8187E14FF00A4EB01 /* ADNewsPageVC.xib in Resources */,
+				A8D4C52F188376C9009E843C /* textview_back_300.png in Resources */,
+				A8CDF3AA187CB718002223A7 /* ADAddPageVC.xib in Resources */,
+				A8F7A5071875BBC900B6B557 /* Icon-72@2x.png in Resources */,
+				A8F7A5081875BBC900B6B557 /* Icon-Small-50.png in Resources */,
+				A8CDF39D187C88F1002223A7 /* dodaj_oglas_dodaj_slike_over.png in Resources */,
+				A8D56D7F1880EEF600DD6F5D /* checkbox_empty.png in Resources */,
+				A89AE81F1875D6A5002AB7E7 /* 12.main_menu_gradjevinske_masine_off.png in Resources */,
+				A89AE8121875D6A5002AB7E7 /* 05.main_menu_motori_over.png in Resources */,
+				A83CC23618A41A290097A5B3 /* splash_1536_2048.png in Resources */,
+				A8CDF3A1187C9CEB002223A7 /* dodaj_oglas__obavezno polje.png in Resources */,
+				A8E2698E18A508B1005CCEA8 /* ADBusDetailView.xib in Resources */,
+				A89AE8231875D6A5002AB7E7 /* 14.main_menu_adresar_off.png in Resources */,
+				A8CF3D35187DC41900BB6ABB /* dealer_cell_back.png in Resources */,
+				A8C593F4187745CD003335F1 /* bottom_menu_03_novo_u_24h_over.png in Resources */,
+				A8C593BE1876B83E003335F1 /* placen_oglas.png in Resources */,
+				A87EE39E187E0DD800A4EB01 /* sms_oglasi_gradjevinske_masine.png in Resources */,
+				A8C593BC1876B7A9003335F1 /* navigacija_lijevo_over.png in Resources */,
+				A89AE8111875D6A5002AB7E7 /* 05.main_menu_motori_off.png in Resources */,
+				A8C593B81876B7A9003335F1 /* indikator_stranice_on.png in Resources */,
+				A8C593F2187745CD003335F1 /* bottom_menu_02_dodaj_oglas_over.png in Resources */,
+				A8D4C54D1883935E009E843C /* ADSearchBoatsView.xib in Resources */,
+				A8CAACBC18A4CC3F00E72F42 /* ADTruckDetailView.xib in Resources */,
+				A8E0830A18785637001BC3E9 /* text_back_110.png in Resources */,
+				A8CDF3B0187CE912002223A7 /* ADCarDealersPageVC.xib in Resources */,
+				A8C593D118772ABD003335F1 /* ADSearchPageVC.xib in Resources */,
+				A8C593F6187745CD003335F1 /* bottom_menu_04_pala_cijenai_over.png in Resources */,
+				A8CA348A18900B090062CDA6 /* ADAddCarView.xib in Resources */,
+				A8CF3D5D187DF70A00BB6ABB /* ADFavoritePageVC.xib in Resources */,
+				A8CF3D40187DDA6900BB6ABB /* adresar_02.adresa.png in Resources */,
+				A8A2DD3C187A059D00D3EA0A /* oglas_dodaj_u_omiljene_off.png in Resources */,
+				A8D4C54718838EA9009E843C /* ADSearchAutoPartsView.xib in Resources */,
+				A8E083001878486F001BC3E9 /* ADSearchMotorcyclesView.xib in Resources */,
+				A8C593D518773B28003335F1 /* dugme_nazad_i_sortiraj_over.png in Resources */,
+				A87EE3A1187E0DD800A4EB01 /* sms_oglasi_motori.png in Resources */,
+				A8C593BB1876B7A9003335F1 /* navigacija_lijevo_off.png in Resources */,
+				A8CF3D42187DDA6900BB6ABB /* adresar_04.email.png in Resources */,
+				A8A2DD40187A059D00D3EA0A /* oglas_prijavi_oglas_off.png in Resources */,
+				A8D56D7E1880EEF600DD6F5D /* checkbox_checked.png in Resources */,
+				A89AE8151875D6A5002AB7E7 /* 07.main_menu_kombi_off.png in Resources */,
+				A89AE80D1875D6A5002AB7E7 /* 03.main_menu_svi_oglasi_off.png in Resources */,
+				A8C482E31875C8D600D663B4 /* logo.png in Resources */,
+				A8CDF39C187C88F1002223A7 /* dodaj_oglas_dodaj_slike_off.png in Resources */,
+				A8F7A4C11875869600B6B557 /* InfoPlist.strings in Resources */,
+				A8C593B31876B7A9003335F1 /* galerija_slika_desno_off.png in Resources */,
+				A8D4C53B1883868B009E843C /* ADSearchVansView.xib in Resources */,
+				A89AE80F1875D6A5002AB7E7 /* 04.main_menu_automobili_off.png in Resources */,
+				A8D0158418922EC100CD793E /* ADAddBusView.xib in Resources */,
+				A8CF3D33187DB93E00BB6ABB /* auto_plac__nema_sliku.png in Resources */,
+				A812FBFC18AEB86C00B489DE /* detail_back2_header.png in Resources */,
+				A89AE8171875D6A5002AB7E7 /* 08.main_menu_autobus_off.png in Resources */,
+				A89AE81C1875D6A5002AB7E7 /* 10.main_menu_auto_plovila_over.png in Resources */,
+				A8C593B41876B7A9003335F1 /* galerija_slika_desno_over.png in Resources */,
+				A8C593F3187745CD003335F1 /* bottom_menu_03_novo_u_24h_off.png in Resources */,
+				A8CF3D31187DB7AF00BB6ABB /* ADDealerCell.xib in Resources */,
+				A8CC219A18AE8AAF0083ED9B /* enter_on.png in Resources */,
+				A89AE81E1875D6A5002AB7E7 /* 11.main_menu_auto_bicikla_over.png in Resources */,
+				A8D4C55318839517009E843C /* ADSearchBicyclesView.xib in Resources */,
+				A8C593E0187740FB003335F1 /* ADFooterView.xib in Resources */,
+				A87EE3A2187E0DD800A4EB01 /* sms_oglasi_plovila.png in Resources */,
+				A89AE8201875D6A5002AB7E7 /* 12.main_menu_gradjevinske_masine_over.png in Resources */,
+				A8E2698818A5046D005CCEA8 /* ADVanDetailView.xib in Resources */,
+				A8CF3D57187DF52000BB6ABB /* adresar_01.djelatnost.png in Resources */,
+				A897C5C51892A54C0016ED53 /* ADAddConstMachineView.xib in Resources */,
+				A8C7FC12189288E8000D4E6E /* ADAddAutoPartView.xib in Resources */,
+				A8CC219B18AE8AAF0083ED9B /* enter.png in Resources */,
+				A8CF3D50187DEA6B00BB6ABB /* ADAddressBookPageVC.xib in Resources */,
+				A8C593B51876B7A9003335F1 /* galerija_slika_lijevo_off.png in Resources */,
+				A8CB3A68187C595700B51A24 /* detail_back2.png in Resources */,
+				A8E0831A18788814001BC3E9 /* popup_list_off.png in Resources */,
+				A8C55D4318A3D99300F73AEA /* popup_back.png in Resources */,
+				A80888E61877C41900A37286 /* combobox_back_200.png in Resources */,
+				A89AE8281875D6A5002AB7E7 /* 16.main_menu_news_over.png in Resources */,
+				A87EE3B3187E248A00A4EB01 /* ADNewsDetailPageVC.xib in Resources */,
+				A87EE3A0187E0DD800A4EB01 /* sms_oglasi_kombi.png in Resources */,
+				A8D1E0501890DEF90040C7B7 /* ADAddMotocycleView.xib in Resources */,
+				A8C572E718A6C343005EE538 /* ADBoatDetailView.xib in Resources */,
+				A89AE81A1875D6A5002AB7E7 /* 09.main_menu_auto_djelovi_over.png in Resources */,
+				A87EE39A187E0DD800A4EB01 /* sms_oglasi_auto_djelovi.png in Resources */,
+				A8CF3D63187DFC7900BB6ABB /* ADAddressPageVC.xib in Resources */,
+				A8CF3D41187DDA6900BB6ABB /* adresar_03.telefon.png in Resources */,
+				A8E269A418A51DAF005CCEA8 /* ADConstMachineDetailView.xib in Resources */,
+				A8F7A4C91875869600B6B557 /* Images.xcassets in Resources */,
+				A8CF3D65187DFE8600BB6ABB /* adresar_06.google_mapa.png in Resources */,
+				A8D4C53518837F84009E843C /* ADSearchTrucksView.xib in Resources */,
+				A8A2DD3D187A059D00D3EA0A /* oglas_dodaj_u_omiljene_over.png in Resources */,
+				A8C593F8187745CD003335F1 /* bottom_menu_05_omiljeni_oglasi_over.png in Resources */,
+				A897C5C31892A5380016ED53 /* ADAddBicycleView.xib in Resources */,
+				A8CDF39E187C88F1002223A7 /* dodaj_oglas_posalji_off.png in Resources */,
+				A8E0830C18785637001BC3E9 /* text_back_300.png in Resources */,
+				A89AE8211875D6A5002AB7E7 /* 13.main_menu_auto_plac_off.png in Resources */,
+				A8CF3D45187DDEEF00BB6ABB /* auto_plac__broj_oglasa.png in Resources */,
+				A89AE8241875D6A5002AB7E7 /* 14.main_menu_adresar_over.png in Resources */,
+				A8CF3D55187DEFE100BB6ABB /* ADAddressCell.xib in Resources */,
+				A89AE80C1875D6A5002AB7E7 /* 02.main_menu_dodaj_oglas_over.png.png in Resources */,
+				A8E0831B18788814001BC3E9 /* popup_list_over.png in Resources */,
+				A8C593E21877429F003335F1 /* bottom_menu_background.png in Resources */,
+				A8D0157E18920DA200CD793E /* ADAddVanView.xib in Resources */,
+				A89AE8131875D6A5002AB7E7 /* 06.main_menu_kamioni_off.png in Resources */,
+				A8CDF3A5187CB62D002223A7 /* oglas_ukloni_iz_omiljenih_over.png in Resources */,
+				A8C593F9187745CD003335F1 /* bottom_menu_06_podijeli_off.png in Resources */,
+				A8E2699418A50CE9005CCEA8 /* ADAutoPartDetailView.xib in Resources */,
+				A87EE3AD187E182D00A4EB01 /* ADNewsCell.xib in Resources */,
+				A8CB3A5E187C457A00B51A24 /* ADSearchResultPageVC.xib in Resources */,
+				A87EE39B187E0DD800A4EB01 /* sms_oglasi_autobusi.png in Resources */,
+				A8D542C918A492DB00C1EE22 /* ADMobileDetailView.xib in Resources */,
+				A89AE8291875D6A5002AB7E7 /* 17.main_menu_omiljeni_oglasi_off.png in Resources */,
+				A8C593BA1876B7A9003335F1 /* navigacija_desno_over.png in Resources */,
+				A8C482DD1875C12000D663B4 /* splash_320_480.png in Resources */,
+				A8E269A918A521E7005CCEA8 /* detail_back5.png in Resources */,
+				A8C593EF187745CD003335F1 /* bottom_menu_01_pocetni_ekran_off.png in Resources */,
+				A8A2DD41187A059D00D3EA0A /* oglas_prijavi_oglas_over.png in Resources */,
+				A8E25F46189914930096F7B2 /* database.db in Resources */,
+				A8D4C559188398B6009E843C /* ADSearchConstructionMachineryView.xib in Resources */,
+				A89AE80A1875D6A5002AB7E7 /* 01.main_menu_pretraga_over.png in Resources */,
+				A8CDF39F187C88F1002223A7 /* dodaj_oglas_posalji_over.png in Resources */,
+				A89AE82A1875D6A5002AB7E7 /* 17.main_menu_omiljeni_oglasi_over.png in Resources */,
+				A8CDF3A4187CB62D002223A7 /* oglas_ukloni_iz_omiljenih_off.png in Resources */,
+				A8C84C6B18AC669700AA416F /* ADImagePageVC.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8F7A4CC1875869700B6B557 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8F7A4DA1875869700B6B557 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A8F7A4AF1875869600B6B557 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8D4C53F18838CA6009E843C /* ADSearchBusesView.m in Sources */,
+				A80260E2187F279E0026F2F9 /* ASIDataCompressor.m in Sources */,
+				A8C593C618771E28003335F1 /* SMPageControl.m in Sources */,
+				A8CF3D6C187E098E00BB6ABB /* ADSmsAdsPageVC.m in Sources */,
+				A80260E3187F279E0026F2F9 /* ASIDataDecompressor.m in Sources */,
+				A8E25F49189940D70096F7B2 /* ADDatabase.m in Sources */,
+				A8C773D51884EC8E00551619 /* AsyncImageView.m in Sources */,
+				A8C72A2A1897683300442E8F /* ADUtils.m in Sources */,
+				A8CB3A5D187C457A00B51A24 /* ADSearchResultPageVC.m in Sources */,
+				A8C593D018772ABD003335F1 /* ADSearchPageVC.m in Sources */,
+				A80260E7187F279E0026F2F9 /* ASIInputStream.m in Sources */,
+				A897C5CB1892A5810016ED53 /* ADAddBicycleView.m in Sources */,
+				A8F7A4EE187588B000B6B557 /* ADConst.m in Sources */,
+				A80260E6187F279E0026F2F9 /* ASIHTTPRequest.m in Sources */,
+				A8F7A4F918759DF000B6B557 /* ADMainPageVC.m in Sources */,
+				A8D4C54B1883930C009E843C /* ADSearchBoatsView.m in Sources */,
+				A80260EA187F279E0026F2F9 /* Reachability.m in Sources */,
+				A8CF3D53187DEFB500BB6ABB /* ADAddressCell.m in Sources */,
+				A8D0157C18920D9100CD793E /* ADAddVanView.m in Sources */,
+				A8D1E04E1890DEDD0040C7B7 /* ADAddMotocycleView.m in Sources */,
+				A8E2699318A50CE9005CCEA8 /* ADAutoPartDetailView.m in Sources */,
+				A8CF3D62187DFC7900BB6ABB /* ADAddressPageVC.m in Sources */,
+				A8CF3D5C187DF70A00BB6ABB /* ADFavoritePageVC.m in Sources */,
+				A8E083051878537F001BC3E9 /* ADSearchCarsView.m in Sources */,
+				A8F7A4C71875869600B6B557 /* AppDelegate.m in Sources */,
+				A8E2698718A5046D005CCEA8 /* ADVanDetailView.m in Sources */,
+				A8E2698D18A508B1005CCEA8 /* ADBusDetailView.m in Sources */,
+				A8E2699D18A51947005CCEA8 /* ADBicycleDetailView.m in Sources */,
+				A8CF3D70187E0C4200BB6ABB /* ADSmsCell.m in Sources */,
+				A87EE3AB187E181700A4EB01 /* ADNewsCell.m in Sources */,
+				A8E08310187876A4001BC3E9 /* PopupListView.m in Sources */,
+				A8D4C551188394B1009E843C /* ADSearchBicyclesView.m in Sources */,
+				A8CF3D4F187DEA6B00BB6ABB /* ADAddressBookPageVC.m in Sources */,
+				A8C593DE187740E2003335F1 /* ADFooterView.m in Sources */,
+				A80260E8187F279E0026F2F9 /* ASINetworkQueue.m in Sources */,
+				A8CA348618900A660062CDA6 /* ADAddCarView.m in Sources */,
+				A8CF3D2F187DB71C00BB6ABB /* ADDealerCell.m in Sources */,
+				A8D4C55718839868009E843C /* ADSearchConstructionMachineryView.m in Sources */,
+				A8C773DA1884F35700551619 /* StrokeLabel.m in Sources */,
+				A8C572E618A6C343005EE538 /* ADBoatDetailView.m in Sources */,
+				A8CB3A62187C484800B51A24 /* ADDetailInfoPageVC.m in Sources */,
+				A8F7A4F11875895700B6B557 /* ADView.m in Sources */,
+				A8D75466188CCF0800BF1792 /* MBProgressHUD.m in Sources */,
+				A8F7A4EB1875887200B6B557 /* ADModel.m in Sources */,
+				A8D4C54518838E66009E843C /* ADSearchAutoPartsView.m in Sources */,
+				A80260E4187F279E0026F2F9 /* ASIDownloadCache.m in Sources */,
+				A8D0158218922EB100CD793E /* ADAddBusView.m in Sources */,
+				A8D4C53918838676009E843C /* ADSearchVansView.m in Sources */,
+				A8DCD9591891537D0043DA7C /* ADAddTruckView.m in Sources */,
+				A80260E9187F279E0026F2F9 /* ASIWebPageRequest.m in Sources */,
+				A8CDF3A9187CB718002223A7 /* ADAddPageVC.m in Sources */,
+				A897C5C81892A5640016ED53 /* ADAddBoatView.m in Sources */,
+				A8C7FC10189288CF000D4E6E /* ADAddAutoPartView.m in Sources */,
+				A8CDF3AF187CE912002223A7 /* ADCarDealersPageVC.m in Sources */,
+				A8CAACBB18A4CC3F00E72F42 /* ADTruckDetailView.m in Sources */,
+				A87EE3A7187E14FF00A4EB01 /* ADNewsPageVC.m in Sources */,
+				A8D542C818A492DB00C1EE22 /* ADMobileDetailView.m in Sources */,
+				A8CF3D49187DE1F200BB6ABB /* ADCarDealerPageVC.m in Sources */,
+				A8E082FE18784854001BC3E9 /* ADSearchMotorcyclesView.m in Sources */,
+				A8A2DD2E1879D8DA00D3EA0A /* ADCell1.m in Sources */,
+				A80260E1187F279E0026F2F9 /* ASIAuthenticationDialog.m in Sources */,
+				A897C5CE1892A5980016ED53 /* ADAddConstMachineView.m in Sources */,
+				A87EE3B2187E248A00A4EB01 /* ADNewsDetailPageVC.m in Sources */,
+				A8E269A318A51DAF005CCEA8 /* ADConstMachineDetailView.m in Sources */,
+				A8C84C6A18AC669700AA416F /* ADImagePageVC.m in Sources */,
+				A8D4C53318837F60009E843C /* ADSearchTrucksView.m in Sources */,
+				A80260E5187F279E0026F2F9 /* ASIFormDataRequest.m in Sources */,
+				A8F7A4C31875869600B6B557 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8F7A4CA1875869700B6B557 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8F7A4DC1875869700B6B557 /* AutoDilerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A8F7A4D41875869700B6B557 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A8F7A4B21875869600B6B557 /* AutoDiler */;
+			targetProxy = A8F7A4D31875869700B6B557 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A8F7A4BF1875869600B6B557 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A8F7A4C01875869600B6B557 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A8F7A4D81875869700B6B557 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A8F7A4D91875869700B6B557 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A8F7A4DD1875869700B6B557 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Steven Amundsen (R6HP2MGUC4)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Steven Amundsen (R6HP2MGUC4)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode5.0.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SDKROOT)/usr/include/libxml2",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "3727338D-BE71-449D-A6A2-970B7258A24A";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A8F7A4DE1875869700B6B557 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Steven Amundsen (R6HP2MGUC4)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Steven Amundsen (R6HP2MGUC4)";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode5.0.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SDKROOT)/usr/include/libxml2",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PROVISIONING_PROFILE = "3727338D-BE71-449D-A6A2-970B7258A24A";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A8F7A4E01875869700B6B557 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Steven Amundsen (R6HP2MGUC4)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AutoDiler/AutoDiler-Prefix.pch";
+				INFOPLIST_FILE = "AutoDiler/AutoDiler-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "B662D3A3-2034-4479-8BB8-6656F5B74556";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A8F7A4E11875869700B6B557 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Steven Amundsen (R6HP2MGUC4)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AutoDiler/AutoDiler-Prefix.pch";
+				INFOPLIST_FILE = "AutoDiler/AutoDiler-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "B662D3A3-2034-4479-8BB8-6656F5B74556";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		A8F7A4E31875869700B6B557 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AutoDiler.app/AutoDiler";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AutoDiler/AutoDiler-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "AutoDilerTests/AutoDilerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		A8F7A4E41875869700B6B557 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AutoDiler.app/AutoDiler";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AutoDiler/AutoDiler-Prefix.pch";
+				INFOPLIST_FILE = "AutoDilerTests/AutoDilerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A8F7A4AE1875869600B6B557 /* Build configuration list for PBXProject "AutoDiler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8F7A4DD1875869700B6B557 /* Debug */,
+				A8F7A4DE1875869700B6B557 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A8F7A4DF1875869700B6B557 /* Build configuration list for PBXNativeTarget "AutoDiler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8F7A4E01875869700B6B557 /* Debug */,
+				A8F7A4E11875869700B6B557 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A8F7A4E21875869700B6B557 /* Build configuration list for PBXNativeTarget "AutoDilerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8F7A4E31875869700B6B557 /* Debug */,
+				A8F7A4E41875869700B6B557 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A8F7A4AB1875869600B6B557 /* Project object */;
+}
